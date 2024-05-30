@@ -1365,7 +1365,7 @@
         </main>
 
         <!--==========================
-          Footer
+          Footer 
         ============================-->
         <footer id="footer">
           <a href="#" class="back-to-top" style="display: inline"
@@ -1470,7 +1470,7 @@
         <!-- #footer -->
 
         <!--==========================
-          Cookies Section
+          Cookies Sectio
         ============================-->
         <div id="cookie-consent">
           <span
