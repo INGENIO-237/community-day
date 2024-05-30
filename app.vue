@@ -379,7 +379,7 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/1.jpg"
+                      href="~/assets/img/venue-gallery/1.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -394,7 +394,7 @@
                 <div class="col-lg-3 col-md-6">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/5.jpg"
+                      href="~/assets/img/venue-gallery/5.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -409,7 +409,7 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/2.jpg"
+                      href="~/assets/img/venue-gallery/2.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -424,7 +424,7 @@
                 <div class="col-lg-3 col-md-6">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/4.jpg"
+                      href="~/assets/img/venue-gallery/4.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -439,7 +439,7 @@
                 <div class="col-lg-3 col-md-6">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/3.jpg"
+                      href="~/assets/img/venue-gallery/3.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -454,7 +454,7 @@
                 <div class="col-lg-3 col-md-6">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/6.jpg"
+                      href="~/assets/img/venue-gallery/6.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -469,7 +469,7 @@
                 <div class="col-lg-3 col-md-6">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/7.1.jpg"
+                      href="~/assets/img/venue-gallery/7.1.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -484,7 +484,7 @@
                 <div class="col-lg-3 col-md-6">
                   <div class="venue-gallery">
                     <a
-                      href="./assets/img/venue-gallery/8.1.jpg"
+                      href="~/assets/img/venue-gallery/8.1.jpg"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
@@ -502,7 +502,7 @@
           <!--==========================
               Gallery Section
             ============================-->
-          <section id="gallery" class="wow fadeIn">
+          <!-- <section id="gallery" class="wow fadeIn">
             <div class="container">
               <div class="section-header">
                 <h2>Gallery</h2>
@@ -704,7 +704,7 @@
                 ><img src=".././assets/img/gallery/33.JPG"
               /></a>
             </div>
-          </section>
+          </section> -->
 
           <!--==========================
               Sponsors Section
