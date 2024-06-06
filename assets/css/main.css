@@ -513,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/gallery/21.JPG) top center;
+  background: url(../img/venue-gallery/aws-01.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -2026,22 +2026,313 @@ h3 {
   }
 }
 
-#cookie-consent {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  display: none;
+.section {
+  position: relative;
+}
+.section .left,
+.section .right {
+  position: relative;
+  padding: 50px;
+  width: 50%;
+}
+@media only screen and (max-width: 991px) {
+  .section .left,
+  .section .right {
+    padding: 25px;
+    width: 100%;
+  }
 }
 
-#cookie-consent button {
-  background-color: #ff9b00;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+/* line 531, ../sass/shared/_home.scss */
+.section-4 {
+  padding: 100px 0;
+  background: #fff;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(0, 0, 0, 0.4);
+}
+/* line 534, ../sass/shared/_home.scss */
+.section-4 .table {
+  border: 0;
+}
+/* line 536, ../sass/shared/_home.scss */
+.section-4 .table .thead .tr .td > div,
+.section-4 .table .thead .tr .th > div,
+.section-4 .table .tbody .tr .td > div,
+.section-4 .table .tbody .tr .th > div {
+  background: #f7f7f7;
+}
+/* line 543, ../sass/shared/_home.scss */
+.section-4.inv {
+  box-shadow: none;
+  background: #232f3f;
+}
+/* line 546, ../sass/shared/_home.scss */
+.section-4.inv .table {
+  border: 0;
+}
+/* line 548, ../sass/shared/_home.scss */
+.section-4.inv .table .thead .tr .td > div,
+.section-4.inv .table .thead .tr .th > div,
+.section-4.inv .table .tbody .tr .td > div,
+.section-4.inv .table .tbody .tr .th > div {
+  background: #fff;
+}
+@media only screen and (max-width: 991px) {
+  /* line 531, ../sass/shared/_home.scss */
+  .section-4 {
+    padding: 50px 0;
+  }
+}
+
+.table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 441, ../sass/shared/_site.scss */
+.table .thead .tr {
+  border: solid 2px #ff9900;
+}
+/* line 447, ../sass/shared/_site.scss */
+.table .thead .tr,
+.table .tbody .tr {
+  margin-bottom: 15px;
+  display: flex;
+}
+/* line 450, ../sass/shared/_site.scss */
+.table .thead .tr .td,
+.table .thead .tr .th,
+.table .tbody .tr .td,
+.table .tbody .tr .th {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex: 0 0 21.25%;
+}
+/* line 454, ../sass/shared/_site.scss */
+.table .thead .tr .td > div,
+.table .thead .tr .th > div,
+.table .tbody .tr .td > div,
+.table .tbody .tr .th > div {
+  border-left: solid 1px rgba(0, 0, 0, 0.15);
+  flex-grow: 1;
+  padding: 15px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* line 465, ../sass/shared/_site.scss */
+.table .thead .tr .td.idx,
+.table .thead .tr .th.idx,
+.table .tbody .tr .td.idx,
+.table .tbody .tr .th.idx {
+  flex: 0 0 15%;
+  font-size: 14px;
+}
+/* line 468, ../sass/shared/_site.scss */
+.table .thead .tr .td.idx > div,
+.table .thead .tr .th.idx > div,
+.table .tbody .tr .td.idx > div,
+.table .tbody .tr .th.idx > div {
+  border: 0;
+  color: #ff9900;
+  font-weight: 600;
+}
+/* line 474, ../sass/shared/_site.scss */
+.table .thead .tr .td.idx:not(.th) > div,
+.table .thead .tr .th.idx:not(.th) > div,
+.table .tbody .tr .td.idx:not(.th) > div,
+.table .tbody .tr .th.idx:not(.th) > div {
+  flex-direction: row;
+  align-items: center;
+  padding-right: 0;
+  position: relative;
+}
+/* line 482, ../sass/shared/_site.scss */
+.table .thead .tr .td[colspan="4"],
+.table .thead .tr .th[colspan="4"],
+.table .tbody .tr .td[colspan="4"],
+.table .tbody .tr .th[colspan="4"] {
+  flex: 1 0 0;
+  text-align: center;
+  font-size: 18px;
+}
+/* line 486, ../sass/shared/_site.scss */
+.table .thead .tr .td[colspan="4"] > div,
+.table .thead .tr .th[colspan="4"] > div,
+.table .tbody .tr .td[colspan="4"] > div,
+.table .tbody .tr .th[colspan="4"] > div {
+  padding: 5px;
+}
+@media only screen and (max-width: 991px) {
+  /* line 490, ../sass/shared/_site.scss */
+  .table .thead .tr .td p,
+  .table .thead .tr .th p,
+  .table .tbody .tr .td p,
+  .table .tbody .tr .th p {
+    margin-top: 7px;
+  }
+}
+/* line 494, ../sass/shared/_site.scss */
+.table .thead .tr .td p + p,
+.table .thead .tr .th p + p,
+.table .tbody .tr .td p + p,
+.table .tbody .tr .th p + p {
+  font-size: 12px;
+  color: #999;
+}
+@media only screen and (min-width: 992px) {
+  /* line 494, ../sass/shared/_site.scss */
+  .table .thead .tr .td p + p,
+  .table .thead .tr .th p + p,
+  .table .tbody .tr .td p + p,
+  .table .tbody .tr .th p + p {
+    margin-top: 7px;
+  }
+}
+/* line 500, ../sass/shared/_site.scss */
+.table .thead .tr .td p + p:before,
+.table .thead .tr .th p + p:before,
+.table .tbody .tr .td p + p:before,
+.table .tbody .tr .th p + p:before {
+  content: "--- ";
+}
+/* line 506, ../sass/shared/_site.scss */
+.table .thead .tr .th,
+.table .tbody .tr .th {
+  text-align: center;
+}
+/* line 508, ../sass/shared/_site.scss */
+.table .thead .tr .th > div,
+.table .tbody .tr .th > div {
+  color: #ff9900 !important;
+  background: #232f3f !important;
+}
+/* line 515, ../sass/shared/_site.scss */
+.table .thead .tr.gap .td > div,
+.table .tbody .tr.gap .td > div {
+  background: #ff9900 !important;
+  color: #232f3f;
+}
+@media only screen and (min-width: 992px) {
+  /* line 521, ../sass/shared/_site.scss */
+  .table .thead .tr.last,
+  .table .tbody .tr.last {
+    display: block;
+  }
+  /* line 524, ../sass/shared/_site.scss */
+  .table .thead .tr.last .td:first-child > div,
+  .table .tbody .tr.last .td:first-child > div {
+    padding: 30px 0 5px;
+  }
+  /* line 527, ../sass/shared/_site.scss */
+  .table .thead .tr.last .td:last-child > div,
+  .table .tbody .tr.last .td:last-child > div {
+    padding: 5px 0 30px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* line 536, ../sass/shared/_site.scss */
+  .table.fixit {
+    padding-top: 70px;
+  }
+  /* line 538, ../sass/shared/_site.scss */
+  .table.fixit .thead {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    max-width: 1200px;
+    margin: auto;
+    z-index: 2;
+  }
+  /* line 546, ../sass/shared/_site.scss */
+  .table.fixit .thead .tr {
+    border-width: 0 2px;
+  }
+  /* line 552, ../sass/shared/_site.scss */
+  .table.absit {
+    padding-top: 0;
+  }
+  /* line 554, ../sass/shared/_site.scss */
+  .table.absit .thead {
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 1200px;
+    margin: auto;
+    z-index: 2;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* line 567, ../sass/shared/_site.scss */
+  .table .thead {
+    display: none;
+  }
+  /* line 570, ../sass/shared/_site.scss */
+  .table .tbody {
+    padding: 15px;
+  }
+  /* line 572, ../sass/shared/_site.scss */
+  .table .tbody > .tr {
+    min-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 576, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td {
+    flex-grow: unset !important;
+    flex-basis: unset !important;
+    background: #fff;
+  }
+  /* line 580, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td > div {
+    background: transparent;
+    border: 0;
+  }
+  /* line 583, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td > div:before {
+    content: "";
+    color: #ff9900;
+  }
+  /* line 589, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td:nth-child(2) > div:before {
+    content: "Room 1";
+  }
+  /* line 594, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td:nth-child(3) > div:before {
+    content: "Room 2";
+  }
+  /* line 599, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td:nth-child(4) > div:before {
+    content: "Room 3";
+  }
+  /* line 604, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td:nth-child(5) > div:before {
+    content: "Room 4";
+  }
+  /* line 609, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td[colspan="4"] > div {
+    padding: 5px 0 0;
+    position: relative;
+  }
+  /* line 612, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td[colspan="4"] > div:before {
+    content: none;
+  }
+  /* line 615, ../sass/shared/_site.scss */
+  .table .tbody > .tr .td[colspan="4"] > div p {
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
 }

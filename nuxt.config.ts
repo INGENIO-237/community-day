@@ -80,6 +80,10 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "lib/owlcarousel/assets/owl.carousel.min.css",
         },
+        {
+          rel: "stylesheet",
+          href: "https://sessionize.com/api/v2/sg8kwdt1/embedstyle",
+        },
       ],
     },
   },
