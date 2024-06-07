@@ -577,7 +577,7 @@
 
               <div class="row">
                 <div v-for="person in speakers" class="col-lg-3 col-6">
-                  <div class="speaker">
+                  <div class="speaker" @click="openLink(person.linkedin)">
                     <img :src="person.image" alt="Speaker" class="img-fluid" />
                     <div class="details">
                       <h3>
@@ -587,7 +587,7 @@
                       </h3>
                       <p>{{ person.role }}</p>
                     </div>
-                  </div>
+                  </div>              
                 </div>
               </div>
             </div>
@@ -925,6 +925,11 @@ const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
 
+function openLink(link) {
+  window.open(link, '_blank');
+}
+
+
 if(process.client){
   setInterval(function () {
   const now = new Date().getTime();
@@ -1054,6 +1059,11 @@ const speakers = ref([
 </script>
 
 <style>
+
+  .speaker {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 .sz-cssgrid.sz-cssgrid--45393 {
   --fraction-size: 1fr;
 
