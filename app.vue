@@ -430,6 +430,27 @@
               <div class="section-header">
                 <h2>Gallery</h2>
               </div>
+
+              <div class="carousel">
+                <div class="">
+                  <img src="~/assets/img/past-events/event-01.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-02.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-03.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-04.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-05.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-06.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+              </div>
             </div>
           </section>
 
@@ -962,6 +983,16 @@ const seconds = ref(0);
   }
 
 
+  import { ref } from 'vue';
+
+  const images = [
+    'event-01.png',
+    'event-02.png',
+    'event-03.png',
+  ];
+
+  const activeIndex = ref(0);
+
   if(process.client){
   setInterval(function () {
   const now = new Date().getTime();
@@ -1101,6 +1132,24 @@ const speakers = ref([
     height: 200px; /* Adjust the height as needed */
     object-fit: cover;
   }
+
+  .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel > div {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+}
+
+.carousel > div.active {
+  border-color: orange;
+  border-width: 4px;
+}
 
 
 .sz-cssgrid.sz-cssgrid--45393 {
