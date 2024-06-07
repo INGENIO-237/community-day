@@ -326,6 +326,13 @@
 
             <div class="container-fluid venue-gallery-container">
               <div class="row no-gutters">
+                <!-- <div class="col-lg-3 col-md-3" v-for="(image, index) in venue_images" :key="index">
+                  <div class="venue-gallery">
+                    <a :href="image.src" class="venobox" data-gall="venue-gallery">
+                      <img :src=image.src class="img-fluid gallery-image" />
+                    </a>
+                  </div>
+                </div> -->
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
@@ -335,7 +342,77 @@
                     >
                       <img
                         src="~/assets/img/venue-gallery/venue-01.png"
-                        class="img-fluid"
+                        class="img-fluid gallery-image"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                  <div class="venue-gallery">
+                    <a
+                      href="~/assets/img/venue-gallery/venue-02.png"
+                      class="venobox"
+                      data-gall="venue-gallery"
+                    >
+                      <img
+                        src="~/assets/img/venue-gallery/venue-02.png"
+                        class="img-fluid gallery-image"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                  <div class="venue-gallery">
+                    <a
+                      href="~/assets/img/venue-gallery/venue-03.png"
+                      class="venobox"
+                      data-gall="venue-gallery"
+                    >
+                      <img
+                        src="~/assets/img/venue-gallery/venue-03.png"
+                        class="img-fluid gallery-image"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                  <div class="venue-gallery">
+                    <a
+                      href="~/assets/img/venue-gallery/venue-04.png"
+                      class="venobox"
+                      data-gall="venue-gallery"
+                    >
+                      <img
+                        src="~/assets/img/venue-gallery/venue-04.png"
+                        class="img-fluid gallery-image"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                  <div class="venue-gallery">
+                    <a
+                      href="~/assets/img/venue-gallery/venue-05.png"
+                      class="venobox"
+                      data-gall="venue-gallery"
+                    >
+                      <img
+                        src="~/assets/img/venue-gallery/venue-05.png"
+                        class="img-fluid gallery-image"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                  <div class="venue-gallery">
+                    <a
+                      href="~/assets/img/venue-gallery/venue-06.png"
+                      class="venobox"
+                      data-gall="venue-gallery"
+                    >
+                      <img
+                        src="~/assets/img/venue-gallery/venue-06.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -827,6 +904,7 @@ const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
 
+// function to make the sponsor block clickable
 function openLink(link) {
   window.open(link, '_blank');
 }
@@ -851,6 +929,15 @@ if(process.client){
   });
 }
 
+// const venue_images = ref([
+//   { src: require('./assets/img/venue-gallery/venue-01.png') },
+//   { src: require('./assets/img/venue-gallery/venue-02.png') },
+//   { src: require('./assets/img/venue-gallery/venue-03.png') },
+//   { src: require('./assets/img/venue-gallery/venue-04.png') },
+//   { src: require('./assets/img/venue-gallery/venue-05.png') },
+//   { src: require('./assets/img/venue-gallery/venue-06.png') },
+//   {src: require("../")}
+// ]);
 
 const volunteers = ref([
   {
@@ -966,6 +1053,13 @@ const speakers = ref([
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+
+  .gallery-image {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+
 .sz-cssgrid.sz-cssgrid--45393 {
   --fraction-size: 1fr;
 
