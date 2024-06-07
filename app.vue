@@ -420,6 +420,19 @@
               </div>
             </div>
           </section>
+          
+
+          <!-- ==========================
+            Gallery Section
+          ============================-->
+          <section id="gallery" class="wow fadeIn">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>Gallery</h2>
+              </div>
+            </div>
+          </section>
+
 
           <!--==========================
               Sponsors Section
@@ -943,13 +956,13 @@ const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
 
-// function to make the sponsor block clickable
-function openLink(link) {
-  window.open(link, '_blank');
-}
+  // function to make the sponsor block clickable
+  function openLink(link) {
+    window.open(link, '_blank');
+  }
 
 
-if(process.client){
+  if(process.client){
   setInterval(function () {
   const now = new Date().getTime();
   const distance = countDownDate - now;
@@ -967,17 +980,7 @@ if(process.client){
     }
   });
 }
-
-// const venue_images = ref([
-//   { src: require('./assets/img/venue-gallery/venue-01.png') },
-//   { src: require('./assets/img/venue-gallery/venue-02.png') },
-//   { src: require('./assets/img/venue-gallery/venue-03.png') },
-//   { src: require('./assets/img/venue-gallery/venue-04.png') },
-//   { src: require('./assets/img/venue-gallery/venue-05.png') },
-//   { src: require('./assets/img/venue-gallery/venue-06.png') },
-//   {src: require("../")}
-// ]);
-
+  
 const volunteers = ref([
   {
     firstname: "Rosius",
@@ -1098,6 +1101,7 @@ const speakers = ref([
     height: 200px; /* Adjust the height as needed */
     object-fit: cover;
   }
+
 
 .sz-cssgrid.sz-cssgrid--45393 {
   --fraction-size: 1fr;
