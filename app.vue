@@ -329,110 +329,12 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-01.png"
+                      href="~/assets/img/venue-gallery/venue-01.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-01.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-02.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-02.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-03.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-03.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-04.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-11.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-05.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-05.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-06.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-06.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-12.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-12.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-08.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-08.png"
+                        src="~/assets/img/venue-gallery/venue-01.png"
                         class="img-fluid"
                       />
                     </a>
