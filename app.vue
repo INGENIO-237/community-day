@@ -496,9 +496,35 @@
               <div class="row supporters-wrap clearfix justify-content-center">
                 <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                   <div class="supporter-logo">
-                    <a href="https://www.tameshi.eu/" target="_blank">
+                    <a href="https://aws.amazon.com/" target="_blank">
                       <img
-                        src="~/assets/img/sponsors/aws-logo.png"
+                        src="~/assets/img/sponsors/gold/aws-logo.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a href="https://www.olioapps.com/" target="_blank">
+                      <img
+                        src="~/assets/img/sponsors/gold/olioapps-logo.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <h3 class="text-center">Silver</h3>
+
+              <div class="row supporters-wrap clearfix justify-content-center">
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a href="https://www.serverlessguru.com/" target="_blank">
+                      <img
+                        src="~/assets/img/sponsors/silver/serverless_guru-logo.jpeg"
                         class="img-fluid"
                       />
                     </a>
@@ -512,11 +538,24 @@
                 <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                   <div class="supporter-logo">
                     <a
-                      href="https://www.gft.com/pl/pl/career?utm_source=www&utm_medium=link&utm_campaign=aws"
+                      href="https://www.educloud.academy/"
                       target="_blank"
                     >
                       <img
-                        src="~/assets/img/sponsors/educloud.png"
+                        src="~/assets/img/sponsors/community/educloud.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a
+                      href="https://eazytraining.fr/"
+                      target="_blank"
+                    >
+                      <img
+                        src="~/assets/img/sponsors/community/EazyTraining-logo.png"
                         class="img-fluid"
                       />
                     </a>
