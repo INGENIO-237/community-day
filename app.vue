@@ -326,16 +326,23 @@
 
             <div class="container-fluid venue-gallery-container">
               <div class="row no-gutters">
+                <!-- <div class="col-lg-3 col-md-3" v-for="(image, index) in venue_images" :key="index">
+                  <div class="venue-gallery">
+                    <a :href="image.src" class="venobox" data-gall="venue-gallery">
+                      <img :src=image.src class="img-fluid gallery-image" />
+                    </a>
+                  </div>
+                </div> -->
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-01.png"
+                      href="~/assets/img/venue-gallery/venue-01.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-01.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-01.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -343,13 +350,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-02.png"
+                      href="~/assets/img/venue-gallery/venue-02.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-02.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-02.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -357,13 +364,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-03.png"
+                      href="~/assets/img/venue-gallery/venue-03.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-03.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-03.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -371,13 +378,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-04.png"
+                      href="~/assets/img/venue-gallery/venue-04.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-11.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-04.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -385,13 +392,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-05.png"
+                      href="~/assets/img/venue-gallery/venue-05.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-05.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-05.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -399,41 +406,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-06.png"
+                      href="~/assets/img/venue-gallery/venue-06.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-06.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-12.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-12.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-08.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-08.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-06.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -441,6 +420,40 @@
               </div>
             </div>
           </section>
+          
+
+          <!-- ==========================
+            Gallery Section
+          ============================-->
+          <section id="gallery" class="wow fadeIn">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>Gallery</h2>
+              </div>
+
+              <div class="carousel">
+                <div class="">
+                  <img src="~/assets/img/past-events/event-01.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-02.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-03.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-04.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-05.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-06.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+              </div>
+            </div>
+          </section>
+
 
           <!--==========================
               Sponsors Section
@@ -517,9 +530,35 @@
               <div class="row supporters-wrap clearfix justify-content-center">
                 <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                   <div class="supporter-logo">
-                    <a href="https://www.tameshi.eu/" target="_blank">
+                    <a href="https://aws.amazon.com/" target="_blank">
                       <img
-                        src="~/assets/img/sponsors/aws-logo.png"
+                        src="~/assets/img/sponsors/gold/aws-logo.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a href="https://www.olioapps.com/" target="_blank">
+                      <img
+                        src="~/assets/img/sponsors/gold/olioapps-logo.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <h3 class="text-center">Silver</h3>
+
+              <div class="row supporters-wrap clearfix justify-content-center">
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a href="https://www.serverlessguru.com/" target="_blank">
+                      <img
+                        src="~/assets/img/sponsors/silver/serverless_guru-logo.jpeg"
                         class="img-fluid"
                       />
                     </a>
@@ -533,11 +572,24 @@
                 <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                   <div class="supporter-logo">
                     <a
-                      href="https://www.gft.com/pl/pl/career?utm_source=www&utm_medium=link&utm_campaign=aws"
+                      href="https://www.educloud.academy/"
                       target="_blank"
                     >
                       <img
-                        src="~/assets/img/sponsors/educloud.png"
+                        src="~/assets/img/sponsors/community/educloud.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a
+                      href="https://eazytraining.fr/"
+                      target="_blank"
+                    >
+                      <img
+                        src="~/assets/img/sponsors/community/EazyTraining-logo.png"
                         class="img-fluid"
                       />
                     </a>
@@ -577,7 +629,7 @@
 
               <div class="row">
                 <div v-for="person in speakers" class="col-lg-3 col-6">
-                  <div class="speaker">
+                  <div class="speaker" @click="openLink(person.linkedin)">
                     <img :src="person.image" alt="Speaker" class="img-fluid" />
                     <div class="details">
                       <h3>
@@ -587,7 +639,7 @@
                       </h3>
                       <p>{{ person.role }}</p>
                     </div>
-                  </div>
+                  </div>              
                 </div>
               </div>
             </div>
@@ -925,7 +977,23 @@ const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
 
-if(process.client){
+  // function to make the sponsor block clickable
+  function openLink(link) {
+    window.open(link, '_blank');
+  }
+
+
+  import { ref } from 'vue';
+
+  const images = [
+    'event-01.png',
+    'event-02.png',
+    'event-03.png',
+  ];
+
+  const activeIndex = ref(0);
+
+  if(process.client){
   setInterval(function () {
   const now = new Date().getTime();
   const distance = countDownDate - now;
@@ -943,8 +1011,7 @@ if(process.client){
     }
   });
 }
-
-
+  
 const volunteers = ref([
   {
     firstname: "Rosius",
@@ -1054,6 +1121,37 @@ const speakers = ref([
 </script>
 
 <style>
+
+  .speaker {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+
+  .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel > div {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+}
+
+.carousel > div.active {
+  border-color: orange;
+  border-width: 4px;
+}
+
+
 .sz-cssgrid.sz-cssgrid--45393 {
   --fraction-size: 1fr;
 
