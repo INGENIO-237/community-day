@@ -1017,13 +1017,6 @@ const seconds = ref(0);
 
   import { ref } from 'vue';
 
-  const images = [
-    'event-01.png',
-    'event-02.png',
-    'event-03.png',
-  ];
-
-  const activeIndex = ref(0);
 
   if(process.client){
   setInterval(function () {
