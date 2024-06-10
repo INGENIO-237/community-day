@@ -906,7 +906,8 @@
                   </p>
                   <div style="text-align: left">
                     <img
-                        src="~/assets/img/aws-ug-poland.png"
+                        src="~/assets/img/aws-ug-cameroon.svg"
+                        style="border-radius: 10px"
                         alt="AWS UG Poland"
                     />
                   </div>
