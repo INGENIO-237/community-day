@@ -1225,10 +1225,10 @@ const volunteers = ref([
       linkedin: "https://www.linkedin.com/in/delia-ayoko/"
     },
     {
-      name: "Ngumi",
+      name: "Ngumih Fien",
       role: " ",
       image: "/organizers/Ngumi.jpeg",
-      linkedin: "https://www.linkedin.com/"
+      linkedin: "https://www.linkedin.com/in/ngumih-fien/"
     },
   ]);
 
