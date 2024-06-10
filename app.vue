@@ -777,13 +777,13 @@
                         data-toggle="collapse"
                         href="#faq5"
                         class="header collapsed"
-                        ><span>Where will the event take place?</span
+                        ><span>Where will the event take place and how much will it cost to get there?</span
                         ><i class="fa fa-minus-circle"></i
                       ></a>
                       <div id="faq5" class="collapse" data-parent="#faq-list">
                         <p>
-                          The event will take place at Copernicus Conference
-                          Center in Warsaw
+                          Gare Camrail de bessengue some meters around feu rouge bessengue.
+                          From rond-point to the location, It costs 500 frs with a bike alone (moto) or 350 frs with a taxi.
                         </p>
                       </div>
                     </li>
@@ -865,85 +865,171 @@
           Footer 
         ============================-->
         <footer id="footer">
-          <a href="#" class="back-to-top" style="display: inline"
-            ><i class="fa fa-angle-up"></i
-          ></a>
-          <div class="footer-top">
+          <a href="#" class="back-to-top" style="display: inline"><i class="fa fa-angle-up"></i></a>
+          <div class="footer-top mb-5">
             <div class="container">
+              <div class="section-header">
+                <div style="text-align: center">
+                  <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
+                </div>
+                <h2>Brought To You By</h2>
+              </div>
               <div class="row">
                 <div class="col-lg-4 col-md-6 footer-info">
+                  <img src="~/assets/img/user-group/user%20group%20douala.svg" alt="TheEvenet" />
+                  <p class="pb-2">
+                    <strong>AWS User Groups in Douala</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/awsugdouala/"
+                      class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                      class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/awsugdouala"
+                      class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-info">
+                  <img src="~/assets/img/user-group/yaounde%20user%20group%201.svg" alt="TheEvenet" />
+                  <p class="pb-2">
+                    <strong>AWS User Groups in Yaounde</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/aws-user-group-yaounde/"
+                      class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awsusergroupyde?t=rNXNf7faYI-SA3WQaOybWQ&s=09"
+                      class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/aws-user-group-yaounde"
+                      class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-info">
+                  <img src="~/assets/img/user-group/awsscc-black-logo.svg" alt="TheEvenet" />
+                  <p class="pb-2">
+                    <strong>AWS Student Cloud Club Bamenda</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/groups/12922210"
+                      class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awssccuba?t=r0MjaQ9gzZxvHY-UX7AnlA&s=09"
+                      class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/aws-cloud-club-at-the-university-of-bamenda"
+                      class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr id="line" />
+            <div class="container" id="lower-footer">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 footer-info text-left" id="start">
                   <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
                   <p class="pb-2">
                     <strong>AWS User Groups in Cameroon</strong>
                   </p>
                   <div style="text-align: left">
                     <img
-                      src="~/assets/img/aws-ug-poland.png"
-                      alt="AWS UG Poland"
+                        src="~/assets/img/aws-ug-cameroon.svg"
+                        style="border-radius: 10px"
+                        alt="AWS UG Poland"
                     />
                   </div>
-                  <p class="text-muted mb-2">
+                  <!-- <p class="text-muted mb-2">
                     Personal data administrator:<br />ATANET, ul. Renifera
                     Rudolfa 14, 05-506 Lesznowola
                   </p>
                   <p>
                     <small>
                       <a
-                        class="text-muted mb-2"
-                        style="color: #ffffff"
-                        href="./privacy"
-                        target="”_blank”"
-                        >personal data processing consent</a
+                          class="text-muted mb-2"
+                          style="color: #ffffff"
+                          href="./privacy"
+                          target="”_blank”"
+                      >personal data processing consent</a
                       >
                     </small>
                     <br />
                     <small>
                       <a
-                        class="text-muted mb-2"
-                        style="color: #ffffff"
-                        href="./policy"
-                        target="”_blank”"
-                        >event policy</a
+                          class="text-muted mb-2"
+                          style="color: #ffffff"
+                          href="./policy"
+                          target="”_blank”"
+                      >event policy</a
                       >
                     </small>
                   </p>
                   <a
-                    href="https://awscommunity.us11.list-manage.com/unsubscribe?u=d24162d21aca77c26d58ddf40&id=436f85a8b0"
-                    target="_blank"
+                      href="https://awscommunity.us11.list-manage.com/unsubscribe?u=d24162d21aca77c26d58ddf40&id=436f85a8b0"
+                      target="_blank"
                   >
                     <span>Unsubscribe me from the mailing list</span>
-                  </a>
+                  </a> -->
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-contact">
                   <h4>Contact</h4>
                   <p>
                     Have questions or a proposal? Write to us at
-                    <a href="mailto:hello@awscommunity.pl"
-                      >hello@awscommunity.pl</a
+                    <a href="mailto:awsugdouala@gmail.com"
+                    >awsugdouala@gmail.com</a
                     >
                   </p>
 
                   <div class="social-links">
                     <a
-                      href="https://www.linkedin.com/company/aws-community-day-poland/"
-                      class="linkedin"
-                      ><i class="fa fa-linkedin"></i
-                    ></a>
+                        href="https://www.linkedin.com/company/awsugdouala/"
+                        class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
                     <a
-                      href="https://www.meetup.com/pl-PL/awsugpl/"
-                      class="linkedin"
-                      ><i class="fa fa-meetup"></i
-                    ></a>
+                        href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                        class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                        href="https://www.meetup.com/awsugdouala"
+                        class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-links">
                   <h4>Call For Papers</h4>
                   <a
-                    href="https://sessionize.com/aws-community-day-warsaw-2024/"
-                    target="”_blank”"
-                    ><img
+                      href="https://sessionize.com/aws-community-day-cameroon-2024/"
+                      target="”_blank”"
+                  ><img
                       src="https://sessionize.com/landing/images/brand/banners/sessionize-banner-medium.png"
                       alt="The smart way to do Call for Papers, Schedule and Speaker Management."
                       width="220"
@@ -956,11 +1042,7 @@
 
           <div class="container">
             <div class="copyright">
-              &copy; Copyright <strong>AWS Community Day Cameroon</strong>. All
-              Rights Reserved
-            </div>
-            <div class="credits">
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              &copy; Copyright <strong>AWS Community Day Cameroon</strong>. All Rights Reserved
             </div>
           </div>
         </footer>
