@@ -82,7 +82,7 @@ export default defineNuxtConfig({
         },
         {
           rel: "stylesheet",
-          href: "https://sessionize.com/api/v2/sg8kwdt1/embedstyle",
+          href: "https://sessionize.com/api/v2/i3dm16ol/view/GridSmart",
         },
       ],
     },
