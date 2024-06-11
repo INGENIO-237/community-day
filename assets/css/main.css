@@ -184,17 +184,25 @@ h6 {
   overflow-x: hidden;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   .section-header img {
-    height: 220px;
+    height: 130px;
     margin-bottom: 10px;
+  }
+
+  .section-header h2.tag {
+    font-size: 1.1rem;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .section-header img {
-    height: 200px;
+    height: 105px;
     margin-bottom: 10px;
+  }
+
+  .section-header h2.tag {
+    font-size: 1.1rem;
   }
 }
 
@@ -204,8 +212,8 @@ h6 {
     margin-bottom: 10px;
   }
 
-  .section-header h2 {
-    font-size: 20px;
+  .section-header h2.tag {
+    font-size: 1rem;
   }
 }
 
@@ -1852,7 +1860,7 @@ h3 {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 #footer .credits {

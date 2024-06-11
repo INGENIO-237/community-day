@@ -872,13 +872,13 @@
                 <div style="text-align: center">
                   <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
                 </div>
-                <h2>Brought To You By</h2>
+                <h2 class="tag">Brought To You By</h2>
               </div>
               <div class="row">
                 <div class="col-lg-4 col-md-6 footer-info">
                   <img src="~/assets/img/user-group/user%20group%20douala.svg" alt="TheEvenet" />
                   <p class="pb-2">
-                    <strong>AWS User Groups in Douala</strong>
+                    <strong>AWS User Group Douala</strong>
                   </p>
                   <div class="social-links">
                     <a
@@ -902,7 +902,7 @@
                 <div class="col-lg-4 col-md-6 footer-info">
                   <img src="~/assets/img/user-group/yaounde%20user%20group%201.svg" alt="TheEvenet" />
                   <p class="pb-2">
-                    <strong>AWS User Groups in Yaounde</strong>
+                    <strong>AWS User Group Yaounde</strong>
                   </p>
                   <div class="social-links">
                     <a
@@ -926,7 +926,7 @@
                 <div class="col-lg-4 col-md-6 footer-info">
                   <img src="~/assets/img/user-group/awsscc-black-logo.svg" alt="TheEvenet" />
                   <p class="pb-2">
-                    <strong>AWS Student Cloud Club Bamenda</strong>
+                    <strong>AWS Cloud Clubs UBa</strong>
                   </p>
                   <div class="social-links">
                     <a
@@ -950,52 +950,7 @@
             </div>
             <hr id="line" />
             <div class="container" id="lower-footer">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 footer-info text-left" id="start">
-                  <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
-                  <p class="pb-2">
-                    <strong>AWS User Groups in Cameroon</strong>
-                  </p>
-                  <div style="text-align: left">
-                    <img
-                        src="~/assets/img/aws-ug-cameroon.svg"
-                        style="border-radius: 10px"
-                        alt="AWS UG Poland"
-                    />
-                  </div>
-                  <!-- <p class="text-muted mb-2">
-                    Personal data administrator:<br />ATANET, ul. Renifera
-                    Rudolfa 14, 05-506 Lesznowola
-                  </p>
-                  <p>
-                    <small>
-                      <a
-                          class="text-muted mb-2"
-                          style="color: #ffffff"
-                          href="./privacy"
-                          target="”_blank”"
-                      >personal data processing consent</a
-                      >
-                    </small>
-                    <br />
-                    <small>
-                      <a
-                          class="text-muted mb-2"
-                          style="color: #ffffff"
-                          href="./policy"
-                          target="”_blank”"
-                      >event policy</a
-                      >
-                    </small>
-                  </p>
-                  <a
-                      href="https://awscommunity.us11.list-manage.com/unsubscribe?u=d24162d21aca77c26d58ddf40&id=436f85a8b0"
-                      target="_blank"
-                  >
-                    <span>Unsubscribe me from the mailing list</span>
-                  </a> -->
-                </div>
-
+              <div class="row d-flex justify-content-center align-content-center">
                 <div class="col-lg-4 col-md-6 footer-contact">
                   <h4>Contact</h4>
                   <p>
