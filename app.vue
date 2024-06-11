@@ -618,7 +618,7 @@
               Speakers Section
             ============================-->
           <section
-            id="organizers"
+            id="speakers"
             class="wow fadeIn"
             style="visibility: visible; animation-name: fadeIn"
           >
@@ -630,7 +630,7 @@
               <div class="row">
                 <div v-for="person in speakers" class="col-lg-3 col-6">
                   <div class="speaker" @click="openLink(person.linkedin)">
-                    <img :src="person.image" alt="Speaker" class="img-fluid" />
+                    <img :src="person.image" alt="Speaker" class="img-fluid speaker-organizer-image" />
                     <div class="details">
                       <h3>
                         <a :href="person.linkedin" target="_blank">{{
@@ -644,6 +644,38 @@
               </div>
             </div>
           </section>
+
+
+          <!--==========================
+              Organizers Section
+            ============================-->
+            <section
+              id="organizers"
+              class="wow fadeIn"
+              style="visibility: visible; animation-name: fadeIn"
+            >
+              <div class="container">
+                <div class="section-header">
+                  <h2>Organizers</h2>
+                </div>
+
+                <div class="row">
+                  <div v-for="person in organizers" class="col-lg-3 col-6">
+                    <div class="speaker" @click="openLink(person.linkedin)">
+                      <img :src="person.image" alt="Organizer" class="img-fluid speaker-organizer-image" />
+                      <div class="details">
+                        <h3>
+                          <a :href="person.linkedin" target="_blank">{{
+                            person.name
+                          }}</a>
+                        </h3>
+                        <p>{{ person.role }}</p>
+                      </div>
+                    </div>              
+                  </div>
+                </div>
+              </div>
+            </section>
 
           <!--==========================
               Volunteers Section
@@ -1022,13 +1054,6 @@ const seconds = ref(0);
 
   import { ref } from 'vue';
 
-  const images = [
-    'event-01.png',
-    'event-02.png',
-    'event-03.png',
-  ];
-
-  const activeIndex = ref(0);
 
   if(process.client){
   setInterval(function () {
@@ -1124,20 +1149,125 @@ const volunteers = ref([
   },
 ]);
 
-const speakers = ref([
-  {
-    name: "Cyril Bandolo",
-    role: "Serverless Developer, Serverless Guru",
-    image: "/speakers/Cyril.jpg",
-    linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
-  },
-  {
-    name: "Ndimofor Rosius",
-    role: "CTO at EduCloud, AWS Serverless Hero",
-    image: "/speakers/Rosius.jpg",
-    linkedin: "https://www.linkedin.com/in/rosius/"
-  },
-]);
+  const speakers = ref([
+    {
+      name: "Cyril Bandolo",
+      role: "Serverless Developer, Serverless Guru",
+      image: "/speakers/Cyril.jpg",
+      linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
+    },
+    {
+      name: "Ndimofor Rosius",
+      role: "CTO at EduCloud, AWS Serverless Hero",
+      image: "/speakers/Rosius.jpg",
+      linkedin: "https://www.linkedin.com/in/rosius/"
+    },
+    {
+      name: "Veliswa Boya",
+      role: "Senior Developer Advocate at Amazon Web Services (AWS), first woman Hero from Africa",
+      image: "/speakers/Veliswa_boya.jpeg",
+      linkedin: "https://www.linkedin.com/in/veliswa-boya/"
+    },
+    {
+      name: "Mohamadou Yacoubou",
+      role: "Manager Solutions Architecture at Amazon Web Services (AWS)",
+      image: "/speakers/mohamadou_Yacoubou.jpeg",
+      linkedin: "https://www.linkedin.com/in/ymohamadou/"
+    },
+    {
+      name: "Tobenna Nwokike",
+      role: "Senior Serverless Developer at Serverless Guru",
+      image: "/speakers/tobenna-nwokike.jpg",
+      linkedin: "https://www.linkedin.com/in/tobenna-nwokike/"
+    },
+    {
+      name: "Sébastien Stormacq",
+      role: "Principal Developer Advocate at Amazon Web Services (AWS)",
+      image: "/speakers/sebastien_stormacq.jpeg",
+      linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
+    },
+    {
+      name: "Soh Juvitus Leong",
+      role: "Data Management Officer at Tuberculosis Reference Lab Bamenda",
+      image: "/speakers/soh-juvitus-leong.jpg",
+      linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
+    },
+    {
+      name: "Witah Georjane",
+      role: "Software Developer Tech Lead at Yogaya Inc.",
+      image: "/speakers/witah-geojane.jpg",
+      linkedin: "https://www.linkedin.com/in/witah-georjane/"
+    },
+    {
+      name: "Thembile Ndlovu",
+      role: "Community Manager at Amazon Web Services (AWS)",
+      image: "/speakers/thembile_ndlovu.jpeg",
+      linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
+    },
+  ]);
+  
+  const organizers = ref([
+    {
+      name: "Nkwenti Fon Nkwenti",
+      role: "AWS User Group Leader",
+      image: "/organizers/Fon_Nkwenti.png",
+      linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
+    },
+    {
+      name: "Cyril Bandolo",
+      role: "Serverless Developer, Serverless Guru",
+      image: "/organizers/Cyril.jpeg",
+      linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
+    },
+    {
+      name: "Ndimofor Rosius",
+      role: "CTO at EduCloud, AWS Serverless Hero",
+      image: "/organizers/Rosius.jpeg",
+      linkedin: "https://www.linkedin.com/in/rosius/"
+    },
+    {
+      name: "Antoine Choula",
+      role: "AWS Community Builder",
+      image: "/organizers/Antoine.jpeg",
+      linkedin: "https://www.linkedin.com/in/antoine-choula/"
+    },
+    {
+      name: "Chi Che",
+      role: "AWS Community Builder",
+      image: "/organizers/Chi_Che.jpeg",
+      linkedin: "https://www.linkedin.com/in/chi-che/"
+    },
+    {
+      name: "Asongwed Samantha",
+      role: " ",
+      image: "/organizers/samantha.png",
+      linkedin: "https://www.linkedin.com/in/asongwedsamantha/"
+    },
+    {
+      name: "Paula Ali Wakabi",
+      role: "AWS New Voices Coach",
+      image: "/organizers/Paula.jpg",
+      linkedin: "https://www.linkedin.com/in/paulaaliwakabi/"
+    },
+    {
+      name: "Steve Yonkeu",
+      role: " ",
+      image: "/organizers/SteveYonkeu.jpeg",
+      linkedin: "https://www.linkedin.com/in/yokwejuste/"
+    },
+    {
+      name: "Delia Ayoko",
+      role: "AWS Community Builder in AI/ML(3x)",
+      image: "/organizers/Delia.jpeg",
+      linkedin: "https://www.linkedin.com/in/delia-ayoko/"
+    },
+    {
+      name: "Ngumih Fien",
+      role: " ",
+      image: "/organizers/Ngumi.jpeg",
+      linkedin: "https://www.linkedin.com/in/ngumih-fien/"
+    },
+  ]);
 
 
 
@@ -1167,6 +1297,12 @@ const speakers = ref([
   .gallery-image {
     width: 100%;
     height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  .speaker-organizer-image {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
     object-fit: cover;
   }
 
