@@ -326,16 +326,23 @@
 
             <div class="container-fluid venue-gallery-container">
               <div class="row no-gutters">
+                <!-- <div class="col-lg-3 col-md-3" v-for="(image, index) in venue_images" :key="index">
+                  <div class="venue-gallery">
+                    <a :href="image.src" class="venobox" data-gall="venue-gallery">
+                      <img :src=image.src class="img-fluid gallery-image" />
+                    </a>
+                  </div>
+                </div> -->
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-01.png"
+                      href="~/assets/img/venue-gallery/venue-01.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-01.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-01.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -343,13 +350,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-02.png"
+                      href="~/assets/img/venue-gallery/venue-02.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-02.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-02.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -357,13 +364,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-03.png"
+                      href="~/assets/img/venue-gallery/venue-03.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-03.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-03.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -371,13 +378,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-04.png"
+                      href="~/assets/img/venue-gallery/venue-04.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-11.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-04.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -385,13 +392,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-05.png"
+                      href="~/assets/img/venue-gallery/venue-05.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-05.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-05.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -399,41 +406,13 @@
                 <div class="col-lg-3 col-md-3">
                   <div class="venue-gallery">
                     <a
-                      href="~/assets/img/venue-gallery/aws-06.png"
+                      href="~/assets/img/venue-gallery/venue-06.png"
                       class="venobox"
                       data-gall="venue-gallery"
                     >
                       <img
-                        src="~/assets/img/venue-gallery/aws-06.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-12.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-12.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="venue-gallery">
-                    <a
-                      href="~/assets/img/venue-gallery/aws-08.png"
-                      class="venobox"
-                      data-gall="venue-gallery"
-                    >
-                      <img
-                        src="~/assets/img/venue-gallery/aws-08.png"
-                        class="img-fluid"
+                        src="~/assets/img/venue-gallery/venue-06.png"
+                        class="img-fluid gallery-image"
                       />
                     </a>
                   </div>
@@ -441,6 +420,40 @@
               </div>
             </div>
           </section>
+          
+
+          <!-- ==========================
+            Gallery Section
+          ============================-->
+          <section id="gallery" class="wow fadeIn">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>Gallery</h2>
+              </div>
+
+              <div class="carousel">
+                <div class="">
+                  <img src="~/assets/img/past-events/event-01.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-02.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-03.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-04.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-05.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+                <div class="">
+                  <img src="~/assets/img/past-events/event-06.png" class="img-fluid gallery-image" alt="Carousel Image">
+                </div>
+              </div>
+            </div>
+          </section>
+
 
           <!--==========================
               Sponsors Section
@@ -517,9 +530,35 @@
               <div class="row supporters-wrap clearfix justify-content-center">
                 <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                   <div class="supporter-logo">
-                    <a href="https://www.tameshi.eu/" target="_blank">
+                    <a href="https://aws.amazon.com/" target="_blank">
                       <img
-                        src="~/assets/img/sponsors/aws-logo.png"
+                        src="~/assets/img/sponsors/gold/aws-logo.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a href="https://www.olioapps.com/" target="_blank">
+                      <img
+                        src="~/assets/img/sponsors/gold/olioapps-logo.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <h3 class="text-center">Silver</h3>
+
+              <div class="row supporters-wrap clearfix justify-content-center">
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a href="https://www.serverlessguru.com/" target="_blank">
+                      <img
+                        src="~/assets/img/sponsors/silver/serverless_guru-logo.jpeg"
                         class="img-fluid"
                       />
                     </a>
@@ -533,11 +572,24 @@
                 <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                   <div class="supporter-logo">
                     <a
-                      href="https://www.gft.com/pl/pl/career?utm_source=www&utm_medium=link&utm_campaign=aws"
+                      href="https://www.educloud.academy/"
                       target="_blank"
                     >
                       <img
-                        src="~/assets/img/sponsors/educloud.png"
+                        src="~/assets/img/sponsors/community/educloud.png"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+                  <div class="supporter-logo">
+                    <a
+                      href="https://eazytraining.fr/"
+                      target="_blank"
+                    >
+                      <img
+                        src="~/assets/img/sponsors/community/EazyTraining-logo.png"
                         class="img-fluid"
                       />
                     </a>
@@ -566,7 +618,7 @@
               Speakers Section
             ============================-->
           <section
-            id="organizers"
+            id="speakers"
             class="wow fadeIn"
             style="visibility: visible; animation-name: fadeIn"
           >
@@ -577,8 +629,8 @@
 
               <div class="row">
                 <div v-for="person in speakers" class="col-lg-3 col-6">
-                  <div class="speaker">
-                    <img :src="person.image" alt="Speaker" class="img-fluid" />
+                  <div class="speaker" @click="openLink(person.linkedin)">
+                    <img :src="person.image" alt="Speaker" class="img-fluid speaker-organizer-image" />
                     <div class="details">
                       <h3>
                         <a :href="person.linkedin" target="_blank">{{
@@ -587,11 +639,43 @@
                       </h3>
                       <p>{{ person.role }}</p>
                     </div>
-                  </div>
+                  </div>              
                 </div>
               </div>
             </div>
           </section>
+
+
+          <!--==========================
+              Organizers Section
+            ============================-->
+            <section
+              id="organizers"
+              class="wow fadeIn"
+              style="visibility: visible; animation-name: fadeIn"
+            >
+              <div class="container">
+                <div class="section-header">
+                  <h2>Organizers</h2>
+                </div>
+
+                <div class="row">
+                  <div v-for="person in organizers" class="col-lg-3 col-6">
+                    <div class="speaker" @click="openLink(person.linkedin)">
+                      <img :src="person.image" alt="Organizer" class="img-fluid speaker-organizer-image" />
+                      <div class="details">
+                        <h3>
+                          <a :href="person.linkedin" target="_blank">{{
+                            person.name
+                          }}</a>
+                        </h3>
+                        <p>{{ person.role }}</p>
+                      </div>
+                    </div>              
+                  </div>
+                </div>
+              </div>
+            </section>
 
           <!--==========================
               Volunteers Section
@@ -725,13 +809,13 @@
                         data-toggle="collapse"
                         href="#faq5"
                         class="header collapsed"
-                        ><span>Where will the event take place?</span
+                        ><span>Where will the event take place and how much will it cost to get there?</span
                         ><i class="fa fa-minus-circle"></i
                       ></a>
                       <div id="faq5" class="collapse" data-parent="#faq-list">
                         <p>
-                          The event will take place at Copernicus Conference
-                          Center in Warsaw
+                          Gare Camrail de bessengue some meters around feu rouge bessengue.
+                          From rond-point to the location, It costs 500 frs with a bike alone (moto) or 350 frs with a taxi.
                         </p>
                       </div>
                     </li>
@@ -813,85 +897,126 @@
           Footer 
         ============================-->
         <footer id="footer">
-          <a href="#" class="back-to-top" style="display: inline"
-            ><i class="fa fa-angle-up"></i
-          ></a>
-          <div class="footer-top">
+          <a href="#" class="back-to-top" style="display: inline"><i class="fa fa-angle-up"></i></a>
+          <div class="footer-top mb-5">
             <div class="container">
+              <div class="section-header">
+                <div style="text-align: center">
+                  <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
+                </div>
+                <h2 class="tag">Brought To You By</h2>
+              </div>
               <div class="row">
                 <div class="col-lg-4 col-md-6 footer-info">
-                  <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
+                  <img src="~/assets/img/user-group/user%20group%20douala.svg" alt="TheEvenet" />
                   <p class="pb-2">
-                    <strong>AWS User Groups in Cameroon</strong>
+                    <strong>AWS User Group Douala</strong>
                   </p>
-                  <div style="text-align: left">
-                    <img
-                      src="~/assets/img/aws-ug-poland.png"
-                      alt="AWS UG Poland"
-                    />
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/awsugdouala/"
+                      class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                      class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/awsugdouala"
+                      class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
                   </div>
-                  <p class="text-muted mb-2">
-                    Personal data administrator:<br />ATANET, ul. Renifera
-                    Rudolfa 14, 05-506 Lesznowola
-                  </p>
-                  <p>
-                    <small>
-                      <a
-                        class="text-muted mb-2"
-                        style="color: #ffffff"
-                        href="./privacy"
-                        target="”_blank”"
-                        >personal data processing consent</a
-                      >
-                    </small>
-                    <br />
-                    <small>
-                      <a
-                        class="text-muted mb-2"
-                        style="color: #ffffff"
-                        href="./policy"
-                        target="”_blank”"
-                        >event policy</a
-                      >
-                    </small>
-                  </p>
-                  <a
-                    href="https://awscommunity.us11.list-manage.com/unsubscribe?u=d24162d21aca77c26d58ddf40&id=436f85a8b0"
-                    target="_blank"
-                  >
-                    <span>Unsubscribe me from the mailing list</span>
-                  </a>
                 </div>
 
+                <div class="col-lg-4 col-md-6 footer-info">
+                  <img src="~/assets/img/user-group/yaounde%20user%20group%201.svg" alt="TheEvenet" />
+                  <p class="pb-2">
+                    <strong>AWS User Group Yaounde</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/aws-user-group-yaounde/"
+                      class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awsusergroupyde?t=rNXNf7faYI-SA3WQaOybWQ&s=09"
+                      class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/aws-user-group-yaounde"
+                      class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-info">
+                  <img src="~/assets/img/user-group/awsscc-black-logo.svg" alt="TheEvenet" />
+                  <p class="pb-2">
+                    <strong>AWS Cloud Clubs UBa</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/groups/12922210"
+                      class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awssccuba?t=r0MjaQ9gzZxvHY-UX7AnlA&s=09"
+                      class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/aws-cloud-club-at-the-university-of-bamenda"
+                      class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr id="line" />
+            <div class="container" id="lower-footer">
+              <div class="row d-flex justify-content-center align-content-center">
                 <div class="col-lg-4 col-md-6 footer-contact">
                   <h4>Contact</h4>
                   <p>
                     Have questions or a proposal? Write to us at
-                    <a href="mailto:hello@awscommunity.pl"
-                      >hello@awscommunity.pl</a
+                    <a href="mailto:awsugdouala@gmail.com"
+                    >awsugdouala@gmail.com</a
                     >
                   </p>
 
                   <div class="social-links">
                     <a
-                      href="https://www.linkedin.com/company/aws-community-day-poland/"
-                      class="linkedin"
-                      ><i class="fa fa-linkedin"></i
-                    ></a>
+                        href="https://www.linkedin.com/company/awsugdouala/"
+                        class="linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
                     <a
-                      href="https://www.meetup.com/pl-PL/awsugpl/"
-                      class="linkedin"
-                      ><i class="fa fa-meetup"></i
-                    ></a>
+                        href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                        class="twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                        href="https://www.meetup.com/awsugdouala"
+                        class="linkedin">
+                      <i class="fa fa-meetup"></i>
+                    </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-links">
                   <h4>Call For Papers</h4>
                   <a
-                    href="https://sessionize.com/aws-community-day-warsaw-2024/"
-                    target="”_blank”"
-                    ><img
+                      href="https://sessionize.com/aws-community-day-cameroon-2024/"
+                      target="”_blank”"
+                  ><img
                       src="https://sessionize.com/landing/images/brand/banners/sessionize-banner-medium.png"
                       alt="The smart way to do Call for Papers, Schedule and Speaker Management."
                       width="220"
@@ -904,11 +1029,7 @@
 
           <div class="container">
             <div class="copyright">
-              &copy; Copyright <strong>AWS Community Day Cameroon</strong>. All
-              Rights Reserved
-            </div>
-            <div class="credits">
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              &copy; Copyright <strong>AWS Community Day Cameroon</strong>. All Rights Reserved
             </div>
           </div>
         </footer>
@@ -925,7 +1046,16 @@ const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
 
-if(process.client){
+  // function to make the sponsor block clickable
+  function openLink(link) {
+    window.open(link, '_blank');
+  }
+
+
+  import { ref } from 'vue';
+
+
+  if(process.client){
   setInterval(function () {
   const now = new Date().getTime();
   const distance = countDownDate - now;
@@ -943,8 +1073,7 @@ if(process.client){
     }
   });
 }
-
-
+  
 const volunteers = ref([
   {
     firstname: "Rosius",
@@ -1020,20 +1149,125 @@ const volunteers = ref([
   },
 ]);
 
-const speakers = ref([
-  {
-    name: "Cyril Bandolo",
-    role: "Serverless Developer, Serverless Guru",
-    image: "/speakers/Cyril.jpg",
-    linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
-  },
-  {
-    name: "Ndimofor Rosius",
-    role: "CTO at EduCloud, AWS Serverless Hero",
-    image: "/speakers/Rosius.jpg",
-    linkedin: "https://www.linkedin.com/in/rosius/"
-  },
-]);
+  const speakers = ref([
+    {
+      name: "Cyril Bandolo",
+      role: "Serverless Developer, Serverless Guru",
+      image: "/speakers/Cyril.jpg",
+      linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
+    },
+    {
+      name: "Ndimofor Rosius",
+      role: "CTO at EduCloud, AWS Serverless Hero",
+      image: "/speakers/Rosius.jpg",
+      linkedin: "https://www.linkedin.com/in/rosius/"
+    },
+    {
+      name: "Veliswa Boya",
+      role: "Senior Developer Advocate at Amazon Web Services (AWS), first woman Hero from Africa",
+      image: "/speakers/Veliswa_boya.jpeg",
+      linkedin: "https://www.linkedin.com/in/veliswa-boya/"
+    },
+    {
+      name: "Mohamadou Yacoubou",
+      role: "Manager Solutions Architecture at Amazon Web Services (AWS)",
+      image: "/speakers/mohamadou_Yacoubou.jpeg",
+      linkedin: "https://www.linkedin.com/in/ymohamadou/"
+    },
+    {
+      name: "Tobenna Nwokike",
+      role: "Senior Serverless Developer at Serverless Guru",
+      image: "/speakers/tobenna-nwokike.jpg",
+      linkedin: "https://www.linkedin.com/in/tobenna-nwokike/"
+    },
+    {
+      name: "Sébastien Stormacq",
+      role: "Principal Developer Advocate at Amazon Web Services (AWS)",
+      image: "/speakers/sebastien_stormacq.jpeg",
+      linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
+    },
+    {
+      name: "Soh Juvitus Leong",
+      role: "Data Management Officer at Tuberculosis Reference Lab Bamenda",
+      image: "/speakers/soh-juvitus-leong.jpg",
+      linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
+    },
+    {
+      name: "Witah Georjane",
+      role: "Software Developer Tech Lead at Yogaya Inc.",
+      image: "/speakers/witah-geojane.jpg",
+      linkedin: "https://www.linkedin.com/in/witah-georjane/"
+    },
+    {
+      name: "Thembile Ndlovu",
+      role: "Community Manager at Amazon Web Services (AWS)",
+      image: "/speakers/thembile_ndlovu.jpeg",
+      linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
+    },
+  ]);
+  
+  const organizers = ref([
+    {
+      name: "Nkwenti Fon Nkwenti",
+      role: "AWS User Group Leader",
+      image: "/organizers/Fon_Nkwenti.png",
+      linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
+    },
+    {
+      name: "Cyril Bandolo",
+      role: "Serverless Developer, Serverless Guru",
+      image: "/organizers/Cyril.jpeg",
+      linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
+    },
+    {
+      name: "Ndimofor Rosius",
+      role: "CTO at EduCloud, AWS Serverless Hero",
+      image: "/organizers/Rosius.jpeg",
+      linkedin: "https://www.linkedin.com/in/rosius/"
+    },
+    {
+      name: "Antoine Choula",
+      role: "AWS Community Builder",
+      image: "/organizers/Antoine.jpeg",
+      linkedin: "https://www.linkedin.com/in/antoine-choula/"
+    },
+    {
+      name: "Chi Che",
+      role: "AWS Community Builder",
+      image: "/organizers/Chi_Che.jpeg",
+      linkedin: "https://www.linkedin.com/in/chi-che/"
+    },
+    {
+      name: "Asongwed Samantha",
+      role: " ",
+      image: "/organizers/samantha.png",
+      linkedin: "https://www.linkedin.com/in/asongwedsamantha/"
+    },
+    {
+      name: "Paula Ali Wakabi",
+      role: "AWS New Voices Coach",
+      image: "/organizers/Paula.jpg",
+      linkedin: "https://www.linkedin.com/in/paulaaliwakabi/"
+    },
+    {
+      name: "Steve Yonkeu",
+      role: " ",
+      image: "/organizers/SteveYonkeu.jpeg",
+      linkedin: "https://www.linkedin.com/in/yokwejuste/"
+    },
+    {
+      name: "Delia Ayoko",
+      role: "AWS Community Builder in AI/ML(3x)",
+      image: "/organizers/Delia.jpeg",
+      linkedin: "https://www.linkedin.com/in/delia-ayoko/"
+    },
+    {
+      name: "Ngumih Fien",
+      role: " ",
+      image: "/organizers/Ngumi.jpeg",
+      linkedin: "https://www.linkedin.com/in/ngumih-fien/"
+    },
+  ]);
 
 
 
@@ -1054,6 +1288,43 @@ const speakers = ref([
 </script>
 
 <style>
+
+  .speaker {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  .speaker-organizer-image {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+
+  .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel > div {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+}
+
+.carousel > div.active {
+  border-color: orange;
+  border-width: 4px;
+}
+
+
 .sz-cssgrid.sz-cssgrid--45393 {
   --fraction-size: 1fr;
 
