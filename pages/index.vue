@@ -10,9 +10,9 @@
             <div id="logo" class="pull-left">
               <a href="#intro" class="scrollto"
                 ><img
-                  src="~/assets/img/logo-cd.png"
-                  alt="AWS Community Day Poland"
-                  title="AWS Community Day Poland"
+                  src="~/assets/img/white-aws-community-day.svg"
+                  alt="AWS Community Day Cameroon"
+                  title="AWS Community Day Cameroon"
               /></a>
             </div>
 
@@ -40,11 +40,11 @@
         <section id="intro">
           <div class="intro-container wow fadeIn">
             <img
-              src="~/assets/img/logo-cd.png"
+              src="~/assets/img/white-aws-community-day.svg"
               class="logo"
-              title="AWS Community Day Poland"
+              title="AWS Community Day Cameroon"
             />
-            <h4 class="mb-4 pb-0">13th July 2024, Douala</h4>
+            <h4 class="mb-4 pt-4 pb-0">13th July 2024, Douala</h4>
             <div class="text-center">
               <a
                 href="https://docs.google.com/forms/d/1EUVFyK4U85jVJgSr_NmZPQAmZKrl9L04BCmB37hYQK8/edit"
@@ -700,41 +700,6 @@
           </section>
 
           <!--==========================
-              Volunteers Section
-            ============================-->
-          <!-- <div
-            id="volunteers"
-            class="section-6 inv container volunteers-container"
-          >
-            <div class="volunteers">
-              <div class="section-header">
-                <h2>VOLUNTEERS</h2>
-              </div>
-              <div class="vl-row-list">
-                <div class="vl-i flex-it hcenter">
-                  <div
-                    v-for="person in volunteers"
-                    :key="`${person.firstname}-${person.lastname}`"
-                    class="person"
-                    :data-fname="person.firstname"
-                    :data-lname="person.lastname"
-                  >
-                    <div :class="person.image" class="img">
-                      <NuxtLink target="_blank" :to="person.twitterLink">
-                        <i class="icon large ion-logo-linkedin"></i>@{{
-                          person.twitterLink.split("/")[
-                            person.twitterLink.length - 1
-                          ]
-                        }}</NuxtLink
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!--==========================
               FAQ Section
             ============================-->
           <section id="faq" class="wow fadeIn">
@@ -917,6 +882,127 @@
               </div>
             </div>
           </section>
+
+          <section id="subscribe" class="pt-4">
+            <div class="container wow fadeIn pb-5 pt-5">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-header mb-3">
+                    <h2>BROUGHT TO YOU BY</h2>
+                  </div>
+                </div>
+                <div class="col-12 mt-3 mb-5">
+                  <div class="row">
+                    <div
+                      style="display: flex; justify-content: center"
+                      class="col-12 mb-4 col-md-4 mt-2"
+                    >
+                      <div>
+                        <img
+                          src="~/assets/img/user-group/user%20group%20douala.svg"
+                          alt="TheEvenet"
+                          style="height: 6rem"
+                        />
+                        <p class="pb-1">
+                          <strong>AWS User Group Douala</strong>
+                        </p>
+                        <div style="margin-top: -1rem" class="social-linkss">
+                          <a
+                            href="https://www.linkedin.com/company/awsugdouala/"
+                            class="linkedin"
+                          >
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                          <a
+                            href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                            class="twitter"
+                          >
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                          <a
+                            href="https://www.meetup.com/awsugdouala"
+                            class="linkedin"
+                          >
+                            <i class="fa fa-meetup"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      style="display: flex; justify-content: center"
+                      class="col-12 mb-4 col-md-4 mt-2"
+                    >
+                      <div>
+                        <img
+                          src="~/assets/img/user-group/user%20group%20douala.svg"
+                          alt="TheEvenet"
+                          style="height: 6rem"
+                        />
+                        <p class="pb-1">
+                          <strong>AWS User Group Douala</strong>
+                        </p>
+                        <div style="margin-top: -1rem" class="social-linkss">
+                          <a
+                            href="https://www.linkedin.com/company/awsugdouala/"
+                            class="linkedin"
+                          >
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                          <a
+                            href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                            class="twitter"
+                          >
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                          <a
+                            href="https://www.meetup.com/awsugdouala"
+                            class="linkedin"
+                          >
+                            <i class="fa fa-meetup"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      style="display: flex; justify-content: center"
+                      class="col-12 col-md-4 mt-2"
+                    >
+                      <div>
+                        <img
+                          src="~/assets/img/user-group/user%20group%20douala.svg"
+                          alt="TheEvenet"
+                          style="height: 6rem"
+                        />
+                        <p class="pb-1">
+                          <strong>AWS User Group Douala</strong>
+                        </p>
+                        <div style="margin-top: -1rem" class="social-linkss">
+                          <a
+                            href="https://www.linkedin.com/company/awsugdouala/"
+                            class="linkedin"
+                          >
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                          <a
+                            href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                            class="twitter"
+                          >
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                          <a
+                            href="https://www.meetup.com/awsugdouala"
+                            class="linkedin"
+                          >
+                            <i class="fa fa-meetup"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
 
         <!--==========================
@@ -926,111 +1012,33 @@
           <a href="#" class="back-to-top" style="display: inline"
             ><i class="fa fa-angle-up"></i
           ></a>
-          <div class="footer-top mb-5">
-            <div class="container">
-              <div class="section-header">
-                <div style="text-align: center">
-                  <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
-                </div>
-                <h2 class="tag">Brought To You By</h2>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-6 footer-info">
-                  <img
-                    src="~/assets/img/user-group/user%20group%20douala.svg"
-                    alt="TheEvenet"
-                  />
-                  <p class="pb-2">
-                    <strong>AWS User Group Douala</strong>
-                  </p>
-                  <div class="social-links">
-                    <a
-                      href="https://www.linkedin.com/company/awsugdouala/"
-                      class="linkedin"
-                    >
-                      <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a
-                      href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
-                      class="twitter"
-                    >
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                    <a
-                      href="https://www.meetup.com/awsugdouala"
-                      class="linkedin"
-                    >
-                      <i class="fa fa-meetup"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-info">
-                  <img
-                    src="~/assets/img/user-group/yaounde%20user%20group%201.svg"
-                    alt="TheEvenet"
-                  />
-                  <p class="pb-2">
-                    <strong>AWS User Group Yaounde</strong>
-                  </p>
-                  <div class="social-links">
-                    <a
-                      href="https://www.linkedin.com/company/aws-user-group-yaounde/"
-                      class="linkedin"
-                    >
-                      <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a
-                      href="https://x.com/awsusergroupyde?t=rNXNf7faYI-SA3WQaOybWQ&s=09"
-                      class="twitter"
-                    >
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                    <a
-                      href="https://www.meetup.com/aws-user-group-yaounde"
-                      class="linkedin"
-                    >
-                      <i class="fa fa-meetup"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-info">
-                  <img
-                    src="~/assets/img/user-group/awsscc-black-logo.svg"
-                    alt="TheEvenet"
-                  />
-                  <p class="pb-2">
-                    <strong>AWS Cloud Clubs UBa</strong>
-                  </p>
-                  <div class="social-links">
-                    <a
-                      href="https://www.linkedin.com/groups/12922210"
-                      class="linkedin"
-                    >
-                      <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a
-                      href="https://x.com/awssccuba?t=r0MjaQ9gzZxvHY-UX7AnlA&s=09"
-                      class="twitter"
-                    >
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                    <a
-                      href="https://www.meetup.com/aws-cloud-club-at-the-university-of-bamenda"
-                      class="linkedin"
-                    >
-                      <i class="fa fa-meetup"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr id="line" />
+          <div class="footer-top mb-5" style="margin-top: -5rem">
             <div class="container" id="lower-footer">
               <div
                 class="row d-flex justify-content-center align-content-center"
               >
+                <div
+                  style="display: flex; justify-content: center"
+                  class="col-lg-4 col-md-6 footer-contact"
+                >
+                  <div>
+                    <img
+                      style="height: 4rem"
+                      src=".././assets/img/white-aws-community-day.svg"
+                      alt="TheEvenet"
+                    />
+                    <p class="pb-1 pt-2">
+                      <strong>AWS User Groups in Cameroon</strong>
+                    </p>
+                    <div style="text-align: left">
+                      <img
+                        src=".././assets/img/aws-ug-cameroon.svg"
+                        alt="AWS UG Cameroon"
+                        style="height: 3rem; margin-top: -1rem"
+                      />
+                    </div>
+                  </div>
+                </div>
                 <div class="col-lg-4 col-md-6 footer-contact">
                   <h4>Contact</h4>
                   <p>
@@ -1479,3 +1487,167 @@ const volunteers = ref([
     [track-45831-end];
 }
 </style>
+
+<!-- <footer id="footer">
+          <a href="#" class="back-to-top" style="display: inline"
+            ><i class="fa fa-angle-up"></i
+          ></a>
+          <div class="footer-top mb-5">
+            <div class="container">
+              <div class="section-header">
+                <div style="text-align: center">
+                  <img src="~/assets/img/logo-cd.png" alt="TheEvenet" />
+                </div>
+                <h2 class="tag">Brought To You By</h2>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-6 footer-info">
+                  <img
+                    src="~/assets/img/user-group/user%20group%20douala.svg"
+                    alt="TheEvenet"
+                  />
+                  <p class="pb-2">
+                    <strong>AWS User Group Douala</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/awsugdouala/"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                      class="twitter"
+                    >
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/awsugdouala"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-info">
+                  <img
+                    src="~/assets/img/user-group/yaounde%20user%20group%201.svg"
+                    alt="TheEvenet"
+                  />
+                  <p class="pb-2">
+                    <strong>AWS User Group Yaounde</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/aws-user-group-yaounde/"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awsusergroupyde?t=rNXNf7faYI-SA3WQaOybWQ&s=09"
+                      class="twitter"
+                    >
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/aws-user-group-yaounde"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-info">
+                  <img
+                    src="~/assets/img/user-group/awsscc-black-logo.svg"
+                    alt="TheEvenet"
+                  />
+                  <p class="pb-2">
+                    <strong>AWS Cloud Clubs UBa</strong>
+                  </p>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/groups/12922210"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awssccuba?t=r0MjaQ9gzZxvHY-UX7AnlA&s=09"
+                      class="twitter"
+                    >
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/aws-cloud-club-at-the-university-of-bamenda"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr id="line" />
+            <div class="container" id="lower-footer">
+              <div
+                class="row d-flex justify-content-center align-content-center"
+              >
+                <div class="col-lg-4 col-md-6 footer-contact">
+                  <h4>Contact</h4>
+                  <p>
+                    Have questions or a proposal? Write to us at
+                    <a href="mailto:awsugdouala@gmail.com"
+                      >awsugdouala@gmail.com</a
+                    >
+                  </p>
+
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/awsugdouala/"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                      class="twitter"
+                    >
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.meetup.com/awsugdouala"
+                      class="linkedin"
+                    >
+                      <i class="fa fa-meetup"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-links">
+                  <h4>Call For Papers</h4>
+                  <a
+                    href="https://sessionize.com/aws-community-day-cameroon-2024/"
+                    target="”_blank”"
+                    ><img
+                      src="https://sessionize.com/landing/images/brand/banners/sessionize-banner-medium.png"
+                      alt="The smart way to do Call for Papers, Schedule and Speaker Management."
+                      width="220"
+                      height="80"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="copyright">
+              &copy; Copyright <strong>AWS Community Day Cameroon</strong>. All
+              Rights Reserved
+            </div>
+          </div>
+        </footer> -->

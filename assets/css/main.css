@@ -1775,7 +1775,20 @@ h3 {
   height: 36px;
   transition: 0.3s;
 }
-
+.social-linkss a {
+  font-size: 18px;
+  display: inline-block;
+  background: #222636;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 8px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
 #footer .footer-top .social-links a:hover {
   background: #ff9b00;
   color: #fff;
