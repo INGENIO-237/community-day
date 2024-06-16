@@ -59,57 +59,11 @@
 </template>
 
 <script setup type="ts">
-
+definePageMeta({
+  layout: 'home'
+})
 
 const volunteers = ref([
-  {
-    firstname: "Rosius",
-    lastname: "Ndimofor",
-    twitterLink: "",
-    image: "/images/Rosius.jpeg",
-  },
-  {
-    firstname: "Cyril ",
-    lastname: "Bandolo",
-    twitterLink: "",
-    image: "/images/Cyril.jpeg",
-  },
-  {
-    firstname: "Ngumih ",
-    lastname: "Fien",
-    twitterLink: "",
-    image: "/images/Ngumih.jpeg",
-  },
-  {
-    firstname: "Delia",
-    lastname: "Ayoko",
-    twitterLink: "",
-    image: "/images/Delia.jpeg",
-  },
-  {
-    firstname: "Desmond",
-    lastname: "Chi Che",
-    twitterLink: "",
-    image: "/images/ChiChe.jpeg",
-  },
-  {
-    firstname: "Nkwenti",
-    lastname: "Fon Nkwenti",
-    twitterLink: "",
-    image: "/images/Nkwenti.jpeg",
-  },
-  {
-    firstname: "Paula",
-    lastname: "Wakabi",
-    twitterLink: "",
-    image: "/images/Paula.jpeg",
-  },
-  {
-    firstname: "Antoine",
-    lastname: "Choula",
-    twitterLink: "",
-    image: "/images/Antoine.jpeg",
-  },
   {
     firstname: "Samantha",
     lastname: "Asongwed",
@@ -121,12 +75,6 @@ const volunteers = ref([
     lastname: "Kongbi",
     twitterLink: "",
     image: "/images/zion.png",
-  },
-  {
-    firstname: "Steve",
-    lastname: "Yonkeu",
-    twitterLink: "",
-    image: "/images/steve.jpeg",
   },
   {
     firstname: "Gwladys",
