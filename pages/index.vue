@@ -516,6 +516,7 @@
               </h4>
             </div>
             <div class="row">
+              <div v-if="windowWidth > 991" class="col-lg-3 col-6"></div>
               <div v-for="person in knspeakers" class="col-lg-3 col-6">
                 <div class="speaker" @click="openLink(person.linkedin)">
                   <img
@@ -924,6 +925,7 @@
   </div>
 </template>
 <script setup type="ts">
+import { ref } from 'vue';
 import TableComponent from '~/components/TableComponent.vue';
 definePageMeta({
   layout: 'home'
@@ -934,6 +936,7 @@ const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
+const windowWidth = ref(0);
 
   // function to make the sponsor block clickable
   function openLink(link) {
@@ -941,10 +944,16 @@ const seconds = ref(0);
   }
 
 
-  import { ref } from 'vue';
+
 
 
   if(process.client){
+    windowWidth.value = window.innerWidth
+    window.addEventListener("resize", () => windowWidth.value = window.innerWidth);
+
+
+
+
   setInterval(function () {
   const now = new Date().getTime();
   const distance = countDownDate - now;
@@ -956,27 +965,24 @@ const seconds = ref(0);
     seconds.value = Math.floor((distance % (1000 * 60)) / 1000);
   }, 1000);
 
-  document.addEventListener("DOMContentLoaded", function () {
-    if (!hasConsent()) {
-        showCookieConsent();
-    }
-  });
+
 }
 
-const knspeakers = ref([    {
+const knspeakers = ref([
+  {
+      name: "Mohamadou Yacoubou",
+      role: "Manager Solutions Architecture",
+      company: "AWS",
+      image: "/speakers/mohamadou_Yacoubou.jpeg",
+      linkedin: "https://www.linkedin.com/in/ymohamadou/"
+    },  {
       name: "Veliswa Boya",
       role: "Senior Developer Advocate",
       company: "AWS",
       image: "/speakers/Veliswa_boya.jpeg",
       linkedin: "https://www.linkedin.com/in/veliswa-boya/"
     },
-    {
-      name: "Mohamadou Yacoubou",
-      role: "Manager Solutions Architecture",
-      company: "AWS",
-      image: "/speakers/mohamadou_Yacoubou.jpeg",
-      linkedin: "https://www.linkedin.com/in/ymohamadou/"
-    },])
+   ])
 
   const speakers = ref([
     {

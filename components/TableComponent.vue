@@ -51,8 +51,13 @@
             <div class="td" colspan="4">
               <div>
                 <p>
-                  Keynote: “Unleashing Innovation with GenAI” by Mohamadou
-                  Yacoubou, Principal Solutions Architect, AWS
+                  <span style="color: #ff9b00; font-weight: bold"
+                    >Keynote:
+                  </span>
+                  <span style="font-weight: bold"
+                    >“Unleashing Innovation with GenAI”
+                  </span>
+                  by Mohamadou Yacoubou, Principal Solutions Architect, AWS
                 </p>
               </div>
             </div>
@@ -66,8 +71,13 @@
             <div class="td" colspan="4">
               <div>
                 <p>
-                  Keynote: “Unleashing Innovation with GenAI” by Mohamadou
-                  Yacoubou, Principal Solutions Architect, AWS
+                  <span style="color: #ff9b00; font-weight: bold"
+                    >Developer Keynote:
+                  </span>
+                  <span style="font-weight: bold"
+                    >“Technical Content for Personal Branding”
+                  </span>
+                  by Veliswa Boya, Developer Advocacy, AWS
                 </p>
               </div>
             </div>
