@@ -27,7 +27,7 @@
               <li><a href="#volunteers">Volunteers</a></li>
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#footer">Contact</a></li>
-              <li><a href="../">EN</a></li>
+              <li><a href="../">FR</a></li>
             </ul>
           </nav>
           <!-- #nav-menu-container -->
@@ -981,7 +981,7 @@ const knspeakers = ref([    {
   const speakers = ref([
     {
       name: "Cyril Bandolo",
-      role: "Serverless Developer",
+      role: "AWS Machine Learning Hero",
       company: "Serverless Guru",
       image: "/speakers/Cyril.jpg",
       linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
@@ -997,7 +997,7 @@ const knspeakers = ref([    {
     {
       name: "Tobenna Nwokike",
       role: "Senior Serverless Developer",
-      company: "Serverless Guru",
+      company: "Serverless Guru LLC",
       image: "/speakers/tobenna-nwokike.jpg",
       linkedin: "https://www.linkedin.com/in/tobenna-nwokike/"
     },
@@ -1010,15 +1010,15 @@ const knspeakers = ref([    {
     },
     {
       name: "Soh Juvitus Leong",
-      role: "Data Management Officer",
-      company: "Tuberculosis Reference Lab Bamenda",
+      role: "Data Scientist ",
+      company: "CEO of Skye8 Company Ltd",
       image: "/speakers/soh-juvitus-leong.jpg",
       linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
     },
     {
       name: "Witah Georjane",
-      role: "Software Developer",
-      company: "Tech Lead at Yogaya Inc",
+      role: "AWS Cloud Developer",
+      company: "Yogaya Inc",
       image: "/speakers/witah-geojane.jpg",
       linkedin: "https://www.linkedin.com/in/witah-georjane/"
     },
@@ -1028,6 +1028,20 @@ const knspeakers = ref([    {
       company: "AWS",
       image: "/speakers/thembile_ndlovu.jpeg",
       linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
+    },
+    {
+      name: "Pierre Ange Leundeu",
+      role: "Data Engineer",
+      company: "AWS",
+      image: "/speakers/thembile_ndlovu.jpeg",
+      linkedin: "https://www.linkedin.com/in/paleundeu/"
+    },
+    {
+      name: "Dirane Tafen",
+      role: "IT Engineer",
+      company: "CTO of EAZYTraining.fr",
+      image: "/speakers/thembile_ndlovu.jpeg",
+      linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
     },
   ]);
 
@@ -1071,29 +1085,30 @@ const knspeakers = ref([    {
       linkedin: "https://www.linkedin.com/in/yokwejuste/"
     },
     {
-      name: "Delia Ayoko",
-      group: "AWS User Group Yaounde",
-      image: "/organizers/Delia.jpeg",
-      linkedin: "https://www.linkedin.com/in/delia-ayoko/"
-    },
-    {
-      name: "Ngumih Fien",
-      group: "AWS User Group Yaounde",
-      image: "/organizers/Ngumi.jpeg",
-      linkedin: "https://www.linkedin.com/in/ngumih-fien/"
-    },
-    {
       name: "Paula Ali Wakabi",
-      group: "AWS Cloud Clubs UBa",
+      group: "AWS User Group Yaounde",
       image: "/organizers/Paula.jpg",
       linkedin: "https://www.linkedin.com/in/paulaaliwakabi/"
     },
     {
       name: "Chi Che",
-      group: "AWS Cloud Clubs UBa",
+      group: "AWS User Group Yaounde",
       image: "/organizers/Chi_Che.jpeg",
       linkedin: "https://www.linkedin.com/in/chi-che/"
     },
+    {
+      name: "Delia Ayoko",
+      group: "AWS Cloud Clubs UBa",
+      image: "/organizers/Delia.jpeg",
+      linkedin: "https://www.linkedin.com/in/delia-ayoko/"
+    },
+    {
+      name: "Ngumih Fien",
+      group: "AWS Cloud Clubs UBa",
+      image: "/organizers/Ngumi.jpeg",
+      linkedin: "https://www.linkedin.com/in/ngumih-fien/"
+    },
+
   ]);
 </script>
 

@@ -20,7 +20,7 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>09:00 AM - 10:30 AM</p>
+                <p>09:00 AM - 10:00 AM</p>
               </div>
             </div>
             <div class="td" colspan="4">
@@ -32,7 +32,7 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>10:30 AM - 11:00 AM</p>
+                <p>10:00 AM - 10:05 AM</p>
               </div>
             </div>
             <div class="td" colspan="4">
@@ -45,7 +45,22 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>11:00 AM - 11:30 AM</p>
+                <p>10:05 AM - 10:35 AM</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  Keynote: “Unleashing Innovation with GenAI” by Mohamadou
+                  Yacoubou, Principal Solutions Architect, AWS
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>10:35 AM - 11:05 AM</p>
               </div>
             </div>
             <div class="td" colspan="4">
@@ -58,7 +73,7 @@
             </div>
           </div>
 
-          <div class="tr gap">
+          <!-- <div class="tr gap">
             <div class="td idx">
               <div>
                 <p>1:10 PM - 2:10 PM</p>
@@ -119,12 +134,12 @@
                 <p>Sessions, Workshops, AWS Game Day: TBD</p>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>04:40 PM - 5:20 PM</p>
+                <!-- <p>04:40 PM - 5:20 PM</p> -->
               </div>
             </div>
             <div class="td" colspan="4">
