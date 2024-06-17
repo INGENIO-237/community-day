@@ -146,10 +146,10 @@
             </div>
           </div> -->
 
-          <div class="tr">
+          <!-- <div class="tr">
             <div class="td idx">
               <div>
-                <!-- <p>04:40 PM - 5:20 PM</p> -->
+                <p>04:40 PM - 5:20 PM</p>
               </div>
             </div>
             <div class="td" colspan="4">
@@ -157,7 +157,7 @@
                 <p>Closing Note</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
