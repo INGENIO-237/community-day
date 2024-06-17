@@ -154,7 +154,7 @@
             </div>
             <div class="td" colspan="4">
               <div>
-                <p>Closing Note</p>
+                <!-- <p>Closing Note</p> -->
                 <p>To be Announced</p>
               </div>
             </div>
