@@ -1011,7 +1011,7 @@ const knspeakers = ref([
       name: "Sébastien Stormacq",
       role: "Principal Developer Advocate",
       company: "AWS",
-      image: "/speakers/sebastien_stormacq.jpeg",
+      image: "/speakers/sebastien_stormaq.jpg",
       linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
     },
     {
@@ -1025,28 +1025,28 @@ const knspeakers = ref([
       name: "Witah Georjane",
       role: "AWS Cloud Developer",
       company: "Yogaya Inc",
-      image: "/speakers/witah-geojane.jpg",
+      image: "/speakers/Georjane_Witah.jpg",
       linkedin: "https://www.linkedin.com/in/witah-georjane/"
     },
     {
       name: "Thembile Ndlovu",
       role: "Community Manager",
       company: "AWS",
-      image: "/speakers/thembile_ndlovu.jpeg",
+      image: "/speakers/Thembile_Ndlovu.jpeg",
       linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
     },
     {
       name: "Pierre Ange Leundeu",
       role: "Data Engineer",
       company: "AWS",
-      image: "/speakers/thembile_ndlovu.jpeg",
+      image: "/speakers/Pierre_Ange.jpg",
       linkedin: "https://www.linkedin.com/in/paleundeu/"
     },
     {
       name: "Dirane Tafen",
       role: "IT Engineer",
       company: "CTO of EAZYTraining.fr",
-      image: "/speakers/thembile_ndlovu.jpeg",
+      image: "/speakers/Dirane.jpg",
       linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
     },
   ]);
@@ -1061,13 +1061,13 @@ const knspeakers = ref([
     {
       name: "Cyril Bandolo",
       group: "AWS User Group Douala",
-      image: "/organizers/Cyril.jpeg",
+      image: "/speakers/Cyril.jpg",
       linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
     },
     {
       name: "Ndimofor Rosius",
       group: "AWS User Group Douala",
-      image: "/organizers/Rosius.jpeg",
+      image: "/speakers/Rosius.jpg",
       linkedin: "https://www.linkedin.com/in/rosius/"
     },
     {
@@ -1105,13 +1105,13 @@ const knspeakers = ref([
     {
       name: "Delia Ayoko",
       group: "AWS Cloud Clubs UBa",
-      image: "/organizers/Delia.jpeg",
+      image: "/organizers/Delia_Ayoko.jpg",
       linkedin: "https://www.linkedin.com/in/delia-ayoko/"
     },
     {
       name: "Ngumih Fien",
       group: "AWS Cloud Clubs UBa",
-      image: "/organizers/Ngumi.jpeg",
+      image: "/organizers/Ngumih_Fien.jpg",
       linkedin: "https://www.linkedin.com/in/ngumih-fien/"
     },
 
