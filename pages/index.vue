@@ -184,7 +184,7 @@
                     <h3>CanalOlympia Bessengue</h3>
                     <p>Gare de Bessengue</p>
                     <p>Douala, Littoral</p>
-                    <p>Camerooun</p>
+                    <p>Cameroon</p>
                   </div>
                 </div>
               </div>
@@ -279,6 +279,34 @@
                   >
                     <img
                       src="~/assets/img/venue-gallery/venue-06.png"
+                      class="img-fluid gallery-image"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <div class="venue-gallery">
+                  <a
+                    href="~/assets/img/venue-gallery/venu-07.jpeg"
+                    class="venobox"
+                    data-gall="venue-gallery"
+                  >
+                    <img
+                      src="~/assets/img/venue-gallery/venu-07.jpeg"
+                      class="img-fluid gallery-image"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <div class="venue-gallery">
+                  <a
+                    href="~/assets/img/venue-gallery/venue-08.jpeg"
+                    class="venobox"
+                    data-gall="venue-gallery"
+                  >
+                    <img
+                      src="~/assets/img/venue-gallery/venue-08.jpeg"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -971,7 +999,7 @@ const windowWidth = ref(0);
 const knspeakers = ref([
   {
       name: "Mohamadou Yacoubou",
-      role: "Manager Solutions Architecture",
+      role: "Principal Solutions Architect",
       company: "AWS",
       image: "/speakers/mohamadou_Yacoubou.jpeg",
       linkedin: "https://www.linkedin.com/in/ymohamadou/"
