@@ -1060,7 +1060,7 @@ const knspeakers = ref([
       name: "Thembile Ndlovu",
       role: "Community Manager",
       company: "AWS",
-      image: "/speakers/Thembile_Ndlovu.jpeg",
+      image: "/speakers/Thembile_Ndlovu.jpg",
       linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
     },
     {
