@@ -1065,8 +1065,8 @@ const knspeakers = ref([
     },
     {
       name: "Pierre Ange Leundeu",
-      role: "Data Engineer",
-      company: "AWS",
+      role: "Data / ML Engineer",
+      company: "DevoTeam",
       image: "/speakers/Pierre_Ange.jpg",
       linkedin: "https://www.linkedin.com/in/paleundeu/"
     },
