@@ -1065,8 +1065,8 @@ const knspeakers = ref([
     },
     {
       name: "Pierre Ange Leundeu",
-      role: "Data Engineer",
-      company: "AWS",
+      role: "Data / ML Engineer",
+      company: "DevoTeam",
       image: "/speakers/Pierre_Ange.jpg",
       linkedin: "https://www.linkedin.com/in/paleundeu/"
     },
@@ -1074,7 +1074,7 @@ const knspeakers = ref([
       name: "Dirane Tafen",
       role: "IT Engineer",
       company: "CTO of EAZYTraining.fr",
-      image: "/speakers/Dirane.jpg",
+      image: "/speakers/willy_dirane.jpg",
       linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
     },
   ]);
