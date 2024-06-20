@@ -335,6 +335,13 @@
               </div>
               <div class="">
                 <img
+                    src="~/assets/img/past-events/event-07.jpg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
                   src="~/assets/img/past-events/event-02.png"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
@@ -345,6 +352,13 @@
                   src="~/assets/img/past-events/event-03.png"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
+                    src="~/assets/img/past-events/event-08.jpg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
                 />
               </div>
               <div class="">
@@ -363,9 +377,23 @@
               </div>
               <div class="">
                 <img
+                    src="~/assets/img/past-events/event-09.jpeg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
                   src="~/assets/img/past-events/event-06.png"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
+                    src="~/assets/img/past-events/event-10.jpg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
                 />
               </div>
             </div>
