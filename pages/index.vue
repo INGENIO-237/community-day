@@ -328,7 +328,7 @@
             <div class="carousel">
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-01.png"
+                  src="~/assets/img/past-events/event-01.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
@@ -342,14 +342,14 @@
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-02.png"
+                  src="~/assets/img/past-events/event-02.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-03.png"
+                  src="~/assets/img/past-events/event-03.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
@@ -363,28 +363,28 @@
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-04.png"
+                  src="~/assets/img/past-events/event-04.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-05.png"
+                  src="~/assets/img/past-events/event-05.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                    src="~/assets/img/past-events/event-09.jpeg"
+                    src="~/assets/img/past-events/event-09.jpg"
                     class="img-fluid gallery-image"
                     alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-06.png"
+                  src="~/assets/img/past-events/event-06.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
