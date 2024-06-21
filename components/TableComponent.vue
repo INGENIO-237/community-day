@@ -82,6 +82,40 @@
               </div>
             </div>
           </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>11:10 AM - 11:40 AM</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold"
+                    >“Introduction à la Data Ingénierie sur AWS, Pierre Ange Leundeu, Data & ML Engineer”
+                  </span>
+                  by Pierre Ange Leundeu, Data / ML Engineer, DevoTeam
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>11:45 AM - 12:15 AM</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold"
+                  >“Enhancing Developer Productivity With Amazon Q”
+                  </span>
+                  by Cyril Bandolo, AWS Machine Learning Hero/ Serverless Developer Serverless Guru
+                </p>
+              </div>
+            </div>
+          </div>
 
           <!-- <div class="tr gap">
             <div class="td idx">
@@ -165,6 +199,7 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style scoped></style>

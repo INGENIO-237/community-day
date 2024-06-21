@@ -328,44 +328,72 @@
             <div class="carousel">
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-01.png"
+                  src="~/assets/img/past-events/event-01.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-02.png"
+                    src="~/assets/img/past-events/event-07.jpg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
+                  src="~/assets/img/past-events/event-02.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-03.png"
+                  src="~/assets/img/past-events/event-03.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-04.png"
+                    src="~/assets/img/past-events/event-08.jpg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
+                  src="~/assets/img/past-events/event-04.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-05.png"
+                  src="~/assets/img/past-events/event-05.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-06.png"
+                    src="~/assets/img/past-events/event-09.jpg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
+                  src="~/assets/img/past-events/event-06.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
+                />
+              </div>
+              <div class="">
+                <img
+                    src="~/assets/img/past-events/event-10.jpg"
+                    class="img-fluid gallery-image"
+                    alt="Carousel Image"
                 />
               </div>
             </div>
@@ -455,7 +483,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+              <!-- <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                 <div class="supporter-logo">
                   <a href="https://www.olioapps.com/" target="_blank">
                     <img
@@ -464,7 +492,7 @@
                     />
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
 
             <h3 class="text-center">Silver</h3>
