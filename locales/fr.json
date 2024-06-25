@@ -1,5 +1,19 @@
 {
-  "message": {
-    "home": "Accueil"
-  }
+  "home": "Accueil",
+  "agenda": "Calendrier",
+  "location": "Localisation",
+  "gallery": "Galerie",
+  "speakers": "Intervenants",
+  "organizers": "Organisateurs",
+  "volunteers": "Bénévoles",
+  "date": "13 Juillet 2024",
+  "register": "S'inscrire",
+  "countTitle1": "Compte à rebours pour la plus grande conférence sur le cloud ",
+  "countTitle2": " au Cameroun",
+  "days": "Jours",
+  "hours": "Heures",
+  "seconds": "Secondes",
+  "agendaAppTitle": "Restez organisé avec l'application Calendrier !",
+  "agendaAppText": "Téléchargez notre application et ayez accès à tous les détails du calendrier et les mises à jour importantes à portée de main, où que vous alliez.",
+  "agendaAppCTA": "Ouvrir l'application"
 }

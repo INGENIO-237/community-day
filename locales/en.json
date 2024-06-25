@@ -1,5 +1,20 @@
 {
-  "message": {
-    "home": "Home"
-  }
+  "home": "Home",
+  "agenda": "Agenda",
+  "location": "Location",
+  "gallery": "Gallery",
+  "speakers": "Speakers",
+  "organizers": "Organizers",
+  "volunteers": "Volunteers",
+  "date": "13th July 2024",
+  "register": "Register",
+  "countTitle1": "Countdown to the largest ",
+  "countTitle2": " cloud conference in Cameroon",
+  "days": "Days",
+  "hours": "Hours",
+  "seconds": "Seconds",
+  "agendaAppTitle": "Stay Organized with Agenda App!",
+  "agendaAppText": "Get our Agenda App today and have all the agenda details and important updates right at your fingertips, wherever you go.",
+  "agendaAppCTA": "Open Agenda App"
+
 }
