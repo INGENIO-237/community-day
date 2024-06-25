@@ -82,6 +82,12 @@ const volunteers = ref([
     twitterLink: "",
     image: "/images/gwladys.jpeg",
   },
+  {
+    firstname: "Neba",
+    lastname: "Desmond",
+    twitterLink: "https://x.com/desmond__neba",
+    image: "/images/n_desmond.jpeg",
+  },
 ]);
 </script>
 
