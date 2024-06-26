@@ -780,9 +780,9 @@
                     ></a>
                     <div id="faq5" class="collapse" data-parent="#faq-list">
                       <p>
-                        Gare Camrail de bessengue some meters around feu rouge
-                        bessengue. From rond-point to the location, It costs 500
-                        frs with a bike alone (moto) or 350 frs with a taxi.
+                        The event will be at the CanalOlympia cinema at Gare de Bessengue just before Camrail.
+                        It is a single drop from Rond Point Deido or 350frs by taxi.
+                        You can also book a ride with <a href="https://yango.com/en_cm/city/douala/" target="_blank">Yango</a>
                       </p>
                     </div>
                   </li>
