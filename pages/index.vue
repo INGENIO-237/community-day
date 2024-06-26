@@ -189,7 +189,7 @@
         <section id="venue" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
-              <h2>Location</h2>
+              <h2>{{$t('location')}}</h2>
             </div>
 
             <div class="row no-gutters">
@@ -348,7 +348,7 @@
         <section id="gallery" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
-              <h2>Gallery</h2>
+              <h2>{{$t('gallery')}}</h2>
             </div>
 
             <div class="carousel">
@@ -432,7 +432,7 @@
         <section id="supporters" class="section-with-bg wow fadeIn">
           <div class="container">
             <div class="section-header">
-              <h2>OUR ESTEEMED SPONSORS</h2>
+              <h2>{{$t('ourSponsors')}}</h2>
             </div>
 
             <h3 class="text-center"></h3>
@@ -496,7 +496,7 @@
                 </div>
               </div> -->
 
-            <h3 class="text-center">Gold</h3>
+            <h3 class="text-center">{{$t('gold')}}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -521,7 +521,7 @@
               </div> -->
             </div>
 
-            <h3 class="text-center">Silver</h3>
+            <h3 class="text-center">{{$t('silver')}}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -536,7 +536,7 @@
               </div>
             </div>
 
-            <h3 class="text-center">Community</h3>
+            <h3 class="text-center">{{$t('community')}}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -566,12 +566,12 @@
               style="font-size: 1.2rem; font-weight: 700"
             >
               <p>
-                Interested in becoming a sponsor?
+                {{$t('interestedSponsor')}}
                 <NuxtLink
                   to="https://docs.google.com/forms/d/1A5RpqPjdk03atwUGL0bMsdkqDaazVu3iVCBfm_hZoHM/edit"
                   target="_blank"
                   class="text-orange-400 hover:text-orange-600"
-                  >Apply here</NuxtLink
+                  >{{$t('applySponsor')}}</NuxtLink
                 >
               </p>
             </div>
@@ -588,13 +588,13 @@
         >
           <div class="container">
             <div class="section-header">
-              <h2>SPEAKERS</h2>
+              <h2>{{$t('speakers')}}</h2>
             </div>
             <div
               style="text-align: center; margin-top: -1rem; margin-bottom: 2rem"
             >
               <h4 style="color: #ff9b00; font-weight: bold; font-size: larger">
-                Keynote Speakers
+                {{$t('keynoteSpeakers')}}
               </h4>
             </div>
             <div class="row">
@@ -655,7 +655,7 @@
         >
           <div class="container">
             <div class="section-header">
-              <h2>Organizers</h2>
+              <h2>{{$t('organizers')}}</h2>
             </div>
 
             <div class="row">
@@ -687,7 +687,7 @@
           <section id="venue" class="wow fadeIn">
             <div class="container-fluid">
               <div class="section-header">
-                <h2>Volunteers</h2>
+                <h2>{{$t('volunteers')}}</h2>
               </div>
 
               <div style="display: flex; justify-content: center">
@@ -695,7 +695,7 @@
                   to="/volunteers"
                   class="btn btn-lg btn-yellow"
                   target="”_blank”"
-                  >See all volunteers</NuxtLink
+                  >{{$t('allVolunteers')}}</NuxtLink
                 >
               </div>
             </div>
@@ -876,7 +876,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-header mb-3">
-                  <h2>BROUGHT TO YOU BY</h2>
+                  <h2>{{$t('brought')}}</h2>
                 </div>
               </div>
               <div class="col-12 mt-3 mb-5">
@@ -1048,8 +1048,6 @@ if (process.client) {
     minutes.value = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     seconds.value = Math.floor((distance % (1000 * 60)) / 1000);
   }, 1000);
-
-
 }
 
 const knspeakers = ref([
