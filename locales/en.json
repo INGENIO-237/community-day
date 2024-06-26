@@ -24,5 +24,25 @@
   "applySponsor": "Apply here",
   "keynoteSpeakers": "Keynote Speakers",
   "allVolunteers": "See all volunteers",
-  "brought": "BROUGHT TO YOU BY"
+  "brought": "BROUGHT TO YOU BY",
+
+  "whatAWS": "What is AWS Community Day?",
+  "whatAWSText": "AWS Community Day is a one-day event organized by the AWS community for the community. It's an opportunity AWS users to meet and learn from each other, share practices, and listen to presentations from experts.",
+  "whatAWSMore":"More information can be found on the official ",
+  "whatAWSMore2":"website",
+  "whoAttend": "Who can participate in the event?",
+  "whoAttendText": "AWS Community Day is open to all interested AWS regardless of their level of expertise.",
+  "registration": "Is registration required to participate in event?",
+  "registrationText": "Yes, registration is required to participate in event. Please register on the event website.",
+  "fees": "Are there any fees associated with participating in the event?",
+  "feesText": "No, participation in AWS Community Day is free charge.",
+  "wherePlace": "Where will the event take place and how much will cost to get there?",
+  "wherePlaceText": "The event will be at the CanalOlympia cinema at Gare de Bessengue just before Camrail. It is a single drop from Rond Point Deido or 350frs by taxi. You can also book a ride with ",
+  "materials": "Will there be any materials available from the event?",
+  "materialsText": "Yes, materials from the event, such as presentations or photos, will be made available on the event website.",
+  "previousEditions": "What does the previous editions look like?",
+  "previousEditionsText": "Just say Check out our gallery for previous events.",
+  "becomeSponsor": "How to become a sponsor?",
+  "becomeSponsorText": "Write to us directly at",
+  "becomeSponsorText2": "Or leave a contact here:"
 }

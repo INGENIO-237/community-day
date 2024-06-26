@@ -24,5 +24,24 @@
   "applySponsor": "Candidatez ici",
   "keynoteSpeakers": "Principaux Intervenants ",
   "allVolunteers": "Tous les bénévoles",
-  "brought": "PAR LE BIAIS DE"
+  "brought": "PAR LE BIAIS DE",
+
+  "whatAWS": "Qu'est ce que c'est AWS Community Day?",
+  "whatAWSText": "L'AWS Community Day est un événement d'une journée organisé par la communauté AWS pour la communauté. C'est l'occasion pour les utilisateurs d'AWS de se rencontrer et d'apprendre les uns des autres, de partager leurs pratiques et d'écouter les présentations d'experts.",
+  "whatAWSMore":"Plus d'informations sur le site officiel ",
+  "whatAWSMore2":"",
+  "whoAttend": "Qui peut participer à l'événement ?",
+  "whoAttendText": "L'AWS Community Day est ouvert à toutes les personnes intéressées par AWS, quel que soit leur niveau d'expertise.",
+  "registration": "Faut-il s'inscrire pour participer à l'événement ?",
+  "registrationText": "Oui, l'inscription est obligatoire pour participer à l'événement. Veuillez vous inscrire sur le site web de l'événement.",
+  "fees": "Y a-t-il des frais liés à la participation à l'événement ?",
+  "feesText": "Non, la participation à la journée de la communauté AWS est gratuite.",
+  "wherePlace": "Où l'événement aura-t-il lieu et combien coûtera le déplacement ?",
+  "wherePlaceText": "L'événement se déroulera au cinéma Canal Olympia à la Gare de Bessengue juste avant Camrail. Il s'agit d'un trajet simple depuis le Rond Point Deido (350frs en taxi). Vous pouvez également réserver une course avec ",
+  "materials": "Y aura-t-il du matériel disponible à l'issue de l'événement ?",
+  "materialsText": "Oui, le matériel de l'événement, tel que les présentations ou les photos, sera disponible sur le site web de l'événement.",
+  "previousEditions": "À quoi ressemblent les éditions précédentes ?",
+  "previousEditionsText": "Consultez notre galerie pour voir les événements antérieurs.",
+  "becomeSponsor": "Comment devenir sponsor ?",
+  "becomeSponsorText": "Écrivez-nous directement à l'adresse ","becomeSponsorText2": "Ou laissez vos coordonnées ici : "
 }

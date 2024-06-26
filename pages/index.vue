@@ -42,16 +42,10 @@
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#footer">Contact</a></li>
               <li>
-                <a
-                  href="#"
-                  v-if="locale == 'fr'"
-                  @click="switchLanguage('en')"
+                <a href="#" v-if="locale == 'fr'" @click="switchLanguage('en')"
                   >EN</a
                 >
-                <a
-                  href="#"
-                  v-if="locale == 'en'"
-                  @click="switchLanguage('fr')"
+                <a href="#" v-if="locale == 'en'" @click="switchLanguage('fr')"
                   >FR</a
                 >
               </li>
@@ -158,15 +152,15 @@
               </div>
               <div class="col-lg-6 col-md-12 col-12">
                 <div class="center">
-                  <h2>{{$t("agendaAppTitle")}}</h2>
+                  <h2>{{ $t("agendaAppTitle") }}</h2>
                   <p style="color: white">
-                    {{$t("agendaAppText")}}
+                    {{ $t("agendaAppText") }}
                   </p>
                   <NuxtLink
                     to="/agenda"
                     class="btn btn-lg btn-yellow"
                     target="”_blank”"
-                    >{{$t("agendaAppCTA")}}</NuxtLink
+                    >{{ $t("agendaAppCTA") }}</NuxtLink
                   >
                   <!-- <a
                     href="./ratesessions?surelynotcached"
@@ -189,7 +183,7 @@
         <section id="venue" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
-              <h2>{{$t('location')}}</h2>
+              <h2>{{ $t("location") }}</h2>
             </div>
 
             <div class="row no-gutters">
@@ -348,7 +342,7 @@
         <section id="gallery" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
-              <h2>{{$t('gallery')}}</h2>
+              <h2>{{ $t("gallery") }}</h2>
             </div>
 
             <div class="carousel">
@@ -432,7 +426,7 @@
         <section id="supporters" class="section-with-bg wow fadeIn">
           <div class="container">
             <div class="section-header">
-              <h2>{{$t('ourSponsors')}}</h2>
+              <h2>{{ $t("ourSponsors") }}</h2>
             </div>
 
             <h3 class="text-center"></h3>
@@ -496,7 +490,7 @@
                 </div>
               </div> -->
 
-            <h3 class="text-center">{{$t('gold')}}</h3>
+            <h3 class="text-center">{{ $t("gold") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -521,7 +515,7 @@
               </div> -->
             </div>
 
-            <h3 class="text-center">{{$t('silver')}}</h3>
+            <h3 class="text-center">{{ $t("silver") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -536,7 +530,7 @@
               </div>
             </div>
 
-            <h3 class="text-center">{{$t('community')}}</h3>
+            <h3 class="text-center">{{ $t("community") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -566,12 +560,12 @@
               style="font-size: 1.2rem; font-weight: 700"
             >
               <p>
-                {{$t('interestedSponsor')}}
+                {{ $t("interestedSponsor") }}
                 <NuxtLink
                   to="https://docs.google.com/forms/d/1A5RpqPjdk03atwUGL0bMsdkqDaazVu3iVCBfm_hZoHM/edit"
                   target="_blank"
                   class="text-orange-400 hover:text-orange-600"
-                  >{{$t('applySponsor')}}</NuxtLink
+                  >{{ $t("applySponsor") }}</NuxtLink
                 >
               </p>
             </div>
@@ -588,13 +582,13 @@
         >
           <div class="container">
             <div class="section-header">
-              <h2>{{$t('speakers')}}</h2>
+              <h2>{{ $t("speakers") }}</h2>
             </div>
             <div
               style="text-align: center; margin-top: -1rem; margin-bottom: 2rem"
             >
               <h4 style="color: #ff9b00; font-weight: bold; font-size: larger">
-                {{$t('keynoteSpeakers')}}
+                {{ $t("keynoteSpeakers") }}
               </h4>
             </div>
             <div class="row">
@@ -655,7 +649,7 @@
         >
           <div class="container">
             <div class="section-header">
-              <h2>{{$t('organizers')}}</h2>
+              <h2>{{ $t("organizers") }}</h2>
             </div>
 
             <div class="row">
@@ -687,7 +681,7 @@
           <section id="venue" class="wow fadeIn">
             <div class="container-fluid">
               <div class="section-header">
-                <h2>{{$t('volunteers')}}</h2>
+                <h2>{{ $t("volunteers") }}</h2>
               </div>
 
               <div style="display: flex; justify-content: center">
@@ -695,7 +689,7 @@
                   to="/volunteers"
                   class="btn btn-lg btn-yellow"
                   target="”_blank”"
-                  >{{$t('allVolunteers')}}</NuxtLink
+                  >{{ $t("allVolunteers") }}</NuxtLink
                 >
               </div>
             </div>
@@ -719,25 +713,21 @@
                       data-toggle="collapse"
                       class="header collapsed"
                       href="#faq1"
-                      ><span>What is AWS Community Day?</span
+                      ><span>{{ $t("whatAWS") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq1" class="collapse" data-parent="#faq-list">
                       <p>
-                        AWS Community Day is a one-day event organized by the
-                        AWS community for the community. It's an opportunity for
-                        AWS users to meet and learn from each other, share best
-                        practices, and listen to presentations from industry
-                        experts.
+                        {{ $t("whatAWSText") }}
                       </p>
                       <p>
-                        More information can be found on the official
+                        {{ $t("whatAWSMore") }}
                         <a
                           class="text-decoration-none"
                           href="https://aws.amazon.com/events/community-day/"
                           >AWS Community Day</a
                         >
-                        website
+                        {{ $t("whatAWSMore2") }}
                       </p>
                     </div>
                   </li>
@@ -747,13 +737,12 @@
                       data-toggle="collapse"
                       href="#faq2"
                       class="header collapsed"
-                      ><span>Who can participate in the event?</span
+                      ><span>{{ $t("whoAttend") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq2" class="collapse" data-parent="#faq-list">
                       <p>
-                        AWS Community Day is open to all interested AWS users,
-                        regardless of their level of expertise.
+                        {{ $t("whoAttendText") }}
                       </p>
                     </div>
                   </li>
@@ -763,15 +752,12 @@
                       data-toggle="collapse"
                       href="#faq3"
                       class="header collapsed"
-                      ><span
-                        >Is registration required to participate in the
-                        event?</span
+                      ><span>{{ $t("registration") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq3" class="collapse" data-parent="#faq-list">
                       <p>
-                        Yes, registration is required to participate in the
-                        event. Please register on the event website.
+                        {{ $t("registrationText") }}
                       </p>
                     </div>
                   </li>
@@ -781,15 +767,12 @@
                       data-toggle="collapse"
                       href="#faq4"
                       class="header collapsed"
-                      ><span
-                        >Are there any fees associated with participating in the
-                        event?</span
+                      ><span>{{ $t("fees") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq4" class="collapse" data-parent="#faq-list">
                       <p>
-                        No, participation in AWS Community Day is free of
-                        charge.
+                        {{ $t("feesText") }}
                       </p>
                     </div>
                   </li>
@@ -799,16 +782,17 @@
                       data-toggle="collapse"
                       href="#faq5"
                       class="header collapsed"
-                      ><span
-                        >Where will the event take place and how much will it
-                        cost to get there?</span
+                      ><span>{{ $t("wherePlace") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq5" class="collapse" data-parent="#faq-list">
                       <p>
-                        The event will be at the CanalOlympia cinema at Gare de Bessengue just before Camrail.
-                        It is a single drop from Rond Point Deido or 350frs by taxi.
-                        You can also book a ride with <a href="https://yango.com/en_cm/city/douala/" target="_blank">Yango</a>
+                        {{ $t("wherePlaceText")
+                        }}<a
+                          href="https://yango.com/en_cm/city/douala/"
+                          target="_blank"
+                          >Yango</a
+                        >
                       </p>
                     </div>
                   </li>
@@ -818,15 +802,12 @@
                       data-toggle="collapse"
                       href="#faq6"
                       class="header collapsed"
-                      ><span
-                        >Will there be any materials available from the
-                        event?</span
+                      ><span>{{ $t("materials") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq6" class="collapse" data-parent="#faq-list">
                       <p>
-                        Yes, materials from the event, such as presentations or
-                        photos, will be made available on the event website.
+                        {{ $t("materialsText") }}
                       </p>
                     </div>
                   </li>
@@ -836,11 +817,11 @@
                       data-toggle="collapse"
                       href="#faq7"
                       class="header collapsed"
-                      ><span>What does the previous editions look like?</span
+                      ><span>{{ $t("previousEditions") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq7" class="collapse" data-parent="#faq-list">
-                      <p>Just say Check out our gallery for previous events.</p>
+                      <p>{{ $t("previousEditionsText") }}</p>
                     </div>
                   </li>
 
@@ -849,16 +830,16 @@
                       data-toggle="collapse"
                       href="#faq8"
                       class="header collapsed"
-                      ><span>How to become a sponsor?</span
+                      ><span>{{$t('becomeSponsor')}}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq8" class="collapse" data-parent="#faq-list">
                       <p>
-                        Write to us directly at
+                        {{$t('becomeSponsorText')}}
                         <a href="mailto:awsugdouala@gmail.com"
                           >awsugdouala@gmail.com</a
                         >
-                        Or leave a contact here:
+                        {{$t('becomeSponsorText2')}}
                         <a href="cutt.ly/awsugcmr-sponsor"
                           >cutt.ly/awsugcmr-sponsor</a
                         >.
@@ -876,7 +857,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-header mb-3">
-                  <h2>{{$t('brought')}}</h2>
+                  <h2>{{ $t("brought") }}</h2>
                 </div>
               </div>
               <div class="col-12 mt-3 mb-5">
