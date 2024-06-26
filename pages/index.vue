@@ -17,17 +17,38 @@
 
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li class="menu-active"><a href="#intro">Home</a></li>
-              <li><a href="#schedule">Agenda</a></li>
-              <li><a href="#venue">Location</a></li>
-              <li><a href="#gallery">Gallery</a></li>
+              <li class="menu-active">
+                <a href="#intro">{{ $t("home") }}</a>
+              </li>
+              <li>
+                <a href="#schedule">{{ $t("agenda") }}</a>
+              </li>
+              <li>
+                <a href="#venue">{{ $t("location") }}</a>
+              </li>
+              <li>
+                <a href="#gallery">{{ $t("gallery") }}</a>
+              </li>
               <li><a href="#supporters">Sponsors</a></li>
-              <li><a href="#speakers">Speakers</a></li>
-              <li><a href="#organizers">Organizers</a></li>
-              <li><a href="#volunteers">Volunteers</a></li>
+              <li>
+                <a href="#speakers">{{ $t("speakers") }}</a>
+              </li>
+              <li>
+                <a href="#organizers">{{ $t("organizers") }}</a>
+              </li>
+              <li>
+                <a href="#volunteers">{{ $t("volunteers") }}</a>
+              </li>
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#footer">Contact</a></li>
-              <li><a href="../">FR</a></li>
+              <li>
+                <a href="#" v-if="locale == 'fr'" @click="switchLanguage('en')"
+                  >EN</a
+                >
+                <a href="#" v-if="locale == 'en'" @click="switchLanguage('fr')"
+                  >FR</a
+                >
+              </li>
             </ul>
           </nav>
           <!-- #nav-menu-container -->
@@ -45,14 +66,14 @@
             class="logo"
             title="AWS Community Day Cameroon"
           />
-          <h4 class="mb-4 pt-4 pb-0">13th July 2024, Douala</h4>
+          <h4 class="mb-4 pt-4 pb-0">{{ $t("date") }}, Douala</h4>
           <div class="text-center">
             <a
               href="https://docs.google.com/forms/d/1EUVFyK4U85jVJgSr_NmZPQAmZKrl9L04BCmB37hYQK8/edit"
               target="_blank"
               type="button"
               class="btn btn-lg btn-yellow"
-              >Register</a
+              >{{ $t("register") }}</a
             >
           </div>
         </div>
@@ -67,8 +88,8 @@
             <div class="row justify-content-center">
               <div class="col-lg-6 text-center text-md-left">
                 <h1>
-                  Countdown to the largest <span>AWS</span> cloud conference in
-                  Cameroon
+                  {{ $t("countTitle1") }} <span>AWS</span>
+                  {{ $t("countTitle2") }}
                 </h1>
               </div>
               <div class="col-lg-6">
@@ -79,7 +100,7 @@
                         {{ days }}
                       </div>
                       <div id="js-clock-days-label" class="clock-label">
-                        Days
+                        {{ $t("days") }}
                       </div>
                     </div>
                     <div class="box"></div>
@@ -87,7 +108,7 @@
                       <div id="js-clock-hours" class="clock-number">
                         {{ hours }}
                       </div>
-                      <div class="clock-label">Hours</div>
+                      <div class="clock-label">{{ $t("hours") }}</div>
                     </div>
                     <div class="box">
                       <div id="js-clock-minutes" class="clock-number">
@@ -100,7 +121,7 @@
                         <div id="js-clock-seconds" class="clock-number">
                           {{ seconds }}
                         </div>
-                        <div class="clock-label">Seconds</div>
+                        <div class="clock-label">{{ $t("seconds") }}</div>
                       </div>
                     </div>
                     <div class="box"></div>
@@ -117,7 +138,7 @@
         <section id="schedule" class="section-with-bg">
           <div class="container wow fadeIn">
             <div class="section-header">
-              <h2>Agenda</h2>
+              <h2>{{ $t("agenda") }}</h2>
             </div>
             <div class="row justify-content-center">
               <div class="col-lg-6 d-none d-md-block">
@@ -131,16 +152,15 @@
               </div>
               <div class="col-lg-6 col-md-12 col-12">
                 <div class="center">
-                  <h2>Stay Organized with Agenda App!</h2>
+                  <h2>{{ $t("agendaAppTitle") }}</h2>
                   <p style="color: white">
-                    Get our Agenda App today and have all the agenda details and
-                    important updates right at your fingertips, wherever you go.
+                    {{ $t("agendaAppText") }}
                   </p>
                   <NuxtLink
                     to="/agenda"
                     class="btn btn-lg btn-yellow"
                     target="”_blank”"
-                    >Open Agenda App</NuxtLink
+                    >{{ $t("agendaAppCTA") }}</NuxtLink
                   >
                   <!-- <a
                     href="./ratesessions?surelynotcached"
@@ -163,7 +183,7 @@
         <section id="venue" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
-              <h2>Location</h2>
+              <h2>{{ $t("location") }}</h2>
             </div>
 
             <div class="row no-gutters">
@@ -322,7 +342,7 @@
         <section id="gallery" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
-              <h2>Gallery</h2>
+              <h2>{{ $t("gallery") }}</h2>
             </div>
 
             <div class="carousel">
@@ -335,9 +355,9 @@
               </div>
               <div class="">
                 <img
-                    src="~/assets/img/past-events/event-07.jpg"
-                    class="img-fluid gallery-image"
-                    alt="Carousel Image"
+                  src="~/assets/img/past-events/event-07.jpg"
+                  class="img-fluid gallery-image"
+                  alt="Carousel Image"
                 />
               </div>
               <div class="">
@@ -356,9 +376,9 @@
               </div>
               <div class="">
                 <img
-                    src="~/assets/img/past-events/event-08.jpg"
-                    class="img-fluid gallery-image"
-                    alt="Carousel Image"
+                  src="~/assets/img/past-events/event-08.jpg"
+                  class="img-fluid gallery-image"
+                  alt="Carousel Image"
                 />
               </div>
               <div class="">
@@ -377,9 +397,9 @@
               </div>
               <div class="">
                 <img
-                    src="~/assets/img/past-events/event-09.jpg"
-                    class="img-fluid gallery-image"
-                    alt="Carousel Image"
+                  src="~/assets/img/past-events/event-09.jpg"
+                  class="img-fluid gallery-image"
+                  alt="Carousel Image"
                 />
               </div>
               <div class="">
@@ -391,9 +411,9 @@
               </div>
               <div class="">
                 <img
-                    src="~/assets/img/past-events/event-10.jpg"
-                    class="img-fluid gallery-image"
-                    alt="Carousel Image"
+                  src="~/assets/img/past-events/event-10.jpg"
+                  class="img-fluid gallery-image"
+                  alt="Carousel Image"
                 />
               </div>
             </div>
@@ -406,7 +426,7 @@
         <section id="supporters" class="section-with-bg wow fadeIn">
           <div class="container">
             <div class="section-header">
-              <h2>OUR ESTEEMED SPONSORS</h2>
+              <h2>{{ $t("ourSponsors") }}</h2>
             </div>
 
             <h3 class="text-center"></h3>
@@ -470,7 +490,7 @@
                 </div>
               </div> -->
 
-            <h3 class="text-center">Gold</h3>
+            <h3 class="text-center">{{ $t("gold") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -495,7 +515,7 @@
               </div> -->
             </div>
 
-            <h3 class="text-center">Silver</h3>
+            <h3 class="text-center">{{ $t("silver") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -510,7 +530,7 @@
               </div>
             </div>
 
-            <h3 class="text-center">Community</h3>
+            <h3 class="text-center">{{ $t("community") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
               <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
@@ -540,12 +560,12 @@
               style="font-size: 1.2rem; font-weight: 700"
             >
               <p>
-                Interested in becoming a sponsor?
+                {{ $t("interestedSponsor") }}
                 <NuxtLink
                   to="https://docs.google.com/forms/d/1A5RpqPjdk03atwUGL0bMsdkqDaazVu3iVCBfm_hZoHM/edit"
                   target="_blank"
                   class="text-orange-400 hover:text-orange-600"
-                  >Apply here</NuxtLink
+                  >{{ $t("applySponsor") }}</NuxtLink
                 >
               </p>
             </div>
@@ -562,13 +582,13 @@
         >
           <div class="container">
             <div class="section-header">
-              <h2>SPEAKERS</h2>
+              <h2>{{ $t("speakers") }}</h2>
             </div>
             <div
               style="text-align: center; margin-top: -1rem; margin-bottom: 2rem"
             >
               <h4 style="color: #ff9b00; font-weight: bold; font-size: larger">
-                Keynote Speakers
+                {{ $t("keynoteSpeakers") }}
               </h4>
             </div>
             <div class="row">
@@ -629,7 +649,7 @@
         >
           <div class="container">
             <div class="section-header">
-              <h2>Organizers</h2>
+              <h2>{{ $t("organizers") }}</h2>
             </div>
 
             <div class="row">
@@ -661,7 +681,7 @@
           <section id="venue" class="wow fadeIn">
             <div class="container-fluid">
               <div class="section-header">
-                <h2>Volunteers</h2>
+                <h2>{{ $t("volunteers") }}</h2>
               </div>
 
               <div style="display: flex; justify-content: center">
@@ -669,7 +689,7 @@
                   to="/volunteers"
                   class="btn btn-lg btn-yellow"
                   target="”_blank”"
-                  >See all volunteers</NuxtLink
+                  >{{ $t("allVolunteers") }}</NuxtLink
                 >
               </div>
             </div>
@@ -693,25 +713,21 @@
                       data-toggle="collapse"
                       class="header collapsed"
                       href="#faq1"
-                      ><span>What is AWS Community Day?</span
+                      ><span>{{ $t("whatAWS") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq1" class="collapse" data-parent="#faq-list">
                       <p>
-                        AWS Community Day is a one-day event organized by the
-                        AWS community for the community. It's an opportunity for
-                        AWS users to meet and learn from each other, share best
-                        practices, and listen to presentations from industry
-                        experts.
+                        {{ $t("whatAWSText") }}
                       </p>
                       <p>
-                        More information can be found on the official
+                        {{ $t("whatAWSMore") }}
                         <a
                           class="text-decoration-none"
                           href="https://aws.amazon.com/events/community-day/"
                           >AWS Community Day</a
                         >
-                        website
+                        {{ $t("whatAWSMore2") }}
                       </p>
                     </div>
                   </li>
@@ -721,13 +737,12 @@
                       data-toggle="collapse"
                       href="#faq2"
                       class="header collapsed"
-                      ><span>Who can participate in the event?</span
+                      ><span>{{ $t("whoAttend") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq2" class="collapse" data-parent="#faq-list">
                       <p>
-                        AWS Community Day is open to all interested AWS users,
-                        regardless of their level of expertise.
+                        {{ $t("whoAttendText") }}
                       </p>
                     </div>
                   </li>
@@ -737,15 +752,12 @@
                       data-toggle="collapse"
                       href="#faq3"
                       class="header collapsed"
-                      ><span
-                        >Is registration required to participate in the
-                        event?</span
+                      ><span>{{ $t("registration") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq3" class="collapse" data-parent="#faq-list">
                       <p>
-                        Yes, registration is required to participate in the
-                        event. Please register on the event website.
+                        {{ $t("registrationText") }}
                       </p>
                     </div>
                   </li>
@@ -755,15 +767,12 @@
                       data-toggle="collapse"
                       href="#faq4"
                       class="header collapsed"
-                      ><span
-                        >Are there any fees associated with participating in the
-                        event?</span
+                      ><span>{{ $t("fees") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq4" class="collapse" data-parent="#faq-list">
                       <p>
-                        No, participation in AWS Community Day is free of
-                        charge.
+                        {{ $t("feesText") }}
                       </p>
                     </div>
                   </li>
@@ -773,16 +782,17 @@
                       data-toggle="collapse"
                       href="#faq5"
                       class="header collapsed"
-                      ><span
-                        >Where will the event take place and how much will it
-                        cost to get there?</span
+                      ><span>{{ $t("wherePlace") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq5" class="collapse" data-parent="#faq-list">
                       <p>
-                        The event will be at the CanalOlympia cinema at Gare de Bessengue just before Camrail.
-                        It is a single drop from Rond Point Deido or 350frs by taxi.
-                        You can also book a ride with <a href="https://yango.com/en_cm/city/douala/" target="_blank">Yango</a>
+                        {{ $t("wherePlaceText")
+                        }}<a
+                          href="https://yango.com/en_cm/city/douala/"
+                          target="_blank"
+                          >Yango</a
+                        >
                       </p>
                     </div>
                   </li>
@@ -792,15 +802,12 @@
                       data-toggle="collapse"
                       href="#faq6"
                       class="header collapsed"
-                      ><span
-                        >Will there be any materials available from the
-                        event?</span
+                      ><span>{{ $t("materials") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq6" class="collapse" data-parent="#faq-list">
                       <p>
-                        Yes, materials from the event, such as presentations or
-                        photos, will be made available on the event website.
+                        {{ $t("materialsText") }}
                       </p>
                     </div>
                   </li>
@@ -810,11 +817,11 @@
                       data-toggle="collapse"
                       href="#faq7"
                       class="header collapsed"
-                      ><span>What does the previous editions look like?</span
+                      ><span>{{ $t("previousEditions") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq7" class="collapse" data-parent="#faq-list">
-                      <p>Just say Check out our gallery for previous events.</p>
+                      <p>{{ $t("previousEditionsText") }}</p>
                     </div>
                   </li>
 
@@ -823,16 +830,16 @@
                       data-toggle="collapse"
                       href="#faq8"
                       class="header collapsed"
-                      ><span>How to become a sponsor?</span
+                      ><span>{{ $t("becomeSponsor") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq8" class="collapse" data-parent="#faq-list">
                       <p>
-                        Write to us directly at
+                        {{ $t("becomeSponsorText") }}
                         <a href="mailto:awsugdouala@gmail.com"
                           >awsugdouala@gmail.com</a
                         >
-                        Or leave a contact here:
+                        {{ $t("becomeSponsorText2") }}
                         <a href="cutt.ly/awsugcmr-sponsor"
                           >cutt.ly/awsugcmr-sponsor</a
                         >.
@@ -850,7 +857,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-header mb-3">
-                  <h2>BROUGHT TO YOU BY</h2>
+                  <h2>{{ $t("brought") }}</h2>
                 </div>
               </div>
               <div class="col-12 mt-3 mb-5">
@@ -983,6 +990,8 @@
 <script setup type="ts">
 import { ref } from 'vue';
 import TableComponent from '~/components/TableComponent.vue';
+import { useI18n } from 'vue-i18n';
+
 definePageMeta({
   layout: 'home'
 })
@@ -994,184 +1003,182 @@ const minutes = ref(0);
 const seconds = ref(0);
 const windowWidth = ref(0);
 
-  // function to make the sponsor block clickable
-  function openLink(link) {
-    window.open(link, '_blank');
-  }
 
+const { locale, t } = useI18n();
+// Function to switch between languages
+function switchLanguage(lang){
+  locale.value = lang
+}
 
+// function to make the sponsor block clickable
+function openLink(link) {
+  window.open(link, '_blank');
+}
 
-
-
-  if(process.client){
-    windowWidth.value = window.innerWidth
-    window.addEventListener("resize", () => windowWidth.value = window.innerWidth);
-
-
-
+if (process.client) {
+  windowWidth.value = window.innerWidth
+  window.addEventListener("resize", () => windowWidth.value = window.innerWidth);
 
   setInterval(function () {
-  const now = new Date().getTime();
-  const distance = countDownDate - now;
-  days.value = Math.floor(distance / (1000 * 60 * 60 * 24));
-  hours.value = Math.floor(
-    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
-  );
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
+    days.value = Math.floor(distance / (1000 * 60 * 60 * 24));
+    hours.value = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+    );
     minutes.value = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     seconds.value = Math.floor((distance % (1000 * 60)) / 1000);
   }, 1000);
-
-
 }
 
 const knspeakers = ref([
   {
-      name: "Mohamadou Yacoubou",
-      role: "Principal Solutions Architect",
-      company: "AWS",
-      image: "/speakers/mohamadou_Yacoubou.jpeg",
-      linkedin: "https://www.linkedin.com/in/ymohamadou/"
-    },  {
-      name: "Veliswa Boya",
-      role: "Senior Developer Advocate",
-      company: "AWS",
-      image: "/speakers/Veliswa_boya.jpeg",
-      linkedin: "https://www.linkedin.com/in/veliswa-boya/"
-    },
-   ])
+    name: "Mohamadou Yacoubou",
+    role: "Principal Solutions Architect",
+    company: "AWS",
+    image: "/speakers/mohamadou_Yacoubou.jpeg",
+    linkedin: "https://www.linkedin.com/in/ymohamadou/"
+  }, {
+    name: "Veliswa Boya",
+    role: "Senior Developer Advocate",
+    company: "AWS",
+    image: "/speakers/Veliswa_boya.jpeg",
+    linkedin: "https://www.linkedin.com/in/veliswa-boya/"
+  },
+])
 
-  const speakers = ref([
-    {
-      name: "Cyril Bandolo",
-      role: "AWS Machine Learning Hero",
-      company: "Serverless Guru",
-      image: "/speakers/Cyril.jpg",
-      linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
-    },
-    {
-      name: "Ndimofor Rosius",
-      role: "AWS Serverless Hero",
-      company: "CTO at EduCloud",
-      image: "/speakers/Rosius.jpg",
-      linkedin: "https://www.linkedin.com/in/rosius/"
-    },
+const speakers = ref([
+  {
+    name: "Cyril Bandolo",
+    role: "AWS Machine Learning Hero",
+    company: "Serverless Guru",
+    image: "/speakers/Cyril.jpg",
+    linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
+  },
+  {
+    name: "Ndimofor Rosius",
+    role: "AWS Serverless Hero",
+    company: "CTO at EduCloud",
+    image: "/speakers/Rosius.jpg",
+    linkedin: "https://www.linkedin.com/in/rosius/"
+  },
 
-    {
-      name: "Tobenna Nwokike",
-      role: "Senior Serverless Developer",
-      company: "Serverless Guru LLC",
-      image: "/speakers/tobenna-nwokike.jpg",
-      linkedin: "https://www.linkedin.com/in/tobenna-nwokike/"
-    },
-    {
-      name: "Sébastien Stormacq",
-      role: "Principal Developer Advocate",
-      company: "AWS",
-      image: "/speakers/sebastien_stormaq.jpg",
-      linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
-    },
-    {
-      name: "Soh Juvitus Leong",
-      role: "Data Scientist ",
-      company: "CEO of Skye8 Company Ltd",
-      image: "/speakers/soh-juvitus-leong.jpg",
-      linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
-    },
-    {
-      name: "Witah Georjane",
-      role: "AWS Cloud Developer",
-      company: "Yogaya Inc",
-      image: "/speakers/Georjane_Witah.jpg",
-      linkedin: "https://www.linkedin.com/in/witah-georjane/"
-    },
-    {
-      name: "Thembile Ndlovu",
-      role: "Community Manager",
-      company: "AWS",
-      image: "/speakers/Thembile_Ndlovu.jpg",
-      linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
-    },
-    {
-      name: "Pierre Ange Leundeu",
-      role: "Data / ML Engineer",
-      company: "DevoTeam",
-      image: "/speakers/Pierre_Ange.jpg",
-      linkedin: "https://www.linkedin.com/in/paleundeu/"
-    },
-    {
-      name: "Dirane Tafen",
-      role: "IT Engineer",
-      company: "CTO of EAZYTraining.fr",
-      image: "/speakers/willy_dirane.jpg",
-      linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
-    },
-  ]);
+  {
+    name: "Tobenna Nwokike",
+    role: "Senior Serverless Developer",
+    company: "Serverless Guru LLC",
+    image: "/speakers/tobenna-nwokike.jpg",
+    linkedin: "https://www.linkedin.com/in/tobenna-nwokike/"
+  },
+  {
+    name: "Sébastien Stormacq",
+    role: "Principal Developer Advocate",
+    company: "AWS",
+    image: "/speakers/sebastien_stormaq.jpg",
+    linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
+  },
+  {
+    name: "Soh Juvitus Leong",
+    role: "Data Scientist ",
+    company: "CEO of Skye8 Company Ltd",
+    image: "/speakers/soh-juvitus-leong.jpg",
+    linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
+  },
+  {
+    name: "Witah Georjane",
+    role: "AWS Cloud Developer",
+    company: "Yogaya Inc",
+    image: "/speakers/Georjane_Witah.jpg",
+    linkedin: "https://www.linkedin.com/in/witah-georjane/"
+  },
+  {
+    name: "Thembile Ndlovu",
+    role: "Community Manager",
+    company: "AWS",
+    image: "/speakers/Thembile_Ndlovu.jpg",
+    linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
+  },
+  {
+    name: "Pierre Ange Leundeu",
+    role: "Data / ML Engineer",
+    company: "DevoTeam",
+    image: "/speakers/Pierre_Ange.jpg",
+    linkedin: "https://www.linkedin.com/in/paleundeu/"
+  },
+  {
+    name: "Dirane Tafen",
+    role: "IT Engineer",
+    company: "CTO of EAZYTraining.fr",
+    image: "/speakers/willy_dirane.jpg",
+    linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
+  },
+]);
 
-  const organizers = ref([
-    {
-      name: "Nkwenti Fon Nkwenti",
-      group: "AWS User Group Douala",
-      image: "/organizers/Fon_Nkwenti.png",
-      linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
-    },
-    {
-      name: "Cyril Bandolo",
-      group: "AWS User Group Douala",
-      image: "/speakers/Cyril.jpg",
-      linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
-    },
-    {
-      name: "Ndimofor Rosius",
-      group: "AWS User Group Douala",
-      image: "/speakers/Rosius.jpg",
-      linkedin: "https://www.linkedin.com/in/rosius/"
-    },
-    {
-      name: "Antoine Choula",
-      group: "AWS User Group Douala",
-      image: "/organizers/Antoine.jpeg",
-      linkedin: "https://www.linkedin.com/in/antoine-choula/"
-    },
+const organizers = ref([
+  {
+    name: "Nkwenti Fon Nkwenti",
+    group: "AWS User Group Douala",
+    image: "/organizers/Fon_Nkwenti.png",
+    linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
+  },
+  {
+    name: "Cyril Bandolo",
+    group: "AWS User Group Douala",
+    image: "/speakers/Cyril.jpg",
+    linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
+  },
+  {
+    name: "Ndimofor Rosius",
+    group: "AWS User Group Douala",
+    image: "/speakers/Rosius.jpg",
+    linkedin: "https://www.linkedin.com/in/rosius/"
+  },
+  {
+    name: "Antoine Choula",
+    group: "AWS User Group Douala",
+    image: "/organizers/Antoine.jpeg",
+    linkedin: "https://www.linkedin.com/in/antoine-choula/"
+  },
 
-    {
-      name: "Asongwed Samantha",
-      group: "AWS User Group Douala",
-      image: "/organizers/samantha.png",
-      linkedin: "https://www.linkedin.com/in/asongwedsamantha/"
-    },
+  {
+    name: "Asongwed Samantha",
+    group: "AWS User Group Douala",
+    image: "/organizers/samantha.png",
+    linkedin: "https://www.linkedin.com/in/asongwedsamantha/"
+  },
 
-    {
-      name: "Steve Yonkeu",
-      group: "AWS User Group Douala",
-      image: "/organizers/SteveYonkeu.jpeg",
-      linkedin: "https://www.linkedin.com/in/yokwejuste/"
-    },
-    {
-      name: "Paula Ali Wakabi",
-      group: "AWS User Group Yaounde",
-      image: "/organizers/Paula.jpg",
-      linkedin: "https://www.linkedin.com/in/paulaaliwakabi/"
-    },
-    {
-      name: "Chi Che",
-      group: "AWS User Group Yaounde",
-      image: "/organizers/Chi_Che.jpeg",
-      linkedin: "https://www.linkedin.com/in/chi-che/"
-    },
-    {
-      name: "Delia Ayoko",
-      group: "AWS Cloud Clubs UBa",
-      image: "/organizers/Delia_Ayoko.jpg",
-      linkedin: "https://www.linkedin.com/in/delia-ayoko/"
-    },
-    {
-      name: "Ngumih Fien",
-      group: "AWS Cloud Clubs UBa",
-      image: "/organizers/Ngumih_Fien.jpg",
-      linkedin: "https://www.linkedin.com/in/ngumih-fien/"
-    },
+  {
+    name: "Steve Yonkeu",
+    group: "AWS User Group Douala",
+    image: "/organizers/SteveYonkeu.jpeg",
+    linkedin: "https://www.linkedin.com/in/yokwejuste/"
+  },
+  {
+    name: "Paula Ali Wakabi",
+    group: "AWS User Group Yaounde",
+    image: "/organizers/Paula.jpg",
+    linkedin: "https://www.linkedin.com/in/paulaaliwakabi/"
+  },
+  {
+    name: "Chi Che",
+    group: "AWS User Group Yaounde",
+    image: "/organizers/Chi_Che.jpeg",
+    linkedin: "https://www.linkedin.com/in/chi-che/"
+  },
+  {
+    name: "Delia Ayoko",
+    group: "AWS Cloud Clubs UBa",
+    image: "/organizers/Delia_Ayoko.jpg",
+    linkedin: "https://www.linkedin.com/in/delia-ayoko/"
+  },
+  {
+    name: "Ngumih Fien",
+    group: "AWS Cloud Clubs UBa",
+    image: "/organizers/Ngumih_Fien.jpg",
+    linkedin: "https://www.linkedin.com/in/ngumih-fien/"
+  },
 
-  ]);
+]);
 </script>
 
 <style></style>

@@ -88,6 +88,12 @@ const volunteers = ref([
     twitterLink: "https://x.com/desmond__neba",
     image: "/images/n_desmond.jpeg",
   },
+  {
+    firstname: "BEN H.",
+    lastname: "ABDEL-KALIF",
+    twitterLink: "https://www.linkedin.com/in/ben-hamadou-abdel-kalif-671111228/",
+    image: "/images/ingenio.jpeg",
+  },
 ]);
 </script>
 
