@@ -6,12 +6,12 @@
           <div class="tr">
             <div class="th idx">
               <div>
-                <p>Time</p>
+                <p>{{ $t("time") }}</p>
               </div>
             </div>
             <div class="th" colspan="4">
               <div>
-                <p>Track 1</p>
+                <p>{{ $t("track") }}</p>
               </div>
             </div>
           </div>
@@ -20,24 +20,24 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>09:00 AM - 10:00 AM</p>
+                <p>{{ $t("time1") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
-                <p>Check-In and Networking</p>
+                <p>{{ $t("track1") }}</p>
               </div>
             </div>
           </div>
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>10:00 AM - 10:05 AM</p>
+                <p>{{ $t("time2") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
-                <p>Welcome</p>
+                <p>{{ $t("track2") }}</p>
               </div>
             </div>
           </div>
@@ -45,19 +45,17 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>10:05 AM - 10:35 AM</p>
+                <p>{{ $t("time3") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
                   <span style="color: #ff9b00; font-weight: bold"
-                    >Keynote:
+                    >{{ $t("track3") }}:
                   </span>
-                  <span style="font-weight: bold"
-                    >“Unleashing Innovation with GenAI”
-                  </span>
-                  by Mohamadou Yacoubou, Principal Solutions Architect, AWS
+                  <span style="font-weight: bold">“{{ $t("track3-1") }}” </span>
+                  {{ $t("track3-2") }}
                 </p>
               </div>
             </div>
@@ -65,19 +63,17 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>10:35 AM - 11:05 AM</p>
+                <p>{{ $t("time4") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
                   <span style="color: #ff9b00; font-weight: bold"
-                    >Developer Keynote:
+                    >{{ $t("track4") }}:
                   </span>
-                  <span style="font-weight: bold"
-                    >“Technical Content for Personal Branding”
-                  </span>
-                  by Veliswa Boya, Developer Advocacy, AWS
+                  <span style="font-weight: bold">“{{ $t("track4-1") }}” </span>
+                  {{ $t("track4-2") }}
                 </p>
               </div>
             </div>
@@ -85,16 +81,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>11:10 AM - 11:40 AM</p>
+                <p>{{ $t("time5") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                    >“Introduction à la Data Ingénierie sur AWS, Pierre Ange Leundeu, Data & ML Engineer”
-                  </span>
-                  by Pierre Ange Leundeu, Data / ML Engineer, DevoTeam
+                  <span style="font-weight: bold">“{{ $t("track5") }}” </span>
+                  {{ $t("track5-1") }}
                 </p>
               </div>
             </div>
@@ -102,16 +96,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>11:45 AM - 12:15 AM</p>
+                <p>{{ $t("time6") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                  >“Enhancing Developer Productivity With Amazon Q”
-                  </span>
-                  by Cyril Bandolo, AWS Machine Learning Hero/ Serverless Developer Serverless Guru
+                  <span style="font-weight: bold">“{{ $t("track6") }}” </span>
+                  {{ $t("track6-1") }}
                 </p>
               </div>
             </div>
@@ -119,13 +111,13 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>12:15 PM - 12:45 AM</p>
+                <p>{{ $t("time7") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold">BREAK</span>
+                  <span style="font-weight: bold">{{ $t("track7") }}</span>
                 </p>
               </div>
             </div>
@@ -133,16 +125,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>12:45 PM - 01:15 PM</p>
+                <p>{{ $t("time8") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                  >“How To Scale A Monolithic And Stateful Application On AWS (FR)”
-                  </span>
-                  by Dirane Tafen, DevOps and Cloud Expert, EazyTraining
+                  <span style="font-weight: bold">“{{ $t("track8") }}” </span>
+                  {{ $t("track8-1") }}
                 </p>
               </div>
             </div>
@@ -150,16 +140,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>01:15 PM - 01:45 PM</p>
+                <p>{{ $t("time9") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                  >“L'art de transformer un modèle de fondation en un expert mètier”
-                  </span>
-                  by Sèbastien (Seb) Stormacq, Principal Developer Advocate, Amazon Web Services
+                  <span style="font-weight: bold">“{{ $t("track9") }}” </span>
+                  {{ $t("track9-1") }}
                 </p>
               </div>
             </div>
@@ -167,16 +155,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>01:45 PM - 01:55 PM</p>
+                <p>{{ $t("time10") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                  >“Getting Remote Jobs In This Current Economy”
-                  </span>
-                  by Rosius Ndimofor Ateh, Serverless Hero / CTO, EduCloud Academy
+                  <span style="font-weight: bold">“{{ $t("track10") }}” </span>
+                  {{ $t("track10-1") }}
                 </p>
               </div>
             </div>
@@ -184,16 +170,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>01:55 PM - 02:05 PM</p>
+                <p>{{ $t("time11") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                  >From Novice To Cloud Professional: “My Journey In AWS And Inspiring The Next Generation”
-                  </span>
-                  by Witah Geojane, Technical Lead, Her Blueprint Africa
+                  <span style="font-weight: bold">{{ $t("track11") }} </span>
+                  {{ $t("track11-1") }}
                 </p>
               </div>
             </div>
@@ -201,16 +185,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>02:05 PM - 02:35 PM</p>
+                <p>{{ $t("time12") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                  >“Data-Driven Decision-Making: Leveraging AWS For Business Success”
-                  </span>
-                  by Soh Juvitus Leong, Founder / CEO, Skye8 Company
+                  <span style="font-weight: bold">“{{ $t("track12") }}” </span>
+                  {{ $t("track12-1") }}
                 </p>
               </div>
             </div>
@@ -218,16 +200,14 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>02:35 PM - 03:05 PM</p>
+                <p>{{ $t("time13") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold"
-                  >“Building Event-Driven FinTech Applications With Serverless Technologies On AWS”
-                  </span>
-                  by Tobenna Nwokike, Senior Serverless Developer, Serverless Guru
+                  <span style="font-weight: bold">“{{ $t("track13") }}” </span>
+                  {{ $t("track13-1") }}
                 </p>
               </div>
             </div>
@@ -235,16 +215,16 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>03:05 PM - 03:15 PM</p>
+                <p>{{$t('time14')}}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
                   <span style="font-weight: bold"
-                  >“Navigating the Cloud and DevOps Job Market”
+                    >“{{$t('track14')}}”
                   </span>
-                  by Gwei Michael Wawa, CEO / Founder, Wandaprep Ltd
+                  {{$t('track14-1')}}
                 </p>
               </div>
             </div>
@@ -322,7 +302,7 @@
             <div class="td" colspan="4">
               <div>
                 <!-- <p>Closing Note</p> -->
-                <p>To be Announced</p>
+                <p>{{$t('track15')}}</p>
               </div>
             </div>
           </div>
@@ -332,7 +312,6 @@
   </div>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>

@@ -830,16 +830,16 @@
                       data-toggle="collapse"
                       href="#faq8"
                       class="header collapsed"
-                      ><span>{{$t('becomeSponsor')}}</span
+                      ><span>{{ $t("becomeSponsor") }}</span
                       ><i class="fa fa-minus-circle"></i
                     ></a>
                     <div id="faq8" class="collapse" data-parent="#faq-list">
                       <p>
-                        {{$t('becomeSponsorText')}}
+                        {{ $t("becomeSponsorText") }}
                         <a href="mailto:awsugdouala@gmail.com"
                           >awsugdouala@gmail.com</a
                         >
-                        {{$t('becomeSponsorText2')}}
+                        {{ $t("becomeSponsorText2") }}
                         <a href="cutt.ly/awsugcmr-sponsor"
                           >cutt.ly/awsugcmr-sponsor</a
                         >.
