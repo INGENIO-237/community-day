@@ -27,7 +27,12 @@
               <li><a href="#volunteers">Volunteers</a></li>
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#footer">Contact</a></li>
-              <li><a href="../">FR</a></li>
+              <div
+                style="color: red; z-index: 105; background: #000"
+                @click="translate()"
+              >
+                <span>FR</span>
+              </div>
             </ul>
           </nav>
           <!-- #nav-menu-container -->
@@ -1144,6 +1149,11 @@ const knspeakers = ref([
     },
 
   ]);
+
+
+  const translate = ()=> {
+    console.log("cliecked")
+  }
 </script>
 
 <style></style>
