@@ -503,7 +503,7 @@
                   </a>
                 </div>
               </div>
-              <!-- <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+          <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
                 <div class="supporter-logo">
                   <a href="https://www.olioapps.com/" target="_blank">
                     <img
@@ -512,7 +512,7 @@
                     />
                   </a>
                 </div>
-              </div> -->
+              </div>
             </div>
 
             <h3 class="text-center">{{ $t("silver") }}</h3>
