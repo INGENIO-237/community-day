@@ -83,6 +83,18 @@ const volunteers = ref([
     image: "/images/gwladys.jpeg",
   },
   {
+    firstname: "Ange",
+    lastname: "Wobinwo",
+    twitterLink: "https://x.com/AngeWobins",
+    image: "/images/ange_wobinwo.jpg",
+  },
+  {
+    firstname: "Jean",
+    lastname: "Mofiro",
+    twitterLink: "",
+    image: "/images/jean_mofiro.jpg",
+  },
+  {
     firstname: "Neba",
     lastname: "Desmond",
     twitterLink: "https://x.com/desmond__neba",
