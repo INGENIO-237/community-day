@@ -33,11 +33,13 @@
         <div class="row">
           <div v-for="vul in volunteers" class="col-lg-3 col-6">
             <div class="speaker border shadow mb-4">
-              <img
-                :src="vul.image"
-                alt="Volunteer"
-                class="img-fluid speaker-vul-image"
-              />
+              <a :href="vul.twitterLink" target="_blank">
+                <img
+                  :src="vul.image"
+                  alt="Volunteer"
+                  class="img-fluid speaker-vul-image"
+                />
+              </a>
               <div
                 class="pt-1"
                 style="
@@ -85,7 +87,7 @@ const volunteers = ref([
   {
     firstname: "Ange",
     lastname: "Wobinwo",
-    twitterLink: "https://x.com/AngeWobins",
+    twitterLink: "https://www.linkedin.com/in/awobins/",
     image: "/images/volunteers/ange_wobinwo.jpg",
   },
   {
