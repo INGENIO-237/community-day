@@ -555,6 +555,61 @@
               </div>
             </div>
 
+            <h3 class="text-center">{{ $t("communityExhibitions") }}</h3>
+
+            <div class="row supporters-wrap clearfix justify-content-center">
+              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+                <div class="supporter-logo">
+                  <a href="#">
+                    <img
+                      src="~/assets/img/sponsors/exhibitors/BitterKola.jpg"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+                <div class="supporter-logo">
+                  <a href="https://www.linkedin.com/company/cameroon-data-community/" target="_blank">
+                    <img
+                      src="~/assets/img/sponsors/exhibitors/Cameroon-Data-Community.jpg"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+                <div class="supporter-logo">
+                  <a href="#">
+                    <img
+                      src="~/assets/img/sponsors/exhibitors/django-Cameroon.jpg"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+                <div class="supporter-logo">
+                  <a href="https://lightgroup.tech/" target="_blank">
+                    <img
+                      src="~/assets/img/sponsors/exhibitors/LightGroup.jpg"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+                <div class="supporter-logo">
+                  <a href="#">
+                    <img
+                      src="~/assets/img/sponsors/exhibitors/SolaviseTech.jpg"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div
               class="mt-8 pt-5 text-center text-xl font-medium"
               style="font-size: 1.2rem; font-weight: 700"
