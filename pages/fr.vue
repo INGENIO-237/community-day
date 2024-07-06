@@ -2,8 +2,8 @@
   <div>
     <div>
       <!--==========================
-          Header
-        ============================-->
+            Header
+          ============================-->
       <header id="header">
         <div class="container">
           <div id="logo" class="pull-left">
@@ -42,8 +42,8 @@
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#footer">Contact</a></li>
               <li>
-                <NuxtLink to="/" v-if="locale == 'fr'">EN</NuxtLink>
-                <NuxtLink to="/fr" v-if="locale == 'en'">FR</NuxtLink>
+                <a href="/" v-if="locale == 'fr'">EN</a>
+                <a href="/fr" v-if="locale == 'en'">FR</a>
               </li>
             </ul>
           </nav>
@@ -53,8 +53,8 @@
       <!-- #header -->
 
       <!--==========================
-          Intro Section
-        ============================-->
+            Intro Section
+          ============================-->
       <section id="intro">
         <div class="intro-container wow fadeIn">
           <img
@@ -77,8 +77,8 @@
 
       <main id="main">
         <!--==========================
-            About Section
-          ============================-->
+              About Section
+            ============================-->
         <section id="about">
           <div class="container">
             <div class="row justify-content-center">
@@ -129,8 +129,8 @@
         </section>
 
         <!--==========================
-              Schedule Section
-            ============================-->
+                Schedule Section
+              ============================-->
         <section id="schedule" class="section-with-bg">
           <div class="container wow fadeIn">
             <div class="section-header">
@@ -159,12 +159,12 @@
                     >{{ $t("agendaAppCTA") }}</NuxtLink
                   >
                   <!-- <a
-                    href="./ratesessions?surelynotcached"
-                    class="btn btn-lg btn-yellow"
-                    id="rate-session-link"
-                    target="”_blank”"
-                    >Rate sessions</a
-                  > -->
+                      href="./ratesessions?surelynotcached"
+                      class="btn btn-lg btn-yellow"
+                      id="rate-session-link"
+                      target="”_blank”"
+                      >Rate sessions</a
+                    > -->
                 </div>
               </div>
             </div>
@@ -174,8 +174,8 @@
         <TableComponent />
 
         <!-- ==========================
-              Venue Section
-            ============================-->
+                Venue Section
+              ============================-->
         <section id="venue" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
@@ -210,12 +210,12 @@
           <div class="container-fluid venue-gallery-container">
             <div class="row no-gutters">
               <!-- <div class="col-lg-3 col-md-3" v-for="(image, index) in venue_images" :key="index">
-                  <div class="venue-gallery">
-                    <a :href="image.src" class="venobox" data-gall="venue-gallery">
-                      <img :src=image.src class="img-fluid gallery-image" />
-                    </a>
-                  </div>
-                </div> -->
+                    <div class="venue-gallery">
+                      <a :href="image.src" class="venobox" data-gall="venue-gallery">
+                        <img :src=image.src class="img-fluid gallery-image" />
+                      </a>
+                    </div>
+                  </div> -->
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
@@ -333,8 +333,8 @@
         </section>
 
         <!-- ==========================
-            Gallery Section
-          ============================-->
+              Gallery Section
+            ============================-->
         <section id="gallery" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
@@ -417,8 +417,8 @@
         </section>
 
         <!--==========================
-              Sponsors Section
-            ============================-->
+                Sponsors Section
+              ============================-->
         <section id="supporters" class="section-with-bg wow fadeIn">
           <div class="container">
             <div class="section-header">
@@ -432,59 +432,59 @@
             <!-- <h3 class="text-center">Platinum</h3> -->
 
             <!-- <div class="row supporters-wrap clearfix justify-content-center">
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <center>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
+                      <center>
+                        <a
+                          href="https://www.arrow.com/globalecs/pl/producenci/netapp/"
+                          target="_blank"
+                        >
+                          <img
+                            src="~/assets/img/sponsors/NetApp_Arrow.png"
+                            class="img-fluid"
+                            style="display: block; max-width: 50% !important"
+                          />
+                        </a>
+                      </center>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
+                      <a href="https://www.n-ix.com/" target="_blank">
+                        <img
+                          src="~/assets/img/sponsors/N-iX.png"
+                          class="img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
                       <a
-                        href="https://www.arrow.com/globalecs/pl/producenci/netapp/"
+                        href="https://www.pmi.com/markets/poland/pl/about-us/overview"
                         target="_blank"
                       >
                         <img
-                          src="~/assets/img/sponsors/NetApp_Arrow.png"
+                          src="~/assets/img/sponsors/IT_HUB.png"
                           class="img-fluid"
-                          style="display: block; max-width: 50% !important"
                         />
                       </a>
-                    </center>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <a href="https://www.n-ix.com/" target="_blank">
-                      <img
-                        src="~/assets/img/sponsors/N-iX.png"
-                        class="img-fluid"
-                      />
-                    </a>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
+                      <a href="https://chaosgears.com/" target="_blank">
+                        <center>
+                          <img
+                            class="img-fluid"
+                            src="~/assets/img/sponsors/chaosgears.png"
+                            style="display: block; max-width: 70% !important"
+                          />
+                        </center>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <a
-                      href="https://www.pmi.com/markets/poland/pl/about-us/overview"
-                      target="_blank"
-                    >
-                      <img
-                        src="~/assets/img/sponsors/IT_HUB.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <a href="https://chaosgears.com/" target="_blank">
-                      <center>
-                        <img
-                          class="img-fluid"
-                          src="~/assets/img/sponsors/chaosgears.png"
-                          style="display: block; max-width: 70% !important"
-                        />
-                      </center>
-                    </a>
-                  </div>
-                </div>
-              </div> -->
+                </div> -->
 
             <h3 class="text-center">{{ $t("gold") }}</h3>
 
@@ -627,8 +627,8 @@
         </section>
 
         <!--==========================
-              Speakers Section
-            ============================-->
+                Speakers Section
+              ============================-->
         <section
           id="speakers"
           class="wow fadeIn"
@@ -694,8 +694,8 @@
         </section>
 
         <!--==========================
-              Organizers Section
-            ============================-->
+                Organizers Section
+              ============================-->
         <section
           id="organizers"
           class="wow fadeIn"
@@ -729,8 +729,8 @@
         </section>
 
         <!-- ==========================
-              Volunteers Section
-            ============================-->
+                Volunteers Section
+              ============================-->
         <div id="volunteers">
           <section id="venue" class="wow fadeIn">
             <div class="container-fluid">
@@ -751,8 +751,8 @@
         </div>
 
         <!--==========================
-              FAQ Section
-            ============================-->
+                FAQ Section
+              ============================-->
         <section id="faq" class="wow fadeIn">
           <div class="container">
             <div class="section-header">
@@ -1059,6 +1059,15 @@ const windowWidth = ref(0);
 
 
 const { locale, t } = useI18n();
+// Function to switch between languages
+let pathname;
+if(process.client){
+   pathname = location.pathname.split("/")
+}else{ 
+    const route = useRoute()
+    pathname = route.path.split("/")
+}
+if(pathname?.includes("fr")) locale.value = "fr"
 
 // function to make the sponsor block clickable
 function openLink(link) {
