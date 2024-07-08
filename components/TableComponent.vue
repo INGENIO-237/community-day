@@ -6,12 +6,12 @@
           <div class="tr">
             <div class="th idx">
               <div>
-                <p>Time</p>
+                <p>{{ $t("time") }}</p>
               </div>
             </div>
             <div class="th" colspan="4">
               <div>
-                <p>Track 1</p>
+                <p>{{ $t("track") }}</p>
               </div>
             </div>
           </div>
@@ -20,24 +20,24 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>09:00 AM - 10:00 AM</p>
+                <p>{{ $t("time1") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
-                <p>Check-In and Networking</p>
+                <p>{{ $t("track1") }}</p>
               </div>
             </div>
           </div>
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>10:00 AM - 10:05 AM</p>
+                <p>{{ $t("time2") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
-                <p>Welcome</p>
+                <p>{{ $t("track2") }}</p>
               </div>
             </div>
           </div>
@@ -45,19 +45,17 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>10:05 AM - 10:35 AM</p>
+                <p>{{ $t("time3") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
                   <span style="color: #ff9b00; font-weight: bold"
-                    >Keynote:
+                    >{{ $t("track3") }}:
                   </span>
-                  <span style="font-weight: bold"
-                    >“Unleashing Innovation with GenAI”
-                  </span>
-                  by Mohamadou Yacoubou, Principal Solutions Architect, AWS
+                  <span style="font-weight: bold">“{{ $t("track3-1") }}” </span>
+                  {{ $t("track3-2") }}
                 </p>
               </div>
             </div>
@@ -65,19 +63,166 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <p>10:35 AM - 11:05 AM</p>
+                <p>{{ $t("time4") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
                 <p>
                   <span style="color: #ff9b00; font-weight: bold"
-                    >Developer Keynote:
+                    >{{ $t("track4") }}:
                   </span>
-                  <span style="font-weight: bold"
-                    >“Technical Content for Personal Branding”
-                  </span>
-                  by Veliswa Boya, Developer Advocacy, AWS
+                  <span style="font-weight: bold">“{{ $t("track4-1") }}” </span>
+                  {{ $t("track4-2") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time5") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track5") }}” </span>
+                  {{ $t("track5-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time6") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track6") }}” </span>
+                  {{ $t("track6-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time7") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">{{ $t("track7") }}</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time8") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track8") }}” </span>
+                  {{ $t("track8-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time9") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track9") }}” </span>
+                  {{ $t("track9-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time10") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track10") }}” </span>
+                  {{ $t("track10-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time11") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">{{ $t("track11") }} </span>
+                  {{ $t("track11-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time12") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track12") }}” </span>
+                  {{ $t("track12-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time13") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track13") }}” </span>
+                  {{ $t("track13-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time14") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track14") }}” </span>
+                  {{ $t("track14-1") }}
                 </p>
               </div>
             </div>
@@ -155,7 +300,7 @@
             <div class="td" colspan="4">
               <div>
                 <!-- <p>Closing Note</p> -->
-                <p>To be Announced</p>
+                <p>{{ $t("track15") }}</p>
               </div>
             </div>
           </div>
