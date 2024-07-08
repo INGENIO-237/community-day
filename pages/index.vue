@@ -1127,13 +1127,36 @@ const speakers = ref([
     image: "/speakers/sebastien_stormaq.jpg",
     linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
   },
+
+  // {
+  //   name: "Soh Juvitus Leong",
+  //   role: "Data Scientist ",
+  //   company: "CEO of Skye8 Company Ltd",
+  //   image: "/speakers/soh-juvitus-leong.jpg",
+  //   linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
+  // },
   {
-    name: "Soh Juvitus Leong",
-    role: "Data Scientist ",
-    company: "CEO of Skye8 Company Ltd",
-    image: "/speakers/soh-juvitus-leong.jpg",
-    linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
+    name: "Samba Otavise",
+    role: "CEO",
+    company: "SolaviseTech",
+    image: "/speakers/Samba_Otavise.jpg",
+    linkedin: "https://www.linkedin.com/in/samba-otavise/"
   },
+  {
+    name: "Gwei Mike",
+    role: "CEO / Founder",
+    company: "Wandaprep Ltd",
+    image: "/speakers/gwei_mike_dp.png",
+    linkedin: "https://www.linkedin.com/in/gwei-michael-wawa/"
+  },
+  {
+    name: "Jaures Beinjamin",
+    role: "Software Developer",
+    company: "Packt",
+    image: "/speakers/Jaures.jpeg",
+    linkedin: "https://www.linkedin.com/in/jaures-beinjamin-%E2%9C%85%EF%B8%8F-297069211/"
+  },
+
   {
     name: "Witah Georjane",
     role: "AWS Cloud Developer",

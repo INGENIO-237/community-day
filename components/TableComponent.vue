@@ -117,7 +117,8 @@
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold">{{ $t("track7") }}</span>
+                  <span style="font-weight: bold">“{{ $t("track7") }}” </span>
+                  {{ $t("track7-1") }}
                 </p>
               </div>
             </div>
@@ -131,8 +132,7 @@
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold">“{{ $t("track8") }}” </span>
-                  {{ $t("track8-1") }}
+                  <span style="font-weight: bold">{{ $t("track8") }}</span>
                 </p>
               </div>
             </div>
@@ -206,8 +206,7 @@
             <div class="td" colspan="4">
               <div>
                 <p>
-                  <span style="font-weight: bold">“{{ $t("track13") }}” </span>
-                  {{ $t("track13-1") }}
+                  <span style="font-weight: bold">{{ $t("track13") }}</span>
                 </p>
               </div>
             </div>
@@ -223,6 +222,141 @@
                 <p>
                   <span style="font-weight: bold">“{{ $t("track14") }}” </span>
                   {{ $t("track14-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time15") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track15") }}” </span>
+                  {{ $t("track15-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time16") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track16") }}” </span>
+                  {{ $t("track16-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time17") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track17") }}” </span>
+                  {{ $t("track17-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time18") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track18") }}” </span>
+                  {{ $t("track18-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time19") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track19") }}” </span>
+                  {{ $t("track19-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time20") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track20") }}” </span>
+                  {{ $t("track20-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time21") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track21") }}” </span>
+                  {{ $t("track21-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time22") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track22") }}” </span>
+                  {{ $t("track22-1") }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tr">
+            <div class="td idx">
+              <div>
+                <p>{{ $t("time23") }}</p>
+              </div>
+            </div>
+            <div class="td" colspan="4">
+              <div>
+                <p>
+                  <span style="font-weight: bold">“{{ $t("track23") }}” </span>
+                  {{ $t("track23-1") }}
                 </p>
               </div>
             </div>
@@ -294,13 +428,12 @@
           <div class="tr">
             <div class="td idx">
               <div>
-                <!-- <p>04:40 PM - 5:20 PM</p> -->
+                <p>{{ $t("time24") }}</p>
               </div>
             </div>
             <div class="td" colspan="4">
               <div>
-                <!-- <p>Closing Note</p> -->
-                <p>{{ $t("track15") }}</p>
+                <p>{{ $t("track24") }}</p>
               </div>
             </div>
           </div>
