@@ -1191,7 +1191,7 @@ const organizers = ref([
   {
     name: "Nkwenti Fon Nkwenti",
     group: "AWS User Group Douala",
-    image: "/organizers/Fon_Nkwenti.png",
+    image: "/organizers/Fon_Nkwenti.jpg",
     linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
   },
   {
