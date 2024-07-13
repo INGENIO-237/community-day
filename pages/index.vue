@@ -607,6 +607,16 @@
                   </a>
                 </div>
               </div>
+              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+                <div class="supporter-logo">
+                  <a href="https://www.swecom.cm" target="_blank">
+                    <img
+                      src="~/assets/img/sponsors/exhibitors/swecom.png"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div
