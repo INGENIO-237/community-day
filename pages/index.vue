@@ -93,7 +93,7 @@
                   <div class="js-clock w-container">
                     <div id="js-box" class="box">
                       <div id="js-clock-days" class="clock-number">
-                        {{ days }}
+                        0
                       </div>
                       <div id="js-clock-days-label" class="clock-label">
                         {{ $t("days") }}
@@ -102,20 +102,20 @@
                     <div class="box"></div>
                     <div class="box">
                       <div id="js-clock-hours" class="clock-number">
-                        {{ hours }}
+                        00
                       </div>
                       <div class="clock-label">{{ $t("hours") }}</div>
                     </div>
                     <div class="box">
                       <div id="js-clock-minutes" class="clock-number">
-                        {{ minutes }}
+                        00
                       </div>
                       <div class="clock-label">Minutes</div>
                     </div>
                     <div class="box">
                       <div class="box">
                         <div id="js-clock-seconds" class="clock-number">
-                          {{ seconds }}
+                          00
                         </div>
                         <div class="clock-label">{{ $t("seconds") }}</div>
                       </div>
