@@ -1,4 +1,8 @@
 {
+  "lastYear": "View last year's event",
+  "newYear": "View the most recent event",
+  "coming": "Coming Soon...",
+
   "home": "Home",
   "agenda": "Agenda",
   "location": "Location",
@@ -6,7 +10,7 @@
   "speakers": "Speakers",
   "organizers": "Organizers",
   "volunteers": "Volunteers",
-  "date": "13th July 2024",
+  "date": "8th November 2025",
   "register": "Register",
   "countTitle1": "Countdown to the largest ",
   "countTitle2": " cloud conference in Cameroon",

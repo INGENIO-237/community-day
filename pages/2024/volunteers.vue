@@ -14,7 +14,7 @@
       <div>
         <img
           style="height: 3.5rem"
-          src=".././assets/img/white-aws-community-day.svg"
+          src="~/assets/img/white-aws-community-day.svg"
           alt="TheEvent"
         />
       </div>
@@ -27,13 +27,10 @@
         padding-bottom: 5rem;
         overflow: hidden;
         width: 100vw;
-        height: 90vh;
       "
     >
       <div class="container">
-        <h2 class="text-center text-dark">{{ $t("coming") }}</h2>
-
-        <!-- <div class="row">
+        <div class="row">
           <div v-for="vul in volunteers" class="col-lg-3 col-6">
             <div class="speaker border shadow mb-4">
               <a :href="vul.twitterLink" target="_blank">
@@ -57,7 +54,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </main>
   </div>

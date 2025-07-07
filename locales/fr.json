@@ -1,4 +1,8 @@
 {
+  "lastYear": "Voir celui de l'année passée",
+  "newYear": "Voir le plus récent",
+  "coming": "Bientôt...",
+
   "home": "Accueil",
   "agenda": "Calendrier",
   "location": "Localisation",
@@ -6,7 +10,7 @@
   "speakers": "Intervenants",
   "organizers": "Organisateurs",
   "volunteers": "Bénévoles",
-  "date": "13 Juillet 2024",
+  "date": "08 Novembre 2025",
   "register": "S'inscrire",
   "countTitle1": "Compte à rebours pour la plus grande conférence sur le cloud ",
   "countTitle2": " au Cameroun",

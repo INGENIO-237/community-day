@@ -2,8 +2,8 @@
   <div>
     <div>
       <!--==========================
-          Header
-        ============================-->
+            Header
+          ============================-->
       <header id="header">
         <div class="container">
           <div id="logo" class="pull-left">
@@ -18,32 +18,32 @@
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li class="menu-active">
-                <a href="#intro">{{ $t("home") }}</a>
+                <a href="/2024#intro">{{ $t("home") }}</a>
               </li>
               <li>
-                <a href="#schedule">{{ $t("agenda") }}</a>
+                <a href="/2024#schedule">{{ $t("agenda") }}</a>
               </li>
               <li>
-                <a href="#venue">{{ $t("location") }}</a>
+                <a href="/2024#venue">{{ $t("location") }}</a>
               </li>
               <li>
-                <a href="#gallery">{{ $t("gallery") }}</a>
+                <a href="/2024#gallery">{{ $t("gallery") }}</a>
               </li>
-              <li><a href="#supporters">Sponsors</a></li>
+              <li><a href="/2024#supporters">Sponsors</a></li>
               <li>
-                <a href="#speakers">{{ $t("speakers") }}</a>
-              </li>
-              <li>
-                <a href="#organizers">{{ $t("organizers") }}</a>
+                <a href="/2024#speakers">{{ $t("speakers") }}</a>
               </li>
               <li>
-                <a href="#volunteers">{{ $t("volunteers") }}</a>
+                <a href="/2024#organizers">{{ $t("organizers") }}</a>
               </li>
-              <li><a href="#faq">FAQ</a></li>
-              <li><a href="#footer">Contact</a></li>
               <li>
-                <a href="/" v-if="locale == 'fr'">EN</a>
-                <a href="/fr" v-if="locale == 'en'">FR</a>
+                <a href="/2024#volunteers">{{ $t("volunteers") }}</a>
+              </li>
+              <li><a href="/2024#faq">FAQ</a></li>
+              <li><a href="/2024#footer">Contact</a></li>
+              <li>
+                <a href="/2024/" v-if="locale == 'fr'">EN</a>
+                <a href="/2024/fr" v-if="locale == 'en'">FR</a>
               </li>
             </ul>
           </nav>
@@ -53,8 +53,8 @@
       <!-- #header -->
 
       <!--==========================
-          Intro Section
-        ============================-->
+            Intro Section
+          ============================-->
       <section id="intro">
         <div class="intro-container wow fadeIn">
           <img
@@ -62,21 +62,14 @@
             class="logo"
             title="AWS Community Day Cameroon"
           />
-          <h4 class="mb-4 pt-4 pb-0">{{ $t("date") }}, Douala</h4>
+          <h4 class="mb-4 pt-4 pb-0">13 Juillet 2024, Douala</h4>
           <div class="text-center">
-            <!-- <a
-              href="https://docs.google.com/forms/d/1EUVFyK4U85jVJgSr_NmZPQAmZKrl9L04BCmB37hYQK8/edit"
-              target="_blank"
-              type="button"
-              class="btn btn-lg btn-yellow"
-              >{{ $t("register") }}</a
-            > -->
             <a
-              href="/2024"
+              href="/"
               target="_blank"
               type="button"
               class="btn btn-lg btn-yellow"
-              >{{ $t("lastYear") }}</a
+              >{{ $t("newYear") }}</a
             >
           </div>
         </div>
@@ -84,8 +77,8 @@
 
       <main id="main">
         <!--==========================
-            About Section
-          ============================-->
+              About Section
+            ============================-->
         <section id="about">
           <div class="container">
             <div class="row justify-content-center">
@@ -100,7 +93,7 @@
                   <div class="js-clock w-container">
                     <div id="js-box" class="box">
                       <div id="js-clock-days" class="clock-number">
-                        {{ days }}
+                        0
                       </div>
                       <div id="js-clock-days-label" class="clock-label">
                         {{ $t("days") }}
@@ -109,20 +102,20 @@
                     <div class="box"></div>
                     <div class="box">
                       <div id="js-clock-hours" class="clock-number">
-                        {{ hours }}
+                        00
                       </div>
                       <div class="clock-label">{{ $t("hours") }}</div>
                     </div>
                     <div class="box">
                       <div id="js-clock-minutes" class="clock-number">
-                        {{ minutes }}
+                        00
                       </div>
                       <div class="clock-label">Minutes</div>
                     </div>
                     <div class="box">
                       <div class="box">
                         <div id="js-clock-seconds" class="clock-number">
-                          {{ seconds }}
+                          00
                         </div>
                         <div class="clock-label">{{ $t("seconds") }}</div>
                       </div>
@@ -136,16 +129,15 @@
         </section>
 
         <!--==========================
-              Schedule Section
-            ============================-->
+                Schedule Section
+              ============================-->
         <section id="schedule" class="section-with-bg">
           <div class="container wow fadeIn">
             <div class="section-header">
               <h2>{{ $t("agenda") }}</h2>
             </div>
             <div class="row justify-content-center">
-              <h2>{{ $t("coming") }}</h2>
-              <!-- <div class="col-lg-6 d-none d-md-block">
+              <div class="col-lg-6 d-none d-md-block">
                 <div class="center">
                   <img
                     src="~/assets/img/app-qr.png"
@@ -156,7 +148,6 @@
               </div>
               <div class="col-lg-6 col-md-12 col-12">
                 <div class="center">
-
                   <h2>{{ $t("agendaAppTitle") }}</h2>
                   <p style="color: white">
                     {{ $t("agendaAppText") }}
@@ -167,25 +158,24 @@
                     target="”_blank”"
                     >{{ $t("agendaAppCTA") }}</NuxtLink
                   >
-                  <a
-                    href="./ratesessions?surelynotcached"
-                    class="btn btn-lg btn-yellow"
-                    id="rate-session-link"
-                    target="”_blank”"
-                    >Rate sessions</a
-                  >
+                  <!-- <a
+                      href="./ratesessions?surelynotcached"
+                      class="btn btn-lg btn-yellow"
+                      id="rate-session-link"
+                      target="”_blank”"
+                      >Rate sessions</a
+                    > -->
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </section>
 
-        <!-- Agenda Component -->
-        <!-- <TableComponent /> -->
+        <TableComponent />
 
         <!-- ==========================
-              Venue Section
-            ============================-->
+                Venue Section
+              ============================-->
         <section id="venue" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
@@ -207,7 +197,7 @@
               <div class="col-lg-6 col-md-12 col-12 venue-info">
                 <div class="row justify-content-center">
                   <div class="col-11 col-lg-8">
-                    <h3>Canal Olympia Bessengue</h3>
+                    <h3>CanalOlympia Bessengue</h3>
                     <p>Gare de Bessengue</p>
                     <p>Douala, Littoral</p>
                     <p>Cameroon</p>
@@ -220,12 +210,12 @@
           <div class="container-fluid venue-gallery-container">
             <div class="row no-gutters">
               <!-- <div class="col-lg-3 col-md-3" v-for="(image, index) in venue_images" :key="index">
-                  <div class="venue-gallery">
-                    <a :href="image.src" class="venobox" data-gall="venue-gallery">
-                      <img :src=image.src class="img-fluid gallery-image" />
-                    </a>
-                  </div>
-                </div> -->
+                    <div class="venue-gallery">
+                      <a :href="image.src" class="venobox" data-gall="venue-gallery">
+                        <img :src=image.src class="img-fluid gallery-image" />
+                      </a>
+                    </div>
+                  </div> -->
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
@@ -343,8 +333,8 @@
         </section>
 
         <!-- ==========================
-            Gallery Section
-          ============================-->
+              Gallery Section
+            ============================-->
         <section id="gallery" class="wow fadeIn">
           <div class="container-fluid">
             <div class="section-header">
@@ -427,70 +417,74 @@
         </section>
 
         <!--==========================
-              Sponsors Section
-            ============================-->
+                Sponsors Section
+              ============================-->
         <section id="supporters" class="section-with-bg wow fadeIn">
           <div class="container">
             <div class="section-header">
               <h2>{{ $t("ourSponsors") }}</h2>
             </div>
 
+            <h3 class="text-center"></h3>
+
+            <h3 class="text-center"></h3>
+
             <!-- <h3 class="text-center">Platinum</h3> -->
 
             <!-- <div class="row supporters-wrap clearfix justify-content-center">
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <center>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
+                      <center>
+                        <a
+                          href="https://www.arrow.com/globalecs/pl/producenci/netapp/"
+                          target="_blank"
+                        >
+                          <img
+                            src="~/assets/img/sponsors/NetApp_Arrow.png"
+                            class="img-fluid"
+                            style="display: block; max-width: 50% !important"
+                          />
+                        </a>
+                      </center>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
+                      <a href="https://www.n-ix.com/" target="_blank">
+                        <img
+                          src="~/assets/img/sponsors/N-iX.png"
+                          class="img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
                       <a
-                        href="https://www.arrow.com/globalecs/pl/producenci/netapp/"
+                        href="https://www.pmi.com/markets/poland/pl/about-us/overview"
                         target="_blank"
                       >
                         <img
-                          src="~/assets/img/sponsors/NetApp_Arrow.png"
+                          src="~/assets/img/sponsors/IT_HUB.png"
                           class="img-fluid"
-                          style="display: block; max-width: 50% !important"
                         />
                       </a>
-                    </center>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <a href="https://www.n-ix.com/" target="_blank">
-                      <img
-                        src="~/assets/img/sponsors/N-iX.png"
-                        class="img-fluid"
-                      />
-                    </a>
+                  <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
+                    <div class="supporter-logo">
+                      <a href="https://chaosgears.com/" target="_blank">
+                        <center>
+                          <img
+                            class="img-fluid"
+                            src="~/assets/img/sponsors/chaosgears.png"
+                            style="display: block; max-width: 70% !important"
+                          />
+                        </center>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <a
-                      href="https://www.pmi.com/markets/poland/pl/about-us/overview"
-                      target="_blank"
-                    >
-                      <img
-                        src="~/assets/img/sponsors/IT_HUB.png"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-xs-5 mb-3">
-                  <div class="supporter-logo">
-                    <a href="https://chaosgears.com/" target="_blank">
-                      <center>
-                        <img
-                          class="img-fluid"
-                          src="~/assets/img/sponsors/chaosgears.png"
-                          style="display: block; max-width: 70% !important"
-                        />
-                      </center>
-                    </a>
-                  </div>
-                </div>
-              </div> -->
+                </div> -->
 
             <h3 class="text-center">{{ $t("gold") }}</h3>
 
@@ -613,16 +607,6 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://www.swecom.cm" target="_blank">
-                    <img
-                      src="~/assets/img/sponsors/exhibitors/swecom.png"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
             </div>
 
             <div
@@ -643,8 +627,8 @@
         </section>
 
         <!--==========================
-              Speakers Section
-            ============================-->
+                Speakers Section
+              ============================-->
         <section
           id="speakers"
           class="wow fadeIn"
@@ -654,10 +638,7 @@
             <div class="section-header">
               <h2>{{ $t("speakers") }}</h2>
             </div>
-
-            <h2 class="text-center">{{ $t("coming") }}</h2>
-
-            <!-- <div
+            <div
               style="text-align: center; margin-top: -1rem; margin-bottom: 2rem"
             >
               <h4 style="color: #ff9b00; font-weight: bold; font-size: larger">
@@ -708,13 +689,13 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </section>
 
         <!--==========================
-              Organizers Section
-            ============================-->
+                Organizers Section
+              ============================-->
         <section
           id="organizers"
           class="wow fadeIn"
@@ -748,8 +729,8 @@
         </section>
 
         <!-- ==========================
-              Volunteers Section
-            ============================-->
+                Volunteers Section
+              ============================-->
         <div id="volunteers">
           <section id="venue" class="wow fadeIn">
             <div class="container-fluid">
@@ -770,8 +751,8 @@
         </div>
 
         <!--==========================
-              FAQ Section
-            ============================-->
+                FAQ Section
+              ============================-->
         <section id="faq" class="wow fadeIn">
           <div class="container">
             <div class="section-header">
@@ -1069,8 +1050,7 @@ definePageMeta({
   layout: 'home'
 })
 
-// const countDownDate = new Date("Jul 13, 2024 00:00:00").getTime();
-const countDownDate = new Date("Nov 8, 2025 00:00:00")
+const countDownDate = new Date("Nov 8, 2025 00:00:00").getTime();
 const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
@@ -1079,6 +1059,15 @@ const windowWidth = ref(0);
 
 
 const { locale, t } = useI18n();
+// Function to switch between languages
+let pathname;
+if(process.client){
+   pathname = location.pathname.split("/")
+}else{
+    const route = useRoute()
+    pathname = route.path.split("/")
+}
+if(pathname?.includes("fr")) locale.value = "fr"
 
 // function to make the sponsor block clickable
 function openLink(link) {
@@ -1147,36 +1136,13 @@ const speakers = ref([
     image: "/speakers/sebastien_stormaq.jpg",
     linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
   },
-
-  // {
-  //   name: "Soh Juvitus Leong",
-  //   role: "Data Scientist ",
-  //   company: "CEO of Skye8 Company Ltd",
-  //   image: "/speakers/soh-juvitus-leong.jpg",
-  //   linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
-  // },
   {
-    name: "Samba Otavise",
-    role: "CEO",
-    company: "SolaviseTech",
-    image: "/speakers/Samba_Otavise.jpg",
-    linkedin: "https://www.linkedin.com/in/samba-otavise/"
+    name: "Soh Juvitus Leong",
+    role: "Data Scientist ",
+    company: "CEO of Skye8 Company Ltd",
+    image: "/speakers/soh-juvitus-leong.jpg",
+    linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
   },
-  {
-    name: "Gwei Mike",
-    role: "CEO / Founder",
-    company: "Wandaprep Ltd",
-    image: "/speakers/gwei_mike_dp.png",
-    linkedin: "https://www.linkedin.com/in/gwei-michael-wawa/"
-  },
-  {
-    name: "Jaures Beinjamin",
-    role: "Software Developer",
-    company: "Packt",
-    image: "/speakers/Jaures.jpeg",
-    linkedin: "https://www.linkedin.com/in/jaures-beinjamin-%E2%9C%85%EF%B8%8F-297069211/"
-  },
-
   {
     name: "Witah Georjane",
     role: "AWS Cloud Developer",
@@ -1202,7 +1168,7 @@ const speakers = ref([
     name: "Dirane Tafen",
     role: "IT Engineer",
     company: "CTO of EAZYTraining.fr",
-    image: "/speakers/willy_dirane.jfif",
+    image: "/speakers/willy_dirane.jpg",
     linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
   },
 ]);
@@ -1211,7 +1177,7 @@ const organizers = ref([
   {
     name: "Nkwenti Fon Nkwenti",
     group: "AWS User Group Douala",
-    image: "/organizers/Fon_Nkwenti.jpg",
+    image: "/organizers/Fon_Nkwenti.png",
     linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
   },
   {

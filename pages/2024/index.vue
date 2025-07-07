@@ -7,7 +7,7 @@
       <header id="header">
         <div class="container">
           <div id="logo" class="pull-left">
-            <a href="#intro" class="scrollto"
+            <a href="/2024#intro" class="scrollto"
               ><img
                 src="~/assets/img/white-aws-community-day.svg"
                 alt="AWS Community Day Cameroon"
@@ -18,32 +18,32 @@
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li class="menu-active">
-                <a href="#intro">{{ $t("home") }}</a>
+                <a href="/2024#intro">{{ $t("home") }}</a>
               </li>
               <li>
-                <a href="#schedule">{{ $t("agenda") }}</a>
+                <a href="/2024#schedule">{{ $t("agenda") }}</a>
               </li>
               <li>
-                <a href="#venue">{{ $t("location") }}</a>
+                <a href="/2024#venue">{{ $t("location") }}</a>
               </li>
               <li>
-                <a href="#gallery">{{ $t("gallery") }}</a>
+                <a href="/2024#gallery">{{ $t("gallery") }}</a>
               </li>
-              <li><a href="#supporters">Sponsors</a></li>
+              <li><a href="/2024#supporters">Sponsors</a></li>
               <li>
-                <a href="#speakers">{{ $t("speakers") }}</a>
-              </li>
-              <li>
-                <a href="#organizers">{{ $t("organizers") }}</a>
+                <a href="/2024#speakers">{{ $t("speakers") }}</a>
               </li>
               <li>
-                <a href="#volunteers">{{ $t("volunteers") }}</a>
+                <a href="/2024#organizers">{{ $t("organizers") }}</a>
               </li>
-              <li><a href="#faq">FAQ</a></li>
-              <li><a href="#footer">Contact</a></li>
               <li>
-                <a href="/" v-if="locale == 'fr'">EN</a>
-                <a href="/fr" v-if="locale == 'en'">FR</a>
+                <a href="/2024#volunteers">{{ $t("volunteers") }}</a>
+              </li>
+              <li><a href="/2024#faq">FAQ</a></li>
+              <li><a href="/2024#footer">Contact</a></li>
+              <li>
+                <NuxtLink to="/2024" v-if="locale == 'fr'">EN</NuxtLink>
+                <NuxtLink to="/2024/fr" v-if="locale == 'en'">FR</NuxtLink>
               </li>
             </ul>
           </nav>
@@ -62,21 +62,14 @@
             class="logo"
             title="AWS Community Day Cameroon"
           />
-          <h4 class="mb-4 pt-4 pb-0">{{ $t("date") }}, Douala</h4>
+          <h4 class="mb-4 pt-4 pb-0">13th July 2024, Douala</h4>
           <div class="text-center">
-            <!-- <a
-              href="https://docs.google.com/forms/d/1EUVFyK4U85jVJgSr_NmZPQAmZKrl9L04BCmB37hYQK8/edit"
-              target="_blank"
-              type="button"
-              class="btn btn-lg btn-yellow"
-              >{{ $t("register") }}</a
-            > -->
             <a
-              href="/2024"
+              href="/"
               target="_blank"
               type="button"
               class="btn btn-lg btn-yellow"
-              >{{ $t("lastYear") }}</a
+              >{{ $t("newYear") }}</a
             >
           </div>
         </div>
@@ -99,31 +92,23 @@
                 <div id="js-clock">
                   <div class="js-clock w-container">
                     <div id="js-box" class="box">
-                      <div id="js-clock-days" class="clock-number">
-                        {{ days }}
-                      </div>
+                      <div id="js-clock-days" class="clock-number">0</div>
                       <div id="js-clock-days-label" class="clock-label">
                         {{ $t("days") }}
                       </div>
                     </div>
                     <div class="box"></div>
                     <div class="box">
-                      <div id="js-clock-hours" class="clock-number">
-                        {{ hours }}
-                      </div>
+                      <div id="js-clock-hours" class="clock-number">00</div>
                       <div class="clock-label">{{ $t("hours") }}</div>
                     </div>
                     <div class="box">
-                      <div id="js-clock-minutes" class="clock-number">
-                        {{ minutes }}
-                      </div>
+                      <div id="js-clock-minutes" class="clock-number">00</div>
                       <div class="clock-label">Minutes</div>
                     </div>
                     <div class="box">
                       <div class="box">
-                        <div id="js-clock-seconds" class="clock-number">
-                          {{ seconds }}
-                        </div>
+                        <div id="js-clock-seconds" class="clock-number">00</div>
                         <div class="clock-label">{{ $t("seconds") }}</div>
                       </div>
                     </div>
@@ -144,8 +129,7 @@
               <h2>{{ $t("agenda") }}</h2>
             </div>
             <div class="row justify-content-center">
-              <h2>{{ $t("coming") }}</h2>
-              <!-- <div class="col-lg-6 d-none d-md-block">
+              <div class="col-lg-6 d-none d-md-block">
                 <div class="center">
                   <img
                     src="~/assets/img/app-qr.png"
@@ -156,32 +140,30 @@
               </div>
               <div class="col-lg-6 col-md-12 col-12">
                 <div class="center">
-
                   <h2>{{ $t("agendaAppTitle") }}</h2>
                   <p style="color: white">
                     {{ $t("agendaAppText") }}
                   </p>
                   <NuxtLink
-                    to="/agenda"
+                    to="/2024/agenda"
                     class="btn btn-lg btn-yellow"
                     target="”_blank”"
                     >{{ $t("agendaAppCTA") }}</NuxtLink
                   >
-                  <a
+                  <!-- <a
                     href="./ratesessions?surelynotcached"
                     class="btn btn-lg btn-yellow"
                     id="rate-session-link"
                     target="”_blank”"
                     >Rate sessions</a
-                  >
+                  > -->
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </section>
 
-        <!-- Agenda Component -->
-        <!-- <TableComponent /> -->
+        <TableComponent />
 
         <!-- ==========================
               Venue Section
@@ -207,7 +189,7 @@
               <div class="col-lg-6 col-md-12 col-12 venue-info">
                 <div class="row justify-content-center">
                   <div class="col-11 col-lg-8">
-                    <h3>Canal Olympia Bessengue</h3>
+                    <h3>CanalOlympia Bessengue</h3>
                     <p>Gare de Bessengue</p>
                     <p>Douala, Littoral</p>
                     <p>Cameroon</p>
@@ -435,6 +417,10 @@
               <h2>{{ $t("ourSponsors") }}</h2>
             </div>
 
+            <h3 class="text-center"></h3>
+
+            <h3 class="text-center"></h3>
+
             <!-- <h3 class="text-center">Platinum</h3> -->
 
             <!-- <div class="row supporters-wrap clearfix justify-content-center">
@@ -654,10 +640,7 @@
             <div class="section-header">
               <h2>{{ $t("speakers") }}</h2>
             </div>
-
-            <h2 class="text-center">{{ $t("coming") }}</h2>
-
-            <!-- <div
+            <div
               style="text-align: center; margin-top: -1rem; margin-bottom: 2rem"
             >
               <h4 style="color: #ff9b00; font-weight: bold; font-size: larger">
@@ -708,7 +691,7 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </section>
 
@@ -759,7 +742,7 @@
 
               <div style="display: flex; justify-content: center">
                 <NuxtLink
-                  to="/volunteers"
+                  to="/2024/volunteers"
                   class="btn btn-lg btn-yellow"
                   target="”_blank”"
                   >{{ $t("allVolunteers") }}</NuxtLink
@@ -1069,8 +1052,7 @@ definePageMeta({
   layout: 'home'
 })
 
-// const countDownDate = new Date("Jul 13, 2024 00:00:00").getTime();
-const countDownDate = new Date("Nov 8, 2025 00:00:00")
+const countDownDate = new Date("Jul 13, 2024 00:00:00").getTime();
 const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
