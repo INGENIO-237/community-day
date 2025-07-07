@@ -19,7 +19,7 @@
                 <img
                   style="height: 4rem"
                   src=".././assets/img/white-aws-community-day.svg"
-                  alt="TheEvenet"
+                  alt="TheEvent"
                 />
               </div>
             </div>
