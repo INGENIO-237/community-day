@@ -9,7 +9,7 @@
           <div id="logo" class="pull-left">
             <a href="/2024#intro" class="scrollto"
               ><img
-                src="~/assets/img/white-aws-community-day.svg"
+                src="~/assets/2024/img/white-aws-community-day.svg"
                 alt="AWS Community Day Cameroon"
                 title="AWS Community Day Cameroon"
             /></a>
@@ -55,10 +55,10 @@
       <!--==========================
           Intro Section
         ============================-->
-      <section id="intro">
+      <section class="intro">
         <div class="intro-container wow fadeIn">
           <img
-            src="~/assets/img/white-aws-community-day.svg"
+            src="~/assets/2024/img/white-aws-community-day.svg"
             class="logo"
             title="AWS Community Day Cameroon"
           />
@@ -66,7 +66,6 @@
           <div class="text-center">
             <a
               href="/"
-              target="_blank"
               type="button"
               class="btn btn-lg btn-yellow"
               >{{ $t("newYear") }}</a
@@ -132,7 +131,7 @@
               <div class="col-lg-6 d-none d-md-block">
                 <div class="center">
                   <img
-                    src="~/assets/img/app-qr.png"
+                    src="~/assets/2024/img/app-qr.png"
                     alt="QR Code"
                     style="max-width: 200px"
                   />
@@ -211,12 +210,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venue-01.png"
+                    href="~/assets/2024/img/venue-gallery/venue-01.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venue-01.png"
+                      src="~/assets/2024/img/venue-gallery/venue-01.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -225,12 +224,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venue-02.png"
+                    href="~/assets/2024/img/venue-gallery/venue-02.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venue-02.png"
+                      src="~/assets/2024/img/venue-gallery/venue-02.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -239,12 +238,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venue-03.png"
+                    href="~/assets/2024/img/venue-gallery/venue-03.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venue-03.png"
+                      src="~/assets/2024/img/venue-gallery/venue-03.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -253,12 +252,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venue-04.png"
+                    href="~/assets/2024/img/venue-gallery/venue-04.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venue-04.png"
+                      src="~/assets/2024/img/venue-gallery/venue-04.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -267,12 +266,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venue-05.png"
+                    href="~/assets/2024/img/venue-gallery/venue-05.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venue-05.png"
+                      src="~/assets/2024/img/venue-gallery/venue-05.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -281,12 +280,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venue-06.png"
+                    href="~/assets/2024/img/venue-gallery/venue-06.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venue-06.png"
+                      src="~/assets/2024/img/venue-gallery/venue-06.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -295,12 +294,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venu-07.jpeg"
+                    href="~/assets/2024/img/venue-gallery/venu-07.jpeg"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venu-07.jpeg"
+                      src="~/assets/2024/img/venue-gallery/venu-07.jpeg"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -309,12 +308,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/img/venue-gallery/venue-08.jpeg"
+                    href="~/assets/2024/img/venue-gallery/venue-08.jpeg"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/img/venue-gallery/venue-08.jpeg"
+                      src="~/assets/2024/img/venue-gallery/venue-08.jpeg"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -336,70 +335,70 @@
             <div class="carousel">
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-01.jpg"
+                  src="~/assets/2024/img/past-events/event-01.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-07.jpg"
+                  src="~/assets/2024/img/past-events/event-07.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-02.jpg"
+                  src="~/assets/2024/img/past-events/event-02.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-03.jpg"
+                  src="~/assets/2024/img/past-events/event-03.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-08.jpg"
+                  src="~/assets/2024/img/past-events/event-08.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-04.jpg"
+                  src="~/assets/2024/img/past-events/event-04.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-05.jpg"
+                  src="~/assets/2024/img/past-events/event-05.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-09.jpg"
+                  src="~/assets/2024/img/past-events/event-09.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-06.jpg"
+                  src="~/assets/2024/img/past-events/event-06.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/img/past-events/event-10.jpg"
+                  src="~/assets/2024/img/past-events/event-10.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
@@ -432,7 +431,7 @@
                         target="_blank"
                       >
                         <img
-                          src="~/assets/img/sponsors/NetApp_Arrow.png"
+                          src="~/assets/2024/img/sponsors/NetApp_Arrow.png"
                           class="img-fluid"
                           style="display: block; max-width: 50% !important"
                         />
@@ -444,7 +443,7 @@
                   <div class="supporter-logo">
                     <a href="https://www.n-ix.com/" target="_blank">
                       <img
-                        src="~/assets/img/sponsors/N-iX.png"
+                        src="~/assets/2024/img/sponsors/N-iX.png"
                         class="img-fluid"
                       />
                     </a>
@@ -457,7 +456,7 @@
                       target="_blank"
                     >
                       <img
-                        src="~/assets/img/sponsors/IT_HUB.png"
+                        src="~/assets/2024/img/sponsors/IT_HUB.png"
                         class="img-fluid"
                       />
                     </a>
@@ -469,7 +468,7 @@
                       <center>
                         <img
                           class="img-fluid"
-                          src="~/assets/img/sponsors/chaosgears.png"
+                          src="~/assets/2024/img/sponsors/chaosgears.png"
                           style="display: block; max-width: 70% !important"
                         />
                       </center>
@@ -485,7 +484,7 @@
                 <div class="supporter-logo">
                   <a href="https://aws.amazon.com/" target="_blank">
                     <img
-                      src="~/assets/img/sponsors/gold/aws-logo.png"
+                      src="~/assets/2024/img/sponsors/gold/aws-logo.png"
                       class="img-fluid"
                     />
                   </a>
@@ -495,7 +494,7 @@
                 <div class="supporter-logo">
                   <a href="https://www.olioapps.com/" target="_blank">
                     <img
-                      src="~/assets/img/sponsors/gold/olioapps-logo.png"
+                      src="~/assets/2024/img/sponsors/gold/olioapps-logo.png"
                       class="img-fluid"
                     />
                   </a>
@@ -510,7 +509,7 @@
                 <div class="supporter-logo">
                   <a href="https://www.serverlessguru.com/" target="_blank">
                     <img
-                      src="~/assets/img/sponsors/silver/serverless_guru-logo.jpeg"
+                      src="~/assets/2024/img/sponsors/silver/serverless_guru-logo.jpeg"
                       class="img-fluid"
                     />
                   </a>
@@ -525,7 +524,7 @@
                 <div class="supporter-logo">
                   <a href="https://www.educloud.academy/" target="_blank">
                     <img
-                      src="~/assets/img/sponsors/community/educloud.png"
+                      src="~/assets/2024/img/sponsors/community/educloud.png"
                       class="img-fluid"
                     />
                   </a>
@@ -535,7 +534,7 @@
                 <div class="supporter-logo">
                   <a href="https://eazytraining.fr/" target="_blank">
                     <img
-                      src="~/assets/img/sponsors/community/EazyTraining-logo.png"
+                      src="~/assets/2024/img/sponsors/community/EazyTraining-logo.png"
                       class="img-fluid"
                     />
                   </a>
@@ -550,7 +549,7 @@
                 <div class="supporter-logo">
                   <a href="#">
                     <img
-                      src="~/assets/img/sponsors/exhibitors/BitterKola.jpg"
+                      src="~/assets/2024/img/sponsors/exhibitors/BitterKola.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -563,7 +562,7 @@
                     target="_blank"
                   >
                     <img
-                      src="~/assets/img/sponsors/exhibitors/Cameroon-Data-Community.jpg"
+                      src="~/assets/2024/img/sponsors/exhibitors/Cameroon-Data-Community.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -573,7 +572,7 @@
                 <div class="supporter-logo">
                   <a href="#">
                     <img
-                      src="~/assets/img/sponsors/exhibitors/django-Cameroon.jpg"
+                      src="~/assets/2024/img/sponsors/exhibitors/django-Cameroon.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -583,7 +582,7 @@
                 <div class="supporter-logo">
                   <a href="https://lightgroup.tech/" target="_blank">
                     <img
-                      src="~/assets/img/sponsors/exhibitors/LightGroup.jpg"
+                      src="~/assets/2024/img/sponsors/exhibitors/LightGroup.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -593,7 +592,7 @@
                 <div class="supporter-logo">
                   <a href="#">
                     <img
-                      src="~/assets/img/sponsors/exhibitors/SolaviseTech.jpg"
+                      src="~/assets/2024/img/sponsors/exhibitors/SolaviseTech.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -603,7 +602,7 @@
                 <div class="supporter-logo">
                   <a href="https://www.swecom.cm" target="_blank">
                     <img
-                      src="~/assets/img/sponsors/exhibitors/swecom.png"
+                      src="~/assets/2024/img/sponsors/exhibitors/swecom.png"
                       class="img-fluid"
                     />
                   </a>
@@ -924,7 +923,7 @@
                   >
                     <div>
                       <img
-                        src="~/assets/img/user-group/aws_user_group_douala_white.svg"
+                        src="~/assets/2024/img/user-group/aws_user_group_douala_white.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -963,7 +962,7 @@
                   >
                     <div>
                       <img
-                        src="~/assets/img/user-group/aws_user_group_yaounde_white.svg"
+                        src="~/assets/2024/img/user-group/aws_user_group_yaounde_white.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -1002,7 +1001,7 @@
                   >
                     <div>
                       <img
-                        src="~/assets/img/user-group/awsscc-black-logo.svg"
+                        src="~/assets/2024/img/user-group/awsscc-black-logo.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -1088,13 +1087,13 @@ const knspeakers = ref([
     name: "Mohamadou Yacoubou",
     role: "Principal Solutions Architect",
     company: "AWS",
-    image: "/speakers/mohamadou_Yacoubou.jpeg",
+    image: "/2024/speakers/mohamadou_Yacoubou.jpeg",
     linkedin: "https://www.linkedin.com/in/ymohamadou/"
   }, {
     name: "Veliswa Boya",
     role: "Senior Developer Advocate",
     company: "AWS",
-    image: "/speakers/Veliswa_boya.jpeg",
+    image: "/2024/speakers/Veliswa_boya.jpeg",
     linkedin: "https://www.linkedin.com/in/veliswa-boya/"
   },
 ])
@@ -1104,14 +1103,14 @@ const speakers = ref([
     name: "Cyril Bandolo",
     role: "AWS Machine Learning Hero",
     company: "Serverless Guru",
-    image: "/speakers/Cyril.jpg",
+    image: "/2024/speakers/Cyril.jpg",
     linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
   },
   {
     name: "Ndimofor Rosius",
     role: "AWS Serverless Hero",
     company: "CTO at EduCloud",
-    image: "/speakers/Rosius.jpg",
+    image: "/2024/speakers/Rosius.jpg",
     linkedin: "https://www.linkedin.com/in/rosius/"
   },
 
@@ -1119,14 +1118,14 @@ const speakers = ref([
     name: "Tobenna Nwokike",
     role: "Senior Serverless Developer",
     company: "Serverless Guru LLC",
-    image: "/speakers/tobenna-nwokike.jpg",
+    image: "/2024/speakers/tobenna-nwokike.jpg",
     linkedin: "https://www.linkedin.com/in/tobenna-nwokike/"
   },
   {
     name: "Sébastien Stormacq",
     role: "Principal Developer Advocate",
     company: "AWS",
-    image: "/speakers/sebastien_stormaq.jpg",
+    image: "/2024/speakers/sebastien_stormaq.jpg",
     linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
   },
 
@@ -1134,28 +1133,28 @@ const speakers = ref([
   //   name: "Soh Juvitus Leong",
   //   role: "Data Scientist ",
   //   company: "CEO of Skye8 Company Ltd",
-  //   image: "/speakers/soh-juvitus-leong.jpg",
+  //   image: "/2024/speakers/soh-juvitus-leong.jpg",
   //   linkedin: "https://www.linkedin.com/in/soh-juvitus-leong-a3b6601b5/"
   // },
   {
     name: "Samba Otavise",
     role: "CEO",
     company: "SolaviseTech",
-    image: "/speakers/Samba_Otavise.jpg",
+    image: "/2024/speakers/Samba_Otavise.jpg",
     linkedin: "https://www.linkedin.com/in/samba-otavise/"
   },
   {
     name: "Gwei Mike",
     role: "CEO / Founder",
     company: "Wandaprep Ltd",
-    image: "/speakers/gwei_mike_dp.png",
+    image: "/2024/speakers/gwei_mike_dp.png",
     linkedin: "https://www.linkedin.com/in/gwei-michael-wawa/"
   },
   {
     name: "Jaures Beinjamin",
     role: "Software Developer",
     company: "Packt",
-    image: "/speakers/Jaures.jpeg",
+    image: "/2024/speakers/Jaures.jpeg",
     linkedin: "https://www.linkedin.com/in/jaures-beinjamin-%E2%9C%85%EF%B8%8F-297069211/"
   },
 
@@ -1163,28 +1162,28 @@ const speakers = ref([
     name: "Witah Georjane",
     role: "AWS Cloud Developer",
     company: "Yogaya Inc",
-    image: "/speakers/Georjane_Witah.jpg",
+    image: "/2024/speakers/Georjane_Witah.jpg",
     linkedin: "https://www.linkedin.com/in/witah-georjane/"
   },
   {
     name: "Thembile Ndlovu",
     role: "Community Manager",
     company: "AWS",
-    image: "/speakers/Thembile_Ndlovu.jpg",
+    image: "/2024/speakers/Thembile_Ndlovu.jpg",
     linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
   },
   {
     name: "Pierre Ange Leundeu",
     role: "Data / ML Engineer",
     company: "DevoTeam",
-    image: "/speakers/Pierre_Ange.jpg",
+    image: "/2024/speakers/Pierre_Ange.jpg",
     linkedin: "https://www.linkedin.com/in/paleundeu/"
   },
   {
     name: "Dirane Tafen",
     role: "IT Engineer",
     company: "CTO of EAZYTraining.fr",
-    image: "/speakers/willy_dirane.jfif",
+    image: "/2024/speakers/willy_dirane.jfif",
     linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
   },
 ]);
@@ -1193,63 +1192,63 @@ const organizers = ref([
   {
     name: "Nkwenti Fon Nkwenti",
     group: "AWS User Group Douala",
-    image: "/organizers/Fon_Nkwenti.jpg",
+    image: "/2024/organizers/Fon_Nkwenti.jpg",
     linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
   },
   {
     name: "Cyril Bandolo",
     group: "AWS User Group Douala",
-    image: "/speakers/Cyril.jpg",
+    image: "/2024/speakers/Cyril.jpg",
     linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
   },
   {
     name: "Ndimofor Rosius",
     group: "AWS User Group Douala",
-    image: "/speakers/Rosius.jpg",
+    image: "/2024/speakers/Rosius.jpg",
     linkedin: "https://www.linkedin.com/in/rosius/"
   },
   {
     name: "Antoine Choula",
     group: "AWS User Group Douala",
-    image: "/organizers/Antoine.jpeg",
+    image: "/2024/organizers/Antoine.jpeg",
     linkedin: "https://www.linkedin.com/in/antoine-choula/"
   },
 
   {
     name: "Asongwed Samantha",
     group: "AWS User Group Douala",
-    image: "/organizers/samantha.png",
+    image: "/2024/organizers/samantha.png",
     linkedin: "https://www.linkedin.com/in/asongwedsamantha/"
   },
 
   {
     name: "Steve Yonkeu",
     group: "AWS User Group Douala",
-    image: "/organizers/SteveYonkeu.jpeg",
+    image: "/2024/organizers/SteveYonkeu.jpeg",
     linkedin: "https://www.linkedin.com/in/yokwejuste/"
   },
   {
     name: "Paula Ali Wakabi",
     group: "AWS User Group Yaounde",
-    image: "/organizers/Paula.jpg",
+    image: "/2024/organizers/Paula.jpg",
     linkedin: "https://www.linkedin.com/in/paulaaliwakabi/"
   },
   {
     name: "Chi Che",
     group: "AWS User Group Yaounde",
-    image: "/organizers/Chi_Che.jpeg",
+    image: "/2024/organizers/Chi_Che.jpeg",
     linkedin: "https://www.linkedin.com/in/chi-che/"
   },
   {
     name: "Delia Ayoko",
     group: "AWS Cloud Clubs UBa",
-    image: "/organizers/Delia_Ayoko.jpg",
+    image: "/2024/organizers/Delia_Ayoko.jpg",
     linkedin: "https://www.linkedin.com/in/delia-ayoko/"
   },
   {
     name: "Ngumih Fien",
     group: "AWS Cloud Clubs UBa",
-    image: "/organizers/Ngumih_Fien.jpg",
+    image: "/2024/organizers/Ngumih_Fien.jpg",
     linkedin: "https://www.linkedin.com/in/ngumih-fien/"
   },
 

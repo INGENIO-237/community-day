@@ -14,7 +14,7 @@
       <div>
         <img
           style="height: 3.5rem"
-          src=".././assets/img/white-aws-community-day.svg"
+          src=".././assets/2025/img/white-aws-community-day.svg"
           alt="TheEvent"
         />
       </div>
@@ -27,13 +27,11 @@
         padding-bottom: 5rem;
         overflow: hidden;
         width: 100vw;
-        height: 90vh;
+        min-height: 100vh;
       "
     >
       <div class="container">
-        <h2 class="text-center text-dark">{{ $t("coming") }}</h2>
-
-        <!-- <div class="row">
+        <div class="row">
           <div v-for="vul in volunteers" class="col-lg-3 col-6">
             <div class="speaker border shadow mb-4">
               <a :href="vul.twitterLink" target="_blank">
@@ -57,7 +55,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </main>
   </div>
@@ -70,95 +68,95 @@ definePageMeta({
 
 const volunteers = ref([
   {
-    firstname: "Samantha",
-    lastname: "Asongwed",
-    twitterLink: "",
-    image: "/images/volunteers/Samantha.png",
+    firstname: "BEN H.",
+    lastname: "ABDEL-KALIF",
+    twitterLink: "https://www.linkedin.com/in/ben-hamadou-abdel-kalif-671111228/",
+    image: "/2025/images/volunteers/ingenio.jpeg",
   },
   {
     firstname: "Zion",
     lastname: "Kongbi",
     twitterLink: "",
-    image: "/images/volunteers/zion.png",
-  },
-  {
-    firstname: "Gwladys",
-    lastname: "Godem Pokam",
-    twitterLink: "",
-    image: "/images/volunteers/gwladys.jpeg",
-  },
-  {
-    firstname: "Ange",
-    lastname: "Wobinwo",
-    twitterLink: "https://www.linkedin.com/in/awobins/",
-    image: "/images/volunteers/ange_wobinwo.jpg",
+    image: "/2025/images/volunteers/zion.png",
   },
   {
     firstname: "Jean",
     lastname: "Mofiro",
     twitterLink: "",
-    image: "/images/volunteers/jean_mofiro.jpg",
+    image: "/2025/images/volunteers/jean_mofiro.jpg",
   },
   {
     firstname: "Neba",
     lastname: "Desmond",
     twitterLink: "https://x.com/desmond__neba",
-    image: "/images/volunteers/n_desmond.jpeg",
+    image: "/2025/images/volunteers/n_desmond.jpeg",
   },
   {
-    firstname: "BEN H.",
-    lastname: "ABDEL-KALIF",
-    twitterLink: "https://www.linkedin.com/in/ben-hamadou-abdel-kalif-671111228/",
-    image: "/images/volunteers/ingenio.jpeg",
+    firstname: "Elisabeth",
+    lastname: "Fofie Fopa",
+    twitterLink: "https://www.linkedin.com/in/fofie-fopa-elisabeth/",
+    image: "/2025/images/volunteers/fopa.png",
   },
-  {
-    firstname: "Miriam",
-    lastname: "Nfor",
-    twitterLink: "",
-    image: "/images/volunteers/Nfor.jpg",
-  },
-  {
-    firstname: "Ghany",
-    lastname: "Elisha",
-    twitterLink: "",
-    image: "/images/volunteers/Ghany.jpg",
-  },
-  {
-    firstname: "Divine",
-    lastname: "Kouti",
-    twitterLink: "",
-    image: "/images/volunteers/Kouti_Divine.jpg",
-  },
-  {
-    firstname: "Franck",
-    lastname: "Essoh",
-    twitterLink: "",
-    image: "/images/volunteers/Essoh.jpeg",
-  },
-  {
-    firstname: "Ngum",
-    lastname: "Butlar",
-    twitterLink: "",
-    image: "/images/volunteers/Ngum.jpg",
-  },
-  {
-    firstname: "Syntyche",
-    lastname: "Demgne",
-    twitterLink: "",
-    image: "/images/volunteers/demgne.jpg",
-  },
-  {
-    firstname: "Dinnyuy Lemnyuy",
-    lastname: "Fru Angu",
-    twitterLink: "",
-    image: "/images/volunteers/Dinnyuy.jpg",
-  },
-  {
-    firstname: "Suzy",
-    lastname: "Nguessong",
-    twitterLink: "",
-    image: "/images/volunteers/Suzy.jpg",
-  },
+  // {
+  //   firstname: "Samantha",
+  //   lastname: "Asongwed",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/Samantha.png",
+  // },
+  // {
+  //   firstname: "Gwladys",
+  //   lastname: "Godem Pokam",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/gwladys.jpeg",
+  // },
+  // {
+  //   firstname: "Ange",
+  //   lastname: "Wobinwo",
+  //   twitterLink: "https://www.linkedin.com/in/awobins/",
+  //   image: "/2025/images/volunteers/ange_wobinwo.jpg",
+  // },
+  // {
+  //   firstname: "Miriam",
+  //   lastname: "Nfor",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/Nfor.jpg",
+  // },
+  // {
+  //   firstname: "Ghany",
+  //   lastname: "Elisha",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/Ghany.jpg",
+  // },
+  // {
+  //   firstname: "Divine",
+  //   lastname: "Kouti",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/Kouti_Divine.jpg",
+  // },
+  // {
+  //   firstname: "Franck",
+  //   lastname: "Essoh",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/Essoh.jpeg",
+  // },
+  // {
+  //   firstname: "Ngum",
+  //   lastname: "Butlar",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/Ngum.jpg",
+  // },
+  // {
+  //   firstname: "Syntyche",
+  //   lastname: "Demgne",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/demgne.jpg",
+  // },
+  // {
+  //   firstname: "Suzy",
+  //   lastname: "Nguessong",
+  //   twitterLink: "",
+  //   image: "/2025/images/volunteers/Suzy.jpg",
+  // },
 ]);
 </script>
 
