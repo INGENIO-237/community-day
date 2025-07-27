@@ -14,7 +14,7 @@
       <div>
         <img
           style="height: 3.5rem"
-          src="~/assets/img/white-aws-community-day.svg"
+          src="~/assets/2024/img/white-aws-community-day.svg"
           alt="TheEvent"
         />
       </div>
@@ -70,91 +70,91 @@ const volunteers = ref([
     firstname: "Samantha",
     lastname: "Asongwed",
     twitterLink: "",
-    image: "/images/volunteers/Samantha.png",
+    image: "/2024/images/volunteers/Samantha.png",
   },
   {
     firstname: "Zion",
     lastname: "Kongbi",
     twitterLink: "",
-    image: "/images/volunteers/zion.png",
+    image: "/2024/images/volunteers/zion.png",
   },
   {
     firstname: "Gwladys",
     lastname: "Godem Pokam",
     twitterLink: "",
-    image: "/images/volunteers/gwladys.jpeg",
+    image: "/2024/images/volunteers/gwladys.jpeg",
   },
   {
     firstname: "Ange",
     lastname: "Wobinwo",
     twitterLink: "https://www.linkedin.com/in/awobins/",
-    image: "/images/volunteers/ange_wobinwo.jpg",
+    image: "/2024/images/volunteers/ange_wobinwo.jpg",
   },
   {
     firstname: "Jean",
     lastname: "Mofiro",
     twitterLink: "",
-    image: "/images/volunteers/jean_mofiro.jpg",
+    image: "/2024/images/volunteers/jean_mofiro.jpg",
   },
   {
     firstname: "Neba",
     lastname: "Desmond",
     twitterLink: "https://x.com/desmond__neba",
-    image: "/images/volunteers/n_desmond.jpeg",
+    image: "/2024/images/volunteers/n_desmond.jpeg",
   },
   {
     firstname: "BEN H.",
     lastname: "ABDEL-KALIF",
     twitterLink: "https://www.linkedin.com/in/ben-hamadou-abdel-kalif-671111228/",
-    image: "/images/volunteers/ingenio.jpeg",
+    image: "/2024/images/volunteers/ingenio.jpeg",
   },
   {
     firstname: "Miriam",
     lastname: "Nfor",
     twitterLink: "",
-    image: "/images/volunteers/Nfor.jpg",
+    image: "/2024/images/volunteers/Nfor.jpg",
   },
   {
     firstname: "Ghany",
     lastname: "Elisha",
     twitterLink: "",
-    image: "/images/volunteers/Ghany.jpg",
+    image: "/2024/images/volunteers/Ghany.jpg",
   },
   {
     firstname: "Divine",
     lastname: "Kouti",
     twitterLink: "",
-    image: "/images/volunteers/Kouti_Divine.jpg",
+    image: "/2024/images/volunteers/Kouti_Divine.jpg",
   },
   {
     firstname: "Franck",
     lastname: "Essoh",
     twitterLink: "",
-    image: "/images/volunteers/Essoh.jpeg",
+    image: "/2024/images/volunteers/Essoh.jpeg",
   },
   {
     firstname: "Ngum",
     lastname: "Butlar",
     twitterLink: "",
-    image: "/images/volunteers/Ngum.jpg",
+    image: "/2024/images/volunteers/Ngum.jpg",
   },
   {
     firstname: "Syntyche",
     lastname: "Demgne",
     twitterLink: "",
-    image: "/images/volunteers/demgne.jpg",
+    image: "/2024/images/volunteers/demgne.jpg",
   },
   {
     firstname: "Dinnyuy Lemnyuy",
     lastname: "Fru Angu",
     twitterLink: "",
-    image: "/images/volunteers/Dinnyuy.jpg",
+    image: "/2024/images/volunteers/Dinnyuy.jpg",
   },
   {
     firstname: "Suzy",
     lastname: "Nguessong",
     twitterLink: "",
-    image: "/images/volunteers/Suzy.jpg",
+    image: "/2024/images/volunteers/Suzy.jpg",
   },
 ]);
 </script>
