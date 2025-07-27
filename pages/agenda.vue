@@ -14,7 +14,7 @@
       <div>
         <img
           style="height: 3.5rem"
-          src=".././assets/img/white-aws-community-day.svg"
+          src="../../assets/2025/img/white-aws-community-day.svg"
           alt="TheEvent"
         />
       </div>
