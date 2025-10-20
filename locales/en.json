@@ -2,7 +2,6 @@
   "lastYear": "View last year's event",
   "newYear": "View the most recent event",
   "coming": "Coming Soon...",
-
   "home": "Home",
   "agenda": "Agenda",
   "location": "Location",
@@ -10,7 +9,7 @@
   "speakers": "Speakers",
   "organizers": "Organizers",
   "volunteers": "Volunteers",
-  "date": "8th November 2025",
+  "date": "22nd November 2025",
   "register": "Register",
   "countTitle1": "Countdown to the largest ",
   "countTitle2": " cloud conference in Cameroon",
@@ -30,7 +29,6 @@
   "keynoteSpeakers": "Keynote Speakers",
   "allVolunteers": "See all volunteers",
   "brought": "BROUGHT TO YOU BY",
-
   "whatAWS": "What is AWS Community Day?",
   "whatAWSText": "AWS Community Day is a one-day event organized by the AWS community for the community. It's an opportunity AWS users to meet and learn from each other, share practices, and listen to presentations from experts.",
   "whatAWSMore": "More information can be found on the official ",
