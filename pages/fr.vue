@@ -1062,8 +1062,7 @@ definePageMeta({
   layout: 'home'
 })
 
-// const countDownDate = new Date("Jul 13, 2024 00:00:00").getTime();
-const countDownDate = new Date("Nov 8, 2025 00:00:00")
+const countDownDate = new Date("Nov 22, 2025 00:00:00")
 const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
