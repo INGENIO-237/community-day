@@ -62,7 +62,7 @@
             class="logo"
             title="AWS Community Day Cameroon"
           />
-          <h4 class="mb-4 pt-4 pb-0">{{ $t("date") }}, Buea</h4>
+          <h4 class="mb-4 pt-4 pb-0">{{ $t("date") }}, Chariot Hotel, Buea</h4>
           <div class="text-center">
             <!-- <a
               href="https://docs.google.com/forms/d/1EUVFyK4U85jVJgSr_NmZPQAmZKrl9L04BCmB37hYQK8/edit"
@@ -191,7 +191,7 @@
             <div class="row no-gutters">
               <div class="col-lg-6 col-md-12 col-12 venue-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50119.1471175956!2d9.263809756930259!3d4.157058917277203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10613259651819a3%3A0x754210aa92e62bff!2zQnXDqWE!5e0!3m2!1sfr!2scm!4v1753646680518!5m2!1sfr!2scm"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.70697688833928!2d9.297098651448666!3d4.159004432405723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10613194b3783f71%3A0x17aa6b0962b72240!2sChariot%20Hotel%20Buea!5e0!3m2!1sen!2scm!4v1761448179914!5m2!1sen!2scm"
                   width="600"
                   height="450"
                   style="border: 0"
@@ -204,8 +204,7 @@
               <div class="col-lg-6 col-md-12 col-12 venue-info">
                 <div class="row justify-content-center">
                   <div class="col-11 col-lg-8">
-                    <h3>Buea</h3>
-                    <!-- <p>Gare de Bessengue</p> -->
+                    <h3>Chariot Hotel</h3>
                     <p>Buea, South West</p>
                     <p>Cameroon</p>
                   </div>
