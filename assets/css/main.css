@@ -586,7 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .intro {
   width: 100%;
   height: 100vh;
-  background: url(../2024/img/venue-gallery/aws-01.jpg) top center;
+  background: url(../../public/2024/img/venue-gallery/aws-01.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -595,7 +595,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro-2025 {
   width: 100%;
   height: 100vh;
-  background: url(../2025/img/venue-gallery/aws-01.jpg) top center;
+  background: url(../../public/2025/img/venue-gallery/aws-01.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
