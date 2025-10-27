@@ -9,7 +9,7 @@
           <div id="logo" class="pull-left">
             <a href="#intro" class="scrollto"
               ><img
-                src="~/assets/2024/img/white-aws-community-day.svg"
+                src="/2024/img/white-aws-community-day.svg"
                 alt="AWS Community Day Cameroon"
                 title="AWS Community Day Cameroon"
             /></a>
@@ -58,7 +58,7 @@
       <section class="intro">
         <div class="intro-container wow fadeIn">
           <img
-            src="~/assets/2024/img/white-aws-community-day.svg"
+            src="/2024/img/white-aws-community-day.svg"
             class="logo"
             title="AWS Community Day Cameroon"
           />
@@ -139,7 +139,7 @@
               <div class="col-lg-6 d-none d-md-block">
                 <div class="center">
                   <img
-                    src="~/assets/2024/img/app-qr.png"
+                    src="/2024/img/app-qr.png"
                     alt="QR Code"
                     style="max-width: 200px"
                   />
@@ -218,12 +218,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venue-01.png"
+                    href="/2024/img/venue-gallery/venue-01.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venue-01.png"
+                      src="/2024/img/venue-gallery/venue-01.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -232,12 +232,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venue-02.png"
+                    href="/2024/img/venue-gallery/venue-02.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venue-02.png"
+                      src="/2024/img/venue-gallery/venue-02.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -246,12 +246,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venue-03.png"
+                    href="/2024/img/venue-gallery/venue-03.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venue-03.png"
+                      src="/2024/img/venue-gallery/venue-03.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -260,12 +260,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venue-04.png"
+                    href="/2024/img/venue-gallery/venue-04.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venue-04.png"
+                      src="/2024/img/venue-gallery/venue-04.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -274,12 +274,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venue-05.png"
+                    href="/2024/img/venue-gallery/venue-05.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venue-05.png"
+                      src="/2024/img/venue-gallery/venue-05.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -288,12 +288,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venue-06.png"
+                    href="/2024/img/venue-gallery/venue-06.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venue-06.png"
+                      src="/2024/img/venue-gallery/venue-06.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -302,12 +302,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venu-07.jpeg"
+                    href="/2024/img/venue-gallery/venu-07.jpeg"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venu-07.jpeg"
+                      src="/2024/img/venue-gallery/venu-07.jpeg"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -316,12 +316,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="~/assets/2024/img/venue-gallery/venue-08.jpeg"
+                    href="/2024/img/venue-gallery/venue-08.jpeg"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="~/assets/2024/img/venue-gallery/venue-08.jpeg"
+                      src="/2024/img/venue-gallery/venue-08.jpeg"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -343,70 +343,70 @@
             <div class="carousel">
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-01.jpg"
+                  src="/2024/img/past-events/event-01.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-07.jpg"
+                  src="/2024/img/past-events/event-07.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-02.jpg"
+                  src="/2024/img/past-events/event-02.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-03.jpg"
+                  src="/2024/img/past-events/event-03.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-08.jpg"
+                  src="/2024/img/past-events/event-08.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-04.jpg"
+                  src="/2024/img/past-events/event-04.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-05.jpg"
+                  src="/2024/img/past-events/event-05.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-09.jpg"
+                  src="/2024/img/past-events/event-09.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-06.jpg"
+                  src="/2024/img/past-events/event-06.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
               </div>
               <div class="">
                 <img
-                  src="~/assets/2024/img/past-events/event-10.jpg"
+                  src="/2024/img/past-events/event-10.jpg"
                   class="img-fluid gallery-image"
                   alt="Carousel Image"
                 />
@@ -439,7 +439,7 @@
                           target="_blank"
                         >
                           <img
-                            src="~/assets/2024/img/sponsors/NetApp_Arrow.png"
+                            src="/2024/img/sponsors/NetApp_Arrow.png"
                             class="img-fluid"
                             style="display: block; max-width: 50% !important"
                           />
@@ -451,7 +451,7 @@
                     <div class="supporter-logo">
                       <a href="https://www.n-ix.com/" target="_blank">
                         <img
-                          src="~/assets/2024/img/sponsors/N-iX.png"
+                          src="/2024/img/sponsors/N-iX.png"
                           class="img-fluid"
                         />
                       </a>
@@ -464,7 +464,7 @@
                         target="_blank"
                       >
                         <img
-                          src="~/assets/2024/img/sponsors/IT_HUB.png"
+                          src="/2024/img/sponsors/IT_HUB.png"
                           class="img-fluid"
                         />
                       </a>
@@ -476,7 +476,7 @@
                         <center>
                           <img
                             class="img-fluid"
-                            src="~/assets/2024/img/sponsors/chaosgears.png"
+                            src="/2024/img/sponsors/chaosgears.png"
                             style="display: block; max-width: 70% !important"
                           />
                         </center>
@@ -492,7 +492,7 @@
                 <div class="supporter-logo">
                   <a href="https://aws.amazon.com/" target="_blank">
                     <img
-                      src="~/assets/2024/img/sponsors/gold/aws-logo.png"
+                      src="/2024/img/sponsors/gold/aws-logo.png"
                       class="img-fluid"
                     />
                   </a>
@@ -502,7 +502,7 @@
                 <div class="supporter-logo">
                   <a href="https://www.olioapps.com/" target="_blank">
                     <img
-                      src="~/assets/2024/img/sponsors/gold/olioapps-logo.png"
+                      src="/2024/img/sponsors/gold/olioapps-logo.png"
                       class="img-fluid"
                     />
                   </a>
@@ -517,7 +517,7 @@
                 <div class="supporter-logo">
                   <a href="https://www.serverlessguru.com/" target="_blank">
                     <img
-                      src="~/assets/2024/img/sponsors/silver/serverless_guru-logo.jpeg"
+                      src="/2024/img/sponsors/silver/serverless_guru-logo.jpeg"
                       class="img-fluid"
                     />
                   </a>
@@ -532,7 +532,7 @@
                 <div class="supporter-logo">
                   <a href="https://www.educloud.academy/" target="_blank">
                     <img
-                      src="~/assets/2024/img/sponsors/community/educloud.png"
+                      src="/2024/img/sponsors/community/educloud.png"
                       class="img-fluid"
                     />
                   </a>
@@ -542,7 +542,7 @@
                 <div class="supporter-logo">
                   <a href="https://eazytraining.fr/" target="_blank">
                     <img
-                      src="~/assets/2024/img/sponsors/community/EazyTraining-logo.png"
+                      src="/2024/img/sponsors/community/EazyTraining-logo.png"
                       class="img-fluid"
                     />
                   </a>
@@ -557,7 +557,7 @@
                 <div class="supporter-logo">
                   <a href="#">
                     <img
-                      src="~/assets/2024/img/sponsors/exhibitors/BitterKola.jpg"
+                      src="/2024/img/sponsors/exhibitors/BitterKola.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -570,7 +570,7 @@
                     target="_blank"
                   >
                     <img
-                      src="~/assets/2024/img/sponsors/exhibitors/Cameroon-Data-Community.jpg"
+                      src="/2024/img/sponsors/exhibitors/Cameroon-Data-Community.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -580,7 +580,7 @@
                 <div class="supporter-logo">
                   <a href="#">
                     <img
-                      src="~/assets/2024/img/sponsors/exhibitors/django-Cameroon.jpg"
+                      src="/2024/img/sponsors/exhibitors/django-Cameroon.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -590,7 +590,7 @@
                 <div class="supporter-logo">
                   <a href="https://lightgroup.tech/" target="_blank">
                     <img
-                      src="~/assets/2024/img/sponsors/exhibitors/LightGroup.jpg"
+                      src="/2024/img/sponsors/exhibitors/LightGroup.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -600,7 +600,7 @@
                 <div class="supporter-logo">
                   <a href="#">
                     <img
-                      src="~/assets/2024/img/sponsors/exhibitors/SolaviseTech.jpg"
+                      src="/2024/img/sponsors/exhibitors/SolaviseTech.jpg"
                       class="img-fluid"
                     />
                   </a>
@@ -921,7 +921,7 @@
                   >
                     <div>
                       <img
-                        src="~/assets/2024/img/user-group/aws_user_group_douala_white.svg"
+                        src="/2024/img/user-group/aws_user_group_douala_white.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -960,7 +960,7 @@
                   >
                     <div>
                       <img
-                        src="~/assets/2024/img/user-group/aws_user_group_yaounde_white.svg"
+                        src="/2024/img/user-group/aws_user_group_yaounde_white.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -999,7 +999,7 @@
                   >
                     <div>
                       <img
-                        src="~/assets/2024/img/user-group/awsscc-black-logo.svg"
+                        src="/2024/img/user-group/awsscc-black-logo.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
