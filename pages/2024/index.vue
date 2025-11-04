@@ -42,8 +42,8 @@
               <li><a href="/2024#faq">FAQ</a></li>
               <li><a href="/2024#footer">Contact</a></li>
               <li>
-                <NuxtLink to="/2024" v-if="locale == 'fr'">EN</NuxtLink>
-                <NuxtLink to="/2024/fr" v-if="locale == 'en'">FR</NuxtLink>
+                <NuxtLink to="/2024" v-if="locale == 'fr2024'">EN</NuxtLink>
+                <NuxtLink to="/2024/fr" v-if="locale == 'en2024'">FR</NuxtLink>
               </li>
             </ul>
           </nav>
@@ -1060,6 +1060,19 @@ const windowWidth = ref(0);
 
 
 const { locale, t } = useI18n();
+// Function to switch between languages
+let pathname;
+if(process.client){
+   pathname = location.pathname.split("/")
+}else{
+    const route = useRoute()
+    pathname = route.path.split("/")
+}
+if(pathname?.includes("fr")) {
+  locale.value = "fr2024"
+} else {
+  locale.value = "en2024"
+}
 
 // function to make the sponsor block clickable
 function openLink(link) {

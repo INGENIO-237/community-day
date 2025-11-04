@@ -11,7 +11,9 @@ export default defineNuxtPlugin(({ vueApp }) => {
         locale: 'en',
         messages: {
             en: en2025,
-            fr: fr2025
+            fr: fr2025,
+            en2024: en2024,
+            fr2024: fr2024
         }
     })
 
