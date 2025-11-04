@@ -4,7 +4,7 @@ export const knspeakers = [
     role: "Principal Solutions Architect",
     company: "AWS",
     image: "/2025/speakers/ernest-mougoue.png",
-    linkedin: "https://www.linkedin.com/in/ymohamadou/",
+    linkedin: "https://www.linkedin.com/in/emougoue/",
   },
   {
     name: "Olivier Leplus",
