@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div>
       <!--==========================
             Header
           ============================-->
@@ -42,8 +41,8 @@
               <li><a href="/2024#faq">FAQ</a></li>
               <li><a href="/2024#footer">Contact</a></li>
               <li>
-                <a href="/2024/" v-if="locale == 'fr'">EN</a>
-                <a href="/2024/fr" v-if="locale == 'en'">FR</a>
+                <a href="/2024/" v-if="locale == 'fr2024'">EN</a>
+                <a href="/2024/fr" v-if="locale == 'en2024'">FR</a>
               </li>
             </ul>
           </nav>
@@ -1037,7 +1036,6 @@
           </div>
         </section>
       </main>
-    </div>
   </div>
 </template>
 <script setup type="ts">
@@ -1066,7 +1064,11 @@ if(process.client){
     const route = useRoute()
     pathname = route.path.split("/")
 }
-if(pathname?.includes("fr")) locale.value = "fr"
+if(pathname?.includes("fr")) {
+  locale.value = "fr2024"
+} else {
+  locale.value = "en2024"
+}
 
 // function to make the sponsor block clickable
 function openLink(link) {
@@ -1176,7 +1178,7 @@ const organizers = ref([
   {
     name: "Nkwenti Fon Nkwenti",
     group: "AWS User Group Douala",
-    image: "/2024/organizers/Fon_Nkwenti.png",
+    image: "/2024/organizers/Fon_Nkwenti.jpg",
     linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
   },
   {
