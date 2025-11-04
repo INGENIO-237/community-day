@@ -1097,6 +1097,12 @@ definePageMeta({
   layout: 'home'
 })
 
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  }
+})
+
 const { days, hours, minutes, seconds, windowWidth, locale, t, openLink } = use2025Utils();
 </script>
 

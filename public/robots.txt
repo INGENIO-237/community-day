@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://communityday.awscmr.com/sitemap.xml
