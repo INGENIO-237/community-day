@@ -891,12 +891,12 @@
                     ></a>
                     <div id="faq5" class="collapse" data-parent="#faq-list">
                       <p>
-                        {{ $t("wherePlaceText")
-                        }}<a
+                        {{ $t("wherePlaceText") }}
+                        <!-- <a
                           href="https://yango.com/en_cm/city/douala/"
                           target="_blank"
                           >Yango</a
-                        >
+                        > -->
                       </p>
                     </div>
                   </li>
