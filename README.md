@@ -1,75 +1,83 @@
-# Nuxt 3 Minimal Starter
+# AWS Community Day Cameroon
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<div align="center">
+  <img src="public/2025/img/white-aws-community-day.svg" alt="AWS Community Day Cameroon" width="300">
+</div>
+
+Official website for AWS Community Day Cameroon - a community-driven event bringing together AWS enthusiasts, developers, and cloud professionals in Cameroon.
+
+## About
+
+AWS Community Day Cameroon is an annual event organized by AWS User Groups in Douala, Yaounde, and AWS Cloud Clubs UBa. The event features:
+
+- Keynote speakers from AWS and the local tech community
+- Technical sessions on cloud computing and AWS services
+- Networking opportunities with fellow cloud enthusiasts
+- Sponsor exhibitions and community showcases
+
+## Tech Stack
+
+- **Framework**: Nuxt 3
+- **Language**: TypeScript
+- **Styling**: CSS with Bootstrap
+- **Internationalization**: Vue i18n (English/French)
+- **Deployment**: AWS Amplify
 
 ## Setup
 
-Make sure to install the dependencies:
+Install dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# or
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+# or
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+The site will be available at `http://localhost:3000`
 
-Build the application for production:
+## Build
+
+Build for production:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
+# or
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Preview production build:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
+# or
 yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Structure
+
+- `/pages` - Vue pages for different routes (2024/2025 editions)
+- `/components` - Reusable Vue components
+- `/data` - Speaker and organizer data
+- `/locales` - Internationalization files (EN/FR)
+- `/public` - Static assets (images, sponsors, etc.)
+- `/assets` - CSS and other assets
+
+## Contributing
+
+This project is maintained by the AWS User Groups in Cameroon. For updates or contributions, please contact the organizers.
+
+## Links
+
+- [AWS User Group Douala](https://www.meetup.com/awsugdouala)
+- [AWS User Group Yaounde](https://www.meetup.com/aws-user-group-yaounde)
+- [AWS Cloud Clubs UBa](https://www.meetup.com/aws-cloud-club-at-the-university-of-bamenda)
