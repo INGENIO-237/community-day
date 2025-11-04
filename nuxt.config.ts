@@ -55,6 +55,6 @@ export default defineNuxtConfig({
 
 
   nitro: {
-    preset: "static",
+    preset: "aws-amplify",
   },
 });
