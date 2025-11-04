@@ -891,12 +891,12 @@
                     ></a>
                     <div id="faq5" class="collapse" data-parent="#faq-list">
                       <p>
-                        {{ $t("wherePlaceText")
-                        }}<a
+                        {{ $t("wherePlaceText") }}
+                        <!-- <a
                           href="https://yango.com/en_cm/city/douala/"
                           target="_blank"
                           >Yango</a
-                        >
+                        > -->
                       </p>
                     </div>
                   </li>
@@ -1097,6 +1097,21 @@ import { use2025Utils } from '~/composables/use2025Utils';
 
 definePageMeta({
   layout: 'home'
+})
+
+useHead({
+  title: 'AWS Community Day Cameroun 2025 | Conférence Cloud Buea',
+  meta: [
+    { name: 'description', content: 'Rejoignez AWS Community Day Cameroun 2025 au Chariot Hotel Buea. Apprenez le cloud computing, les services AWS et réseautez avec des professionnels. 22 novembre 2025.' },
+    { name: 'keywords', content: 'AWS, Community Day, Cameroun, Cloud Computing, Buea, Conférence, Amazon Web Services, Événement Tech' },
+    { property: 'og:title', content: 'AWS Community Day Cameroun 2025' },
+    { property: 'og:description', content: 'Rejoignez la plus grande conférence cloud AWS au Cameroun. 22 novembre 2025 au Chariot Hotel Buea.' },
+    { name: 'twitter:title', content: 'AWS Community Day Cameroun 2025' },
+    { name: 'twitter:description', content: 'Rejoignez la plus grande conférence cloud AWS au Cameroun. 22 novembre 2025 au Chariot Hotel Buea.' },
+  ],
+  htmlAttrs: {
+    lang: 'fr'
+  }
 })
 
 const { days, hours, minutes, seconds, windowWidth, locale, t, openLink } = use2025Utils();

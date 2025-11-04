@@ -889,12 +889,12 @@
                     ></a>
                     <div id="faq5" class="collapse" data-parent="#faq-list">
                       <p>
-                        {{ $t("wherePlaceText")
-                        }}<a
+                        {{ $t("wherePlaceText") }}
+                        <!-- <a
                           href="https://yango.com/en_cm/city/douala/"
                           target="_blank"
                           >Yango</a
-                        >
+                        > -->
                       </p>
                     </div>
                   </li>
@@ -1097,11 +1097,15 @@ definePageMeta({
   layout: 'home'
 })
 
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  }
+})
+
 const { days, hours, minutes, seconds, windowWidth, locale, t, openLink } = use2025Utils();
-
-
 </script>
 
 <style>
-@import '~/assets/css/gallery.css';
+@import "~/assets/css/gallery.css";
 </style>
