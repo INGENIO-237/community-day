@@ -205,8 +205,8 @@
                 <div class="row justify-content-center">
                   <div class="col-11 col-lg-8">
                     <h3>Chariot Hotel</h3>
-                    <p>Buea, South West</p>
-                    <p>Cameroon</p>
+                    <p>Buea, Sud Ouest</p>
+                    <p>Cameroun</p>
                   </div>
                 </div>
               </div>
@@ -689,9 +689,9 @@
               <h2>{{ $t("speakers") }}</h2>
             </div>
 
-            <h2 class="text-center">{{ $t("coming") }}</h2>
+            <!-- <h2 class="text-center">{{ $t("coming") }}</h2> -->
 
-            <!-- <div
+            <div
               style="text-align: center; margin-top: -1rem; margin-bottom: 2rem"
             >
               <h4 style="color: #ff9b00; font-weight: bold; font-size: larger">
@@ -742,7 +742,7 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </section>
 
@@ -1100,9 +1100,8 @@ definePageMeta({
 })
 
 const { days, hours, minutes, seconds, windowWidth, locale, t, openLink } = use2025Utils();
-
 </script>
 
 <style>
-@import '~/assets/css/gallery.css';
+@import "~/assets/css/gallery.css";
 </style>
