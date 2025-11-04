@@ -53,8 +53,8 @@ export default defineNuxtConfig({
     },
   },
 
+
   nitro: {
-    preset: "aws_amplify",
-    nodeVersion: "22",
+    preset: "aws-amplify",
   },
 });
