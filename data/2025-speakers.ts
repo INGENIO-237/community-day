@@ -1,96 +1,106 @@
 export const knspeakers = [
   {
-    name: "Mohamadou Yacoubou",
+    name: "Ernest Mougoue",
     role: "Principal Solutions Architect",
     company: "AWS",
-    image: "/2025/speakers/mohamadou_Yacoubou.jpeg",
-    linkedin: "https://www.linkedin.com/in/ymohamadou/"
-  }, {
-    name: "Veliswa Boya",
-    role: "Senior Developer Advocate",
-    company: "AWS",
-    image: "/2025/speakers/Veliswa_boya.jpeg",
-    linkedin: "https://www.linkedin.com/in/veliswa-boya/"
+    image: "/2025/speakers/ernest-mougoue.png",
+    linkedin: "https://www.linkedin.com/in/emougoue/",
+  },
+  {
+    name: "Olivier Leplus",
+    role: "Developer Advocate",
+    company: "Amazon Web Services",
+    image: "/2025/speakers/olivier-leplus.png",
+    linkedin: "https://www.linkedin.com/in/olivierleplus/",
   },
 ];
 
 export const speakers = [
   {
-    name: "Cyril Bandolo",
-    role: "AWS Machine Learning Hero",
-    company: "Serverless Guru",
-    image: "/2025/speakers/Cyril.jpg",
-    linkedin: "https://www.linkedin.com/in/cyrilbandolo/"
+    name: "Yengo Bill Arnold",
+    role: "Senior Software Engineer",
+    company: "Zenithis",
+    image: "/2025/speakers/yengo-bill-arnold.png",
+    linkedin: "https://www.linkedin.com/in/billyengo/",
   },
   {
-    name: "Ndimofor Rosius",
-    role: "AWS Serverless Hero",
-    company: "CTO at EduCloud",
-    image: "/2025/speakers/Rosius.jpg",
-    linkedin: "https://www.linkedin.com/in/rosius/"
+    name: "Maxwell N. Manga",
+    role: "Lecturer",
+    company: "University of Yaounde I",
+    image: "/2025/speakers/maxwell-ndognkon-manga.png",
+    linkedin:
+      "https://www.linkedin.com/in/maxwell-ndognkong-manga-phd-06367272/",
   },
   {
-    name: "Tobenna Nwokike",
-    role: "Senior Serverless Developer",
-    company: "Serverless Guru LLC",
-    image: "/2025/speakers/tobenna-nwokike.jpg",
-    linkedin: "https://www.linkedin.com/in/tobenna-nwokike/"
+    name: "Tengu Quinter",
+    role: "AWS Solutions Architect instructor",
+    company: "Trustech Online University",
+    image: "/2025/speakers/tengu-quinter.png",
+    linkedin: "https://www.linkedin.com/in/tengu-quinter/",
   },
   {
-    name: "Sébastien Stormacq",
-    role: "Principal Developer Advocate",
-    company: "AWS",
-    image: "/2025/speakers/sebastien_stormaq.jpg",
-    linkedin: "https://www.linkedin.com/in/sebastienstormacq/"
+    name: "Pascal Esegemou E. F.",
+    role: "Cloud Support Engineer",
+    company: "AzureTech",
+    image: "/2025/speakers/pascal-e.-ekenya-fonjock.png",
+    linkedin: "https://www.linkedin.com/in/pascal-cloud-devops/",
   },
   {
-    name: "Samba Otavise",
-    role: "CEO",
-    company: "SolaviseTech",
-    image: "/2025/speakers/Samba_Otavise.jpg",
-    linkedin: "https://www.linkedin.com/in/samba-otavise/"
+    name: "Martin Tellen Alemkeng",
+    role: "Cloud Support Engineer I",
+    company: "Amazon Web Services",
+    image: "/2025/speakers/martin-tellen-alemkeng.png",
+    linkedin: "https://www.linkedin.com/in/martintellenalemkeng/",
   },
   {
-    name: "Gwei Mike",
-    role: "CEO / Founder",
-    company: "Wandaprep Ltd",
-    image: "/2025/speakers/gwei_mike_dp.png",
-    linkedin: "https://www.linkedin.com/in/gwei-michael-wawa/"
+    name: "Sammy Kale",
+    role: "Sr. Project and Program Manager",
+    company: "Dobre Technologies",
+    image: "/2025/speakers/sammy-kale.png",
+    linkedin:
+      "https://www.linkedin.com/in/sammy-kale-pmi-cpmai%E2%84%A2-pmp%C2%AE-pmi-acp%C2%AE-cpmai%E2%84%A2-v7-aa89b620/",
   },
   {
-    name: "Jaures Beinjamin",
-    role: "Software Developer",
-    company: "Packt",
-    image: "/2025/speakers/Jaures.jpeg",
-    linkedin: "https://www.linkedin.com/in/jaures-beinjamin-%E2%9C%85%EF%B8%8F-297069211/"
+    name: "Loic Ntonga",
+    role: "Cloud/DevOps Engineer",
+    company: "Likabo",
+    image: "/2025/speakers/loic-ntonga.png",
+    linkedin: "https://www.linkedin.com/in/flntonga/",
   },
   {
-    name: "Witah Georjane",
-    role: "AWS Cloud Developer",
-    company: "Yogaya Inc",
-    image: "/2025/speakers/Georjane_Witah.jpg",
-    linkedin: "https://www.linkedin.com/in/witah-georjane/"
+    name: "Tatapong Amaziah",
+    role: "DevOps/Cloud Engineer & Trainer, FinOps Strategist",
+    company: "",
+    image: "/2025/speakers/tatapong-amaziah.png",
+    linkedin: "https://www.linkedin.com/in/tatapong-amaziah/",
   },
   {
-    name: "Thembile Ndlovu",
-    role: "Community Manager",
-    company: "AWS",
-    image: "/2025/speakers/Thembile_Ndlovu.jpg",
-    linkedin: "https://www.linkedin.com/in/thembile-nonhle-ndlovu/"
+    name: "Stéphane Noutsa",
+    role: "Senior DevOps Engineer | AWS Community Builder | 12x AWS Certified",
+    company: "Cofomo",
+    image: "/2025/speakers/stephane-noutsa.png",
+    linkedin: "https://www.linkedin.com/in/stephane-noutsa/",
   },
   {
-    name: "Pierre Ange Leundeu",
-    role: "Data / ML Engineer",
-    company: "DevoTeam",
-    image: "/2025/speakers/Pierre_Ange.jpg",
-    linkedin: "https://www.linkedin.com/in/paleundeu/"
+    name: "Bertin Fonge",
+    role: "Lead Developer",
+    company: "Tangento Host",
+    image: "/2025/speakers/bertin-fonge.png",
+    linkedin: "https://www.linkedin.com/in/bertin-fonge-30aa69212/",
   },
   {
-    name: "Dirane Tafen",
-    role: "IT Engineer",
-    company: "CTO of EAZYTraining.fr",
-    image: "/2025/speakers/willy_dirane.jfif",
-    linkedin: "https://www.linkedin.com/in/dirane-willy-tafen-254913b5/"
+    name: "Ndzenyuy Jones",
+    role: "DevOps Engineer",
+    company: "Sparx Interactive Solutions",
+    image: "/2025/speakers/ndzenyuy-jones.png",
+    linkedin: "https://www.linkedin.com/in/jones-ndzenyuy/",
+  },
+  {
+    name: "Fonchu Venyuy",
+    role: "AWS Serverless Developer",
+    company: "Educloud Academy",
+    image: "/2025/speakers/fonchu-venyuy.png",
+    linkedin: "https://www.linkedin.com/in/fonchu/",
   },
 ];
 
@@ -99,13 +109,13 @@ export const organizers = [
     name: "Steve Yonkeu",
     group: "AWS User Group Douala",
     image: "/2025/organizers/SteveYonkeu.jpeg",
-    linkedin: "https://www.linkedin.com/in/yokwejuste/"
+    linkedin: "https://www.linkedin.com/in/yokwejuste/",
   },
   {
     name: "Delia Ayoko",
     group: "AWS Cloud Clubs UBa",
     image: "/2025/organizers/Delia_Ayoko.jpg",
-    linkedin: "https://www.linkedin.com/in/delia-ayoko/"
+    linkedin: "https://www.linkedin.com/in/delia-ayoko/",
   },
   {
     name: "Dinnyuy Fru Angu",
@@ -117,6 +127,6 @@ export const organizers = [
     name: "Nkwenti Fon Nkwenti",
     group: "AWS User Group Douala",
     image: "/2025/organizers/Fon_Nkwenti.jpg",
-    linkedin: "https://www.linkedin.com/in/nkwenti-fon/"
+    linkedin: "https://www.linkedin.com/in/nkwenti-fon/",
   },
 ];
