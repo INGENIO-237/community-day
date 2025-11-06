@@ -9,7 +9,7 @@
           <div id="logo" class="pull-left">
             <a href="#intro" class="scrollto"
               ><img
-                src="/2025/img/white-aws-community-day.svg"
+                src="/white-aws-community-day.svg"
                 alt="AWS Community Day Cameroon"
                 title="AWS Community Day Cameroon"
             /></a>
@@ -58,7 +58,7 @@
       <section id="intro-2025" class="intro">
         <div class="intro-container wow fadeIn">
           <img
-            src="/2025/img/white-aws-community-day.svg"
+            src="/white-aws-community-day.svg"
             class="logo"
             title="AWS Community Day Cameroon"
           />
@@ -529,21 +529,15 @@
             <h3 class="text-center">{{ $t("gold") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+              <div
+                v-for="sponsor in goldSponsors"
+                class="col-lg-4 col-md-4 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="https://aws.amazon.com/" target="_blank">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/gold/aws-logo.png"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://www.olioapps.com/" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/gold/olioapps-logo.png"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
@@ -551,39 +545,37 @@
               </div>
             </div>
 
-            <h3 class="text-center">{{ $t("silver") }}</h3>
+            <!-- <h3 class="text-center">{{ $t("silver") }}</h3> -->
 
-            <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+            <!-- <div class="row supporters-wrap clearfix justify-content-center">
+              <div
+                v-for="sponsor in silverSponsors"
+                class="col-lg-4 col-md-4 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="https://www.serverlessguru.com/" target="_blank">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/silver/serverless_guru-logo.jpeg"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <h3 class="text-center">{{ $t("community") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+              <div
+                v-for="sponsor in communitySponsors"
+                class="col-lg-4 col-md-4 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="https://www.educloud.academy/" target="_blank">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/community/educloud.png"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://eazytraining.fr/" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/community/EazyTraining-logo.png"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
@@ -591,67 +583,18 @@
               </div>
             </div>
 
-            <h3 class="text-center">{{ $t("communityExhibitions") }}</h3>
+            <h3 class="text-center">{{ $t("communityPartners") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+              <div
+                v-for="sponsor in communityPartners"
+                class="col-lg-2 col-md-3 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="#">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/exhibitors/BitterKola.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a
-                    href="https://www.linkedin.com/company/cameroon-data-community/"
-                    target="_blank"
-                  >
-                    <img
-                      src="/2025/img/sponsors/exhibitors/Cameroon-Data-Community.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="#">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/django-Cameroon.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://lightgroup.tech/" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/LightGroup.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="#">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/SolaviseTech.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://www.swecom.cm" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/swecom.png"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
@@ -972,7 +915,7 @@
                   >
                     <div>
                       <img
-                        src="/2025/img/user-group/aws_user_group_douala_white.svg"
+                        src="/user-groups/aws_user_group_douala_white.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -1011,7 +954,7 @@
                   >
                     <div>
                       <img
-                        src="/2025/img/user-group/aws_user_group_yaounde_white.svg"
+                        src="/user-groups/aws_user_group_yaounde_white.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -1050,7 +993,7 @@
                   >
                     <div>
                       <img
-                        src="/2025/img/user-group/awsscc-black-logo.svg"
+                        src="/user-groups/awsscc-black-logo.svg"
                         alt="TheEvent"
                         style="height: 6rem"
                       />
@@ -1092,7 +1035,8 @@
   </div>
 </template>
 <script setup type="ts">
-import { knspeakers, speakers, organizers } from '~/data/2025-speakers';
+import { knspeakers, speakers, organizers } from '~/data/2025/speakers';
+import { goldSponsors, silverSponsors, communitySponsors, communityPartners } from '~/data/2025/sponsors';
 import { use2025Utils } from '~/composables/use2025Utils';
 
 definePageMeta({
