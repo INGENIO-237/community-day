@@ -1,14 +1,14 @@
 export const organizers = [
   {
     name: "Nkwenti Fon Nkwenti",
-    group: "AWS User Group Douala",
+    group: "AWS Cameroon",
     image: "/2025/organizers/Fon_Nkwenti.jpg",
     linkedin: "https://www.linkedin.com/in/nkwenti-fon/",
   },
   {
     name: "Steve Yonkeu",
     group: "AWS User Group Douala",
-    image: "/2025/organizers/SteveYonkeu.jpeg",
+    image: "/2025/organizers/yokwe.png",
     linkedin: "https://www.linkedin.com/in/yokwejuste/",
   },
   {
@@ -18,7 +18,7 @@ export const organizers = [
     linkedin: "https://www.linkedin.com/in/delia-ayoko/",
   },
   {
-    name: "Dinnyuy Fru Angu",
+    name: "Dinnyuy L Fru Angu",
     group: "AWS User Group Douala",
     image: "/2025/organizers/Dinnyuy.jpg",
     linkedin: "https://www.linkedin.com/in/dinnyuy-l-fru-angu/",
@@ -31,7 +31,7 @@ export const organizers = [
   },
   {
     name: "Paula Ali Wakabi",
-    group: "AWS User Group Douala",
+    group: "AWS User Group Yaounde",
     image: "/2025/organizers/Paula.jpg",
     linkedin: "https://www.linkedin.com/in/paulaaliwakabi/?originalSubdomain=gh",
   },
