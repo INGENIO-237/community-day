@@ -24,7 +24,7 @@ export const organizers = [
     linkedin: "https://www.linkedin.com/in/dinnyuy-l-fru-angu/",
   },
   {
-    name: "ChiChe",
+    name: "Chi Che",
     group: "AWS User Group Yaounde",
     image: "/2025/organizers/Chi_Che.jpeg",
     linkedin: "https://www.linkedin.com/in/chi-che/",
@@ -37,7 +37,7 @@ export const organizers = [
   },
   {
     name: "Clearance Ngwe",
-    group: "AWS User Group Douala",
+    group: "AWS User Group Buea",
     image: "/2025/organizers/clearance.png",
     linkedin: "https://www.linkedin.com/in/clearance-ngwe-7b5b9513b/",
   },
