@@ -1,35 +1,55 @@
 <template>
-  <div style="overflow: hidden">
-    <div
-      style="
-        width: 100vw;
-        height: 6rem;
-        background-color: #222f3f;
-        display: flex;
-        justify-content: center;
-        padding-top: 1rem;
-        overflow: hidden;
-      "
-    >
-      <div>
-        <img
-          style="height: 3.5rem"
-          src="/white-aws-community-day.svg"
-          alt="TheEvent"
-        />
+  <div>
+    <!--==========================
+        Header
+      ============================-->
+    <header id="header">
+      <div class="container">
+        <div id="logo" class="pull-left">
+          <a href="/" class="scrollto"
+            ><img
+              src="/white-aws-community-day.svg"
+              alt="AWS Community Day Cameroon"
+              title="AWS Community Day Cameroon"
+          /></a>
+        </div>
+
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/#schedule">Agenda</a>
+            </li>
+            <li>
+              <a href="/#venue">Location</a>
+            </li>
+            <li>
+              <a href="/#gallery">Gallery</a>
+            </li>
+            <li><a href="/#supporters">Sponsors</a></li>
+            <li>
+              <a href="/#speakers">Speakers</a>
+            </li>
+            <li>
+              <a href="/#organizers">Organizers</a>
+            </li>
+            <li class="menu-active">
+              <a href="/volunteers">Volunteers</a>
+            </li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="/#footer">Contact</a></li>
+            <li>
+              <a href="/fr">FR</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
       </div>
-    </div>
-    <main
-      id="main"
-      style="
-        background: white;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        overflow: hidden;
-        width: 100vw;
-        min-height: 100vh;
-      "
-    >
+    </header>
+    <!-- #header -->
+    <main id="main">
       <div class="container">
         <div class="row">
           <div v-for="vul in volunteers" class="col-lg-3 col-6">
@@ -41,14 +61,7 @@
                   class="img-fluid speaker-vul-image"
                 />
               </a>
-              <div
-                class="pt-1"
-                style="
-                  display: flex;
-                  justify-content: center;
-                  min-height: 3.5rem;
-                "
-              >
+              <div class="pt-1">
                 <p style="font-weight: 300" class="card-text p-3">
                   {{ vul.firstname }} {{ vul.lastname }}
                 </p>
@@ -87,9 +100,28 @@ useHead({
 </script>
 
 <style lang="css" scoped>
+#main {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  overflow: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  background: white;
+}
+
+#header {
+  background: #232f3e;
+}
+
 .speaker-vul-image {
   width: 100%;
   height: 250px; /* Adjust the height as needed */
   object-fit: cover;
+}
+
+.pt-1 {
+  display: flex;
+  justify-content: center;
+  min-height: 3.5rem;
 }
 </style>
