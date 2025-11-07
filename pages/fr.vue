@@ -7,9 +7,9 @@
       <header id="header">
         <div class="container">
           <div id="logo" class="pull-left">
-            <a href="#intro" class="scrollto"
+            <a href="#intro-2025" class="scrollto"
               ><img
-                src="/2025/img/white-aws-community-day.svg"
+                src="/white-aws-community-day.svg"
                 alt="AWS Community Day Cameroon"
                 title="AWS Community Day Cameroon"
             /></a>
@@ -58,7 +58,7 @@
       <section id="intro-2025" class="intro">
         <div class="intro-container wow fadeIn">
           <img
-            src="/2025/img/white-aws-community-day.svg"
+            src="/white-aws-community-day.svg"
             class="logo"
             title="AWS Community Day Cameroon"
           />
@@ -225,12 +225,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venue-01.png"
+                    href="/2025/venue-gallery/venue-01.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venue-01.png"
+                      src="/2025/venue-gallery/venue-01.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -239,12 +239,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venue-02.png"
+                    href="/2025/venue-gallery/venue-02.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venue-02.png"
+                      src="/2025/venue-gallery/venue-02.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -253,12 +253,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venue-03.png"
+                    href="/2025/venue-gallery/venue-03.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venue-03.png"
+                      src="/2025/venue-gallery/venue-03.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -267,12 +267,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venue-04.png"
+                    href="/2025/venue-gallery/venue-04.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venue-04.png"
+                      src="/2025/venue-gallery/venue-04.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -281,12 +281,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venue-05.png"
+                    href="/2025/venue-gallery/venue-05.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venue-05.png"
+                      src="/2025/venue-gallery/venue-05.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -295,12 +295,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venue-06.png"
+                    href="/2025/venue-gallery/venue-06.png"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venue-06.png"
+                      src="/2025/venue-gallery/venue-06.png"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -309,12 +309,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venu-07.jpeg"
+                    href="/2025/venue-gallery/venu-07.jpeg"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venu-07.jpeg"
+                      src="/2025/venue-gallery/venu-07.jpeg"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -323,12 +323,12 @@
               <div class="col-lg-3 col-md-3">
                 <div class="venue-gallery">
                   <a
-                    href="/2025/img/venue-gallery/venue-08.jpeg"
+                    href="/2025/venue-gallery/venue-08.jpeg"
                     class="venobox"
                     data-gall="venue-gallery"
                   >
                     <img
-                      src="/2025/img/venue-gallery/venue-08.jpeg"
+                      src="/2025/venue-gallery/venue-08.jpeg"
                       class="img-fluid gallery-image"
                     />
                   </a>
@@ -351,70 +351,70 @@
               <div class="gallery-track">
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-01.jpg"
+                    src="/2025/past-events/event-01.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-07.jpg"
+                    src="/2025/past-events/event-07.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-02.jpg"
+                    src="/2025/past-events/event-02.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-03.jpg"
+                    src="/2025/past-events/event-03.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-08.jpg"
+                    src="/2025/past-events/event-08.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-04.jpg"
+                    src="/2025/past-events/event-04.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-05.jpg"
+                    src="/2025/past-events/event-05.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-09.jpg"
+                    src="/2025/past-events/event-09.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-06.jpg"
+                    src="/2025/past-events/event-06.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-10.jpg"
+                    src="/2025/past-events/event-10.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
@@ -422,35 +422,35 @@
                 <!-- Duplicate for infinite scroll -->
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-01.jpg"
+                    src="/2025/past-events/event-01.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-07.jpg"
+                    src="/2025/past-events/event-07.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-02.jpg"
+                    src="/2025/past-events/event-02.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-03.jpg"
+                    src="/2025/past-events/event-03.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
                 </div>
                 <div class="gallery-item">
                   <img
-                    src="/2025/img/past-events/event-08.jpg"
+                    src="/2025/past-events/event-08.jpg"
                     class="gallery-image"
                     alt="Event Image"
                   />
@@ -529,21 +529,15 @@
             <h3 class="text-center">{{ $t("gold") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+              <div
+                v-for="sponsor in goldSponsors"
+                class="col-lg-4 col-md-4 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="https://aws.amazon.com/" target="_blank">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/gold/aws-logo.png"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://www.olioapps.com/" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/gold/olioapps-logo.png"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
@@ -551,39 +545,37 @@
               </div>
             </div>
 
-            <h3 class="text-center">{{ $t("silver") }}</h3>
+            <!-- <h3 class="text-center">{{ $t("silver") }}</h3> -->
 
-            <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+            <!-- <div class="row supporters-wrap clearfix justify-content-center">
+              <div
+                v-for="sponsor in silverSponsors"
+                class="col-lg-4 col-md-4 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="https://www.serverlessguru.com/" target="_blank">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/silver/serverless_guru-logo.jpeg"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <h3 class="text-center">{{ $t("community") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
+              <div
+                v-for="sponsor in communitySponsors"
+                class="col-lg-4 col-md-4 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="https://www.educloud.academy/" target="_blank">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/community/educloud.png"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://eazytraining.fr/" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/community/EazyTraining-logo.png"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
@@ -591,67 +583,18 @@
               </div>
             </div>
 
-            <h3 class="text-center">{{ $t("communityExhibitions") }}</h3>
+            <h3 class="text-center">{{ $t("communityPartners") }}</h3>
 
             <div class="row supporters-wrap clearfix justify-content-center">
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
+              <div
+                v-for="sponsor in communityPartners"
+                class="col-lg-2 col-md-3 col-xs-6 mb-3"
+              >
                 <div class="supporter-logo">
-                  <a href="#">
+                  <a :href="sponsor.url" target="_blank">
                     <img
-                      src="/2025/img/sponsors/exhibitors/BitterKola.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a
-                    href="https://www.linkedin.com/company/cameroon-data-community/"
-                    target="_blank"
-                  >
-                    <img
-                      src="/2025/img/sponsors/exhibitors/Cameroon-Data-Community.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="#">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/django-Cameroon.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://lightgroup.tech/" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/LightGroup.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="#">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/SolaviseTech.jpg"
-                      class="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-6 mb-3">
-                <div class="supporter-logo">
-                  <a href="https://www.swecom.cm" target="_blank">
-                    <img
-                      src="/2025/img/sponsors/exhibitors/swecom.png"
+                      :src="sponsor.logo"
+                      :alt="sponsor.name"
                       class="img-fluid"
                     />
                   </a>
@@ -967,113 +910,36 @@
               <div class="col-12 mt-3 mb-5">
                 <div class="row">
                   <div
+                    v-for="group in userGroups"
                     style="display: flex; justify-content: center"
                     class="col-12 mb-4 col-md-4 mt-2"
                   >
                     <div>
                       <img
-                        src="/2025/img/user-group/aws_user_group_douala_white.svg"
+                        :src="group.logo"
                         alt="TheEvent"
-                        style="height: 6rem"
+                        class="user-group-logo"
                       />
                       <p class="pb-1">
-                        <strong>AWS User Group Douala</strong>
+                        <strong>{{ group.name }}</strong>
                       </p>
                       <div style="margin-top: -1rem" class="social-linkss">
                         <a
-                          href="https://www.linkedin.com/company/awsugdouala/"
+                          :href="group.social.linkedin"
                           target="_blank"
                           class="linkedin"
                         >
                           <i class="fa fa-linkedin"></i>
                         </a>
                         <a
-                          href="https://x.com/awsugDouala?t=ZixesJ1G94LJ0XQV98jgOQ&s=09"
+                          :href="group.social.twitter"
                           target="_blank"
                           class="twitter"
                         >
                           <i class="fa fa-twitter"></i>
                         </a>
                         <a
-                          href="https://www.meetup.com/awsugdouala"
-                          target="_blank"
-                          class="linkedin"
-                        >
-                          <i class="fa fa-meetup"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    style="display: flex; justify-content: center"
-                    class="col-12 mb-4 col-md-4 mt-2"
-                  >
-                    <div>
-                      <img
-                        src="/2025/img/user-group/aws_user_group_yaounde_white.svg"
-                        alt="TheEvent"
-                        style="height: 6rem"
-                      />
-                      <p class="pb-1">
-                        <strong>AWS User Group Yaounde</strong>
-                      </p>
-                      <div style="margin-top: -1rem" class="social-linkss">
-                        <a
-                          href="https://www.linkedin.com/company/aws-user-group-yaounde/"
-                          target="_blank"
-                          class="linkedin"
-                        >
-                          <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a
-                          href="https://x.com/awsusergroupyde?t=rNXNf7faYI-SA3WQaOybWQ&s=09"
-                          target="_blank"
-                          class="twitter"
-                        >
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                        <a
-                          href="https://www.meetup.com/aws-user-group-yaounde"
-                          target="_blank"
-                          class="linkedin"
-                        >
-                          <i class="fa fa-meetup"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    style="display: flex; justify-content: center"
-                    class="col-12 col-md-4 mt-2"
-                  >
-                    <div>
-                      <img
-                        src="/2025/img/user-group/awsscc-black-logo.svg"
-                        alt="TheEvent"
-                        style="height: 6rem"
-                      />
-                      <p class="pb-1">
-                        <strong>AWS Cloud Clubs UBa</strong>
-                      </p>
-                      <div style="margin-top: -1rem" class="social-linkss">
-                        <a
-                          href="https://www.linkedin.com/groups/12922210"
-                          target="_blank"
-                          class="linkedin"
-                        >
-                          <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a
-                          href="https://x.com/awssccuba?t=r0MjaQ9gzZxvHY-UX7AnlA&s=09"
-                          target="_blank"
-                          class="twitter"
-                        >
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                        <a
-                          href="https://www.meetup.com/aws-cloud-club-at-the-university-of-bamenda"
+                          :href="group.social.meetup"
                           target="_blank"
                           class="linkedin"
                         >
@@ -1092,7 +958,10 @@
   </div>
 </template>
 <script setup type="ts">
-import { knspeakers, speakers, organizers } from '~/data/2025-speakers';
+import { knspeakers, speakers } from '~/data/2025/speakers';
+import { organizers } from '~/data/2025/organizers';
+import { goldSponsors, communitySponsors, communityPartners } from '~/data/2025/sponsors';
+import { userGroups } from '~/data/2025/userGroups';
 import { use2025Utils } from '~/composables/use2025Utils';
 
 definePageMeta({
@@ -1103,15 +972,26 @@ useHead({
   title: 'AWS Community Day Cameroun 2025 | Conférence Cloud Buea',
   meta: [
     { name: 'description', content: 'Rejoignez AWS Community Day Cameroun 2025 au Chariot Hotel Buea. Apprenez le cloud computing, les services AWS et réseautez avec des professionnels. 22 novembre 2025.' },
-    { name: 'keywords', content: 'AWS, Community Day, Cameroun, Cloud Computing, Buea, Conférence, Amazon Web Services, Événement Tech' },
-    { property: 'og:title', content: 'AWS Community Day Cameroun 2025' },
-    { property: 'og:description', content: 'Rejoignez la plus grande conférence cloud AWS au Cameroun. 22 novembre 2025 au Chariot Hotel Buea.' },
-    { name: 'twitter:title', content: 'AWS Community Day Cameroun 2025' },
+    { name: 'keywords', content: 'AWS, Community Day, Cameroun, Cloud Computing, Buea, Conférence, Amazon Web Services, Événement Tech, DevOps, Serverless, Machine Learning, Formation Cloud' },
+    { name: 'robots', content: 'index, follow' },
+    { property: 'og:title', content: 'AWS Community Day Cameroun 2025 | Première Conférence Cloud' },
+    { property: 'og:description', content: 'Rejoignez la plus grande conférence cloud AWS au Cameroun. 22 novembre 2025 au Chariot Hotel Buea. Apprenez des experts AWS et réseautez avec des professionnels.' },
+    { property: 'og:image', content: 'https://communityday.awscmr.com/white-aws-community-day.svg' },
+    { property: 'og:url', content: 'https://communityday.awscmr.com/fr' },
+    { property: 'og:type', content: 'event' },
+    { property: 'og:locale', content: 'fr_FR' },
+    { name: 'twitter:title', content: 'AWS Community Day Cameroun 2025 | Première Conférence Cloud' },
     { name: 'twitter:description', content: 'Rejoignez la plus grande conférence cloud AWS au Cameroun. 22 novembre 2025 au Chariot Hotel Buea.' },
+    { name: 'twitter:image', content: 'https://communityday.awscmr.com/white-aws-community-day.svg' },
   ],
   htmlAttrs: {
     lang: 'fr'
-  }
+  },
+  link: [
+    { rel: 'canonical', href: 'https://communityday.awscmr.com/fr' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://communityday.awscmr.com/' },
+    { rel: 'alternate', hreflang: 'fr', href: 'https://communityday.awscmr.com/fr' }
+  ]
 })
 
 const { days, hours, minutes, seconds, windowWidth, locale, t, openLink } = use2025Utils();
@@ -1119,4 +999,10 @@ const { days, hours, minutes, seconds, windowWidth, locale, t, openLink } = use2
 
 <style>
 @import "~/assets/css/gallery.css";
+
+.user-group-logo {
+  height: 6rem;
+  width: auto;
+  object-fit: contain;
+}
 </style>

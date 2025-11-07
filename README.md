@@ -1,7 +1,7 @@
 # AWS Community Day Cameroon
 
 <div align="center">
-  <img src="public/2025/img/white-aws-community-day.svg" alt="AWS Community Day Cameroon" width="300">
+  <img src="public/white-aws-community-day.svg" alt="AWS Community Day Cameroon" width="300">
 </div>
 
 Official website for AWS Community Day Cameroon - a community-driven event bringing together AWS enthusiasts, developers, and cloud professionals in Cameroon.

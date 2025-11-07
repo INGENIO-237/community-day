@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /.nuxt/
+Disallow: /node_modules/
 
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://communityday.awscmr.com/sitemap.xml
