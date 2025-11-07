@@ -15,7 +15,7 @@ export const volunteers = [
     firstname: "Jerome Ngoh",
     lastname: "Mathew",
     twitterLink: "https://www.linkedin.com/in/jerome-mathew-cloud-devops/",
-    image: "/2025/volunteers/mathew.png",
+    image: "/2025/volunteers/jerome.jpg",
   },
   {
     firstname: "Ghiia",
@@ -64,5 +64,11 @@ export const volunteers = [
     lastname: "Butlar Ngwa",
     twitterLink: "https://www.linkedin.com/in/ngum-butlar/",
     image: "/2025/volunteers/butlar.png",
+  },
+  {
+    firstname: "Nde",
+    lastname: "Hurich Dilan",
+    twitterLink: "https://www.linkedin.com/in/nde-dilan/",
+    image: "/2025/volunteers/nde-dilan.png",
   },
 ];
