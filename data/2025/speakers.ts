@@ -103,30 +103,3 @@ export const speakers = [
     linkedin: "https://www.linkedin.com/in/fonchu/",
   },
 ];
-
-export const organizers = [
-  {
-    name: "Steve Yonkeu",
-    group: "AWS User Group Douala",
-    image: "/2025/organizers/SteveYonkeu.jpeg",
-    linkedin: "https://www.linkedin.com/in/yokwejuste/",
-  },
-  {
-    name: "Delia Ayoko",
-    group: "AWS Cloud Clubs UBa",
-    image: "/2025/organizers/Delia_Ayoko.jpg",
-    linkedin: "https://www.linkedin.com/in/delia-ayoko/",
-  },
-  {
-    name: "Dinnyuy Fru Angu",
-    group: "AWS User Group Douala",
-    linkedin: "https://www.linkedin.com/in/dinnyuy-l-fru-angu/",
-    image: "/2025/images/volunteers/Dinnyuy.jpg",
-  },
-  {
-    name: "Nkwenti Fon Nkwenti",
-    group: "AWS User Group Douala",
-    image: "/2025/organizers/Fon_Nkwenti.jpg",
-    linkedin: "https://www.linkedin.com/in/nkwenti-fon/",
-  },
-];

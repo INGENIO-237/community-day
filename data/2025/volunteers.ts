@@ -1,0 +1,86 @@
+export const volunteers = [
+  {
+    firstname: "BEN H.",
+    lastname: "ABDEL-KALIF",
+    twitterLink: "https://www.linkedin.com/in/ben-hamadou-abdel-kalif-671111228/",
+    image: "/2025/volunteers/ingenio.jpeg",
+  },
+  {
+    firstname: "Elisabeth",
+    lastname: "Fofie Fopa",
+    twitterLink: "https://www.linkedin.com/in/fofie-fopa-elisabeth/",
+    image: "/2025/volunteers/fopa.png",
+  },
+  {
+    firstname: "Zion",
+    lastname: "Kongbi",
+    twitterLink: "",
+    image: "/2025/volunteers/zion.png",
+  },
+  {
+    firstname: "Ande",
+    lastname: "Tracy N. B.",
+    twitterLink: "https://www.linkedin.com/in/ande-tracy-ntheka-bame/",
+    image: "/2025/volunteers/ande.png",
+  },
+  {
+    firstname: "Jean",
+    lastname: "Mofiro",
+    twitterLink: "",
+    image: "/2025/volunteers/jean_mofiro.jpg",
+  },
+  {
+    firstname: "Ghiia",
+    lastname: "Tracey Jick",
+    twitterLink: "https://www.linkedin.com/in/tracey-jick-b47456250/",
+    image: "/2025/volunteers/ghiia.png",
+  },
+  {
+    firstname: "Neba",
+    lastname: "Desmond",
+    twitterLink: "https://x.com/desmond__neba",
+    image: "/2025/volunteers/n_desmond.jpeg",
+  },
+  {
+    firstname: "Kome",
+    lastname: "Irine Tracy",
+    twitterLink: "https://www.linkedin.com/in/kome-irine-tracy/",
+    image: "/2025/volunteers/kome.png",
+  },
+  {
+    firstname: "Ngoh",
+    lastname: "Precious Fon",
+    twitterLink: "https://www.linkedin.com/in/ngoh-precious-fon-031b5b203/",
+    image: "/2025/volunteers/precious.png",
+  },
+  {
+    firstname: "Nfor",
+    lastname: "Miriam Asohnyu",
+    twitterLink: "https://www.linkedin.com/in/nfor-miriam-asohnyu/",
+    image: "/2025/volunteers/miriam.png",
+  },
+  {
+    firstname: "Ghany",
+    lastname: "Elisha",
+    twitterLink: "https://ghanyelisha-portfolio.framer.website/",
+    image: "/2025/volunteers/elisha.png",
+  },
+  {
+    firstname: "Loweh",
+    lastname: "Jenice Ingrid",
+    twitterLink: "https://www.linkedin.com/in/loweh-jenice-ingrid-nyuykonghe-760581228/",
+    image: "/2025/volunteers/jenice.png",
+  },
+  {
+    firstname: "Chem",
+    lastname: "Patrick Edward",
+    twitterLink: "https://www.linkedin.com/in/chempatrickedward/",
+    image: "/2025/volunteers/chem.png",
+  },
+  {
+    firstname: "Ngum",
+    lastname: "Butlar Ngwa",
+    twitterLink: "https://www.linkedin.com/in/ngum-butlar/",
+    image: "/2025/volunteers/butlar.png",
+  },
+];

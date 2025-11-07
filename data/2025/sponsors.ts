@@ -1,7 +1,7 @@
 export const goldSponsors = [
   {
     name: "AWS",
-    logo: "/2025/img/sponsors/gold/aws-logo.png",
+    logo: "/2025/sponsors/gold/aws-logo.png",
     url: "https://aws.amazon.com/",
   },
 ];
@@ -9,7 +9,7 @@ export const goldSponsors = [
 export const silverSponsors = [
   {
     name: "Serverless Guru",
-    logo: "/2025/img/sponsors/silver/serverless_guru-logo.jpeg",
+    logo: "/2025/sponsors/silver/serverless_guru-logo.jpeg",
     url: "https://www.serverlessguru.com/",
   },
 ];
@@ -17,12 +17,12 @@ export const silverSponsors = [
 export const communitySponsors = [
   {
     name: "Traitz Tech",
-    logo: "/2025/img/sponsors/community/traitz-tech.png",
+    logo: "/2025/sponsors/community/traitz-tech.png",
     url: "https://traitz.tech",
   },
   {
     name: "Prime Pictures",
-    logo: "/2025/img/sponsors/community/prime-pics.png",
+    logo: "/2025/sponsors/community/prime-pics.png",
     url: "http://www.primepictures.com/",
   },
 ];
@@ -30,22 +30,22 @@ export const communitySponsors = [
 export const communityPartners = [
   {
     name: "Angular Cameroon",
-    logo: "/2025/img/sponsors/communityPartners/angular-cm.png",
+    logo: "/2025/sponsors/communityPartners/angular-cm.png",
     url: "#",
   },
   {
     name: "Django Cameroon",
-    logo: "/2025/img/sponsors/communityPartners/django-Cameroon.jpg",
+    logo: "/2025/sponsors/communityPartners/django-Cameroon.jpg",
     url: "#",
   },
   {
     name: "Python Cameroon",
-    logo: "/2025/img/sponsors/communityPartners/python-cm.png",
+    logo: "/2025/sponsors/communityPartners/python-cm.png",
     url: "#",
   },
   {
     name: ".NET Cameroon",
-    logo: "/2025/img/sponsors/communityPartners/dotnet-cm.png",
+    logo: "/2025/sponsors/communityPartners/dotnet-cm.png",
     url: "#",
   },
 ];

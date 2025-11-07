@@ -62,102 +62,28 @@
 </template>
 
 <script setup type="ts">
+import { volunteers } from '~/data/2025/volunteers';
+
 definePageMeta({
   layout: 'home'
 })
 
-const volunteers = ref([
-  {
-    firstname: "BEN H.",
-    lastname: "ABDEL-KALIF",
-    twitterLink: "https://www.linkedin.com/in/ben-hamadou-abdel-kalif-671111228/",
-    image: "/2025/images/volunteers/ingenio.jpeg",
-  },
-  {
-    firstname: "Zion",
-    lastname: "Kongbi",
-    twitterLink: "",
-    image: "/2025/images/volunteers/zion.png",
-  },
-  {
-    firstname: "Jean",
-    lastname: "Mofiro",
-    twitterLink: "",
-    image: "/2025/images/volunteers/jean_mofiro.jpg",
-  },
-  {
-    firstname: "Neba",
-    lastname: "Desmond",
-    twitterLink: "https://x.com/desmond__neba",
-    image: "/2025/images/volunteers/n_desmond.jpeg",
-  },
-  {
-    firstname: "Elisabeth",
-    lastname: "Fofie Fopa",
-    twitterLink: "https://www.linkedin.com/in/fofie-fopa-elisabeth/",
-    image: "/2025/images/volunteers/fopa.png",
-  },
-  // {
-  //   firstname: "Samantha",
-  //   lastname: "Asongwed",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/Samantha.png",
-  // },
-  // {
-  //   firstname: "Gwladys",
-  //   lastname: "Godem Pokam",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/gwladys.jpeg",
-  // },
-  // {
-  //   firstname: "Ange",
-  //   lastname: "Wobinwo",
-  //   twitterLink: "https://www.linkedin.com/in/awobins/",
-  //   image: "/2025/images/volunteers/ange_wobinwo.jpg",
-  // },
-  // {
-  //   firstname: "Miriam",
-  //   lastname: "Nfor",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/Nfor.jpg",
-  // },
-  // {
-  //   firstname: "Ghany",
-  //   lastname: "Elisha",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/Ghany.jpg",
-  // },
-  // {
-  //   firstname: "Divine",
-  //   lastname: "Kouti",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/Kouti_Divine.jpg",
-  // },
-  // {
-  //   firstname: "Franck",
-  //   lastname: "Essoh",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/Essoh.jpeg",
-  // },
-  // {
-  //   firstname: "Ngum",
-  //   lastname: "Butlar",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/Ngum.jpg",
-  // },
-  // {
-  //   firstname: "Syntyche",
-  //   lastname: "Demgne",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/demgne.jpg",
-  // },
-  // {
-  //   firstname: "Suzy",
-  //   lastname: "Nguessong",
-  //   twitterLink: "",
-  //   image: "/2025/images/volunteers/Suzy.jpg",
-  // },
-]);
+useHead({
+  title: 'Volunteers - AWS Community Day Cameroon 2025',
+  meta: [
+    { name: 'description', content: 'Meet the dedicated volunteers making AWS Community Day Cameroon 2025 possible. Join our volunteer team and contribute to the largest cloud conference in Cameroon.' },
+    { name: 'keywords', content: 'AWS Community Day volunteers, Cameroon tech volunteers, cloud conference volunteers, AWS event team' },
+    { name: 'robots', content: 'index, follow' },
+    { property: 'og:title', content: 'Volunteers - AWS Community Day Cameroon 2025' },
+    { property: 'og:description', content: 'Meet the dedicated volunteers making AWS Community Day Cameroon 2025 possible at Chariot Hotel Buea.' },
+    { property: 'og:url', content: 'https://communityday.awscmr.com/volunteers' },
+    { name: 'twitter:title', content: 'Volunteers - AWS Community Day Cameroon 2025' },
+    { name: 'twitter:description', content: 'Meet the dedicated volunteers making AWS Community Day Cameroon 2025 possible.' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://communityday.awscmr.com/volunteers' }
+  ]
+})
 </script>
 
 <style lang="css" scoped>
