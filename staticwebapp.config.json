@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "route": "/.output/public/*",
+      "serve": "/.output/public"
+    },
+    {
+      "route": "/api/*",
+      "serve": "/.output/server"
+    },
+    {
+      "route": "/*",
+      "serve": "/.output/public/index.html",
+      "statusCode": 200
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/.output/public/index.html",
+    "exclude": ["/images/*", "/lib/*", "*.{json,jpg,jpeg,png,gif,ico,css,js,svg,woff,woff2,ttf,eot,otf}"]
+  }
+}
