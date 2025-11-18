@@ -158,11 +158,6 @@ export default defineNuxtConfig({
     },
   },
 
-
-  nitro: {
-    preset: "aws-amplify",
-  },
-
   experimental: {
     payloadExtraction: false
   },
