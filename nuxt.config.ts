@@ -2,6 +2,23 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
+  nitro: {
+    prerender: {
+      routes: [
+        '/',
+        '/fr',
+        '/volunteers',
+        '/agenda',
+        '/2024/',
+        '/2024/fr',
+        '/2024/volunteers',
+        '/2024/agenda',
+        '/sitemap.xml',
+        '/robots.txt'
+      ],
+      ignore: ['/api']
+    }
+  },
 
   css: ["~/assets/css/main.css"],
 
@@ -156,11 +173,6 @@ export default defineNuxtConfig({
         { rel: "dns-prefetch", href: "https://sessionize.com" },
       ],
     },
-  },
-
-
-  nitro: {
-    preset: "aws-amplify",
   },
 
   experimental: {

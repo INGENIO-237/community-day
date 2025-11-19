@@ -1,0 +1,25 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "allowedRoles": ["authenticated", "anonymous"]
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/_nuxt/*",
+      "/lib/*",
+      "/user-groups/*",
+      "*.{json,jpg,jpeg,png,gif,ico,css,js,svg,woff,woff2,ttf,eot,otf}"
+    ]
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}

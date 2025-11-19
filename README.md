@@ -21,7 +21,6 @@ AWS Community Day Cameroon is an annual event organized by AWS User Groups in Do
 - **Language**: TypeScript
 - **Styling**: CSS with Bootstrap
 - **Internationalization**: Vue i18n (English/French)
-- **Deployment**: AWS Amplify
 
 ## Setup
 
