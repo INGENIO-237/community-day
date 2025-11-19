@@ -139,12 +139,11 @@
             <div class="section-header">
               <h2>{{ $t("agenda") }}</h2>
             </div>
-            <div class="row justify-content-center">
-              <h2>{{ $t("coming") }}</h2>
-              <!-- <div class="col-lg-6 d-none d-md-block">
+            <!-- <div class="row justify-content-center">
+              <div class="col-lg-6 d-none d-md-block">
                 <div class="center">
                   <img
-                    src="/2025/img/app-qr.png"
+                    src="/2025/app-qr.png"
                     alt="QR Code"
                     style="max-width: 200px"
                   />
@@ -152,7 +151,6 @@
               </div>
               <div class="col-lg-6 col-md-12 col-12">
                 <div class="center">
-
                   <h2>{{ $t("agendaAppTitle") }}</h2>
                   <p style="color: white">
                     {{ $t("agendaAppText") }}
@@ -171,13 +169,13 @@
                     >Rate sessions</a
                   >
                 </div>
-              </div> -->
-            </div>
+              </div>
+            </div> -->
           </div>
         </section>
 
         <!-- Agenda Component -->
-        <!-- <TableComponent /> -->
+        <TableComponent />
 
         <!-- ==========================
               Venue Section
@@ -961,6 +959,7 @@ import { organizers } from '~/data/2025/organizers';
 import { goldSponsors, communitySponsors, communityPartners } from '~/data/2025/sponsors';
 import { userGroups } from '~/data/2025/userGroups';
 import { use2025Utils } from '~/composables/use2025Utils';
+import TableComponent from '~/components/2025/TableComponent.vue';
 
 definePageMeta({
   layout: 'home'
