@@ -1,8 +1,8 @@
 export const knspeakers = [
   {
     name: "Ernest Mougoue",
-    role: "Principal Solutions Architect",
-    company: "AWS",
+    role: "Co-CEO",
+    company: "Mboa Digital",
     image: "/2025/speakers/ernest-mougoue.png",
     linkedin: "https://www.linkedin.com/in/emougoue/",
   },

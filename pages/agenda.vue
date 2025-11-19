@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import TableComponent from "~/components/TableComponent.vue";
+import TableComponent from "~/components/2025/TableComponent.vue";
 definePageMeta({
   layout: "home",
 });
